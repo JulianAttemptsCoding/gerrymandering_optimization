@@ -30,8 +30,9 @@ F^\pi_\rho(m)=\max_{M\in\mathcal M_\rho}\bigl|\{j:\ r^\pi_j(M)\ge m\}\bigr|,
 (both defined when $\mathcal M_\rho\neq\emptyset$). $F$ is the \emph{seat--safety frontier}: the largest number of districts that can simultaneously win with a robust cushion of $m$ share points over one half. $\Sigma^*=(\sigma^*(1),\dots,\sigma^*(k))$ is the \emph{seat--safety spectrum}.
 \end{definition}
 
-The frontier generalises the single-threshold objectives of heuristic ``maximum'' maps (for instance the 51\% and 55\% maps of the Algorithmic Redistricting Atlas \cite{atlas2026}) to a whole curve, and $m=0$ recovers the largest feasible number of majority districts.
+The frontier generalises the single-threshold objectives of heuristic ``maximum'' maps (for instance the 51\% and 55\% maps of the Algorithmic Redistricting Atlas \citep{atlas2026}) to a whole curve, and $m=0$ recovers the largest feasible number of majority districts.
 
+\needspace{12\baselineskip}
 \begin{proposition}[Monotonicity and symmetry]\label{prop:mono}
 Fix an instance and party.
 \begin{enumerate}
@@ -71,13 +72,13 @@ $\max_{(M_s)}\sum_s f_s(M_s)=\sum_s\max_{M_s}f_s(M_s)$ over a product of feasibl
 Deciding whether $\mathcal M_\rho\ne\emptyset$ is NP-hard when $k$ is part of the input, even for $\varepsilon=0$, $s=\infty$ and unit populations; hence deciding $F_\rho(m)\ge q$ is NP-hard.
 \end{proposition}
 \begin{proof}
-With unit populations and $\varepsilon=0$, $\mathcal M_\rho\neq\emptyset$ iff $G$ can be partitioned into $k$ connected parts of equal size, which is NP-complete \cite{dyer1985}. Take all votes tied and $q=0$.
+With unit populations and $\varepsilon=0$, $\mathcal M_\rho\neq\emptyset$ iff $G$ can be partitioned into $k$ connected parts of equal size, which is NP-complete \citep{dyer1985}. Give every atom equal Democratic and Republican votes, so that every district has margin exactly $0$; then $F_\rho(0)\ge1$ iff $\mathcal M_\rho\ne\emptyset$.
 \end{proof}
 
 % ---------------------------------------------------------------------------
 \section{Aggregated outer relaxations}\label{sec:relax}
 
-Exact atom-level models are intractable at realistic resolution (Section~\ref{sec:negative}), so certification needs relaxations of the plan class whose optimum is still a \emph{valid} upper bound. Our relaxations coarsen the \emph{geography} while keeping all arithmetic exact.
+Exact atom-level models are too slow at realistic resolution for the queries that decide the brackets (Section~\ref{sec:baseline}), so certification needs relaxations of the plan class whose optimum is still a \emph{valid} upper bound. Our relaxations coarsen the \emph{geography} while keeping all arithmetic exact.
 
 \paragraph{Cells.}
 A \emph{partition} $\mathcal P$ of $V$ into \emph{cells} is admissible if every cell lies inside one subdivision and induces a connected subgraph of $G$. The \emph{quotient graph} $G/\mathcal P$ has the cells as vertices and joins two cells when some edge of $G$ crosses between them. A partition $\mathcal P'$ \emph{refines} $\mathcal P$ if every cell of $\mathcal P'$ lies in a cell of $\mathcal P$; the finest partition consists of singletons (the \emph{atomic} partition).
@@ -182,4 +183,11 @@ Let $G$ be a path on $2n$ atoms of unit population with alternating votes ($D{=}
 \begin{proof}
 A connected district is an interval of $n$ atoms; it contains $\lceil n/2\rceil$ or $\lfloor n/2\rfloor$ odd atoms so its $D$ share is at most $\tfrac12+\tfrac{0.4}{n}$. In the relaxation give district~1 the odd atom of every cell and district~2 the even one: populations are $n$, both supports are all cells (connected in the quotient path), the hull cuts hold with equality, and the $D$ share of district~1 is $0.9=\tfrac12+0.4$.
 \end{proof}
-Thus quotient-based coarsening alone can be arbitrarily loose for every non-atomic partition; Section~\ref{sec:negative} shows the same on real precinct data. A subdivision budget of $s$ splits confines the looseness to at most $s$ extra pieces of subdivisions, which CEGAR then refines. (Counting split \emph{subdivisions} instead of pieces would let one large county be cut among all $k$ districts at the price of a single split; in our experiments this is precisely the regime in which relaxations stay loose, and it is the reason the budget is defined by pieces.)
+Thus quotient-based coarsening alone can be arbitrarily loose for every non-atomic partition; Section~\ref{sec:negative} shows the same on real precinct data. The budget is what restores information:
+\begin{proposition}[The budget confines the looseness]\label{prop:confine}
+Let $\mathcal P$ be an admissible partition and $(y,p,c)$ a feasible point of $\mathcal R(\mathcal P,q,\rho)$ with budget $s$. Then the cells $C$ with $\sum_jy_{Cj}\ge2$ lie in at most $s$ different subdivisions, and every other subdivision is assigned whole to one district. If $s=0$ and every subdivision is a single connected cell, the relaxation at the county partition is exact: its feasible points are the $\rho$-feasible plans that keep every county whole (the setting of whole-county models).
+\end{proposition}
+\begin{proof}
+A subdivision $K$ containing a split cell meets at least two districts, so $d_K\ge2$ contributes at least $1$ to the left side of (R6), which is at most $s$; distinct subdivisions contribute separately. If $s=0$ no subdivision is split, so Theorem~\ref{thm:exact}(b) applies.
+\end{proof}
+Consequently the looseness of a relaxation, which CEGAR refines, is confined to at most $s$ subdivisions at every refinement level, however many cells the partition has. (Counting split \emph{subdivisions} instead of pieces would let one large county be cut among all $k$ districts at the price of a single split; in our experiments this is precisely the regime in which relaxations stay loose, and it is the reason the budget is defined by pieces.)

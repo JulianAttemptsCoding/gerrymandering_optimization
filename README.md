@@ -7,7 +7,10 @@ Research code + manuscript for *Certified Seat–Safety Frontiers for U.S. House
   `hier` (cell hierarchy, Ward clustering), `agg` (aggregated relaxation + CEGAR), `search` (county-aware ReCom LB),
   `lns` (exact LNS), `frontier` (spectrum brackets), `relax_milp` (independent HiGHS encoding for audits), `baseline`, `analysis`.
 - `scripts/` — `run_jobs.py` (parallel frontier jobs), `ablation_nobudget.py`, `resolution_ladder.py`, `audit_infeasible.py`,
-  `verify_all_plans.py`, `summarize.py`, `make_tables.py`, `make_figs.py`.
+  `verify_all_plans.py`, `summarize.py`, `make_tables.py`, `make_figs.py`; `enacted.py` / `make_enacted.py` (enacted 118th-Congress plans
+  rendered at precinct resolution, seat ranges, independent test of the proofs), `make_maps.py` (witness-plan maps),
+  `baseline_monolithic.py` / `make_baseline_table.py` (CEGAR vs monolithic atomic CP-SAT / MILP), `audit_stored.py` (full audit of stored proofs),
+  `check_numbers.py` (recomputes every headline number quoted in the paper from `runs/` and fails on any mismatch).
 - `tests/` — `test_agg.py` (CEGAR vs brute-force enumeration on random toy graphs: validity, monotone refinement, exact convergence),
   `test_milp_audit.py` (CP-SAT vs HiGHS agreement), `toys.py`.
 - `data/raw` (downloads), `data/proc` (instances), `runs/<tag>/` (JSON brackets + plan npz), `paper/`, `LOG.md` (append-only research/QA log).
@@ -15,14 +18,15 @@ Research code + manuscript for *Certified Seat–Safety Frontiers for U.S. House
 
 ## Manuscript
 `paper/main.pdf` (25 pages; source `paper/main.tex` + `sec_*.tex`, `results_*.tex`, `refs.bib`, generated `tables/` and `figs/`).
-Rebuild tables and figures from `runs/` with `python scripts/make_tables.py` and `python scripts/make_figs.py all`.
+Rebuild tables and figures from `runs/` with `python scripts/make_tables.py`, `python scripts/make_figs.py all`, `python scripts/make_enacted.py` and
+`python scripts/make_maps.py ME NH RI`; check the quoted numbers with `PYTHONPATH=src python scripts/check_numbers.py`.
 
 ## Data sources (not committed: `data/raw`, about 2.4 GB; `python -m gf.data ...` downloads them)
 - VEST 2020 precinct election results + boundaries, Harvard Dataverse (Voting and Election Science Team, 2021), file ids resolved by `gf.data` via
   `https://dataverse.harvard.edu/api/access/datafile/<id>` (dataset "2020 Precinct-Level Election Results").
 - 2020 Census block geometries and populations (TIGER/Line TABBLOCK20), one file per state:
   `https://www2.census.gov/geo/tiger/TIGER2020/TABBLOCK20/tl_2020_<stateFIPS>_tabblock20.zip`.
-- `data/proc/` holds the processed per-state instances derived from these public sources, so the solvers can be run without the downloads.
+- `data/proc/` holds the processed per-state instances derived from these public sources, so the solvers can be run without the downloads (the 16 states of the paper plus 14 states with k>=6 built for the Kentucky pilot; only the 16 are analysed).
 
 ## Scope and honest limits
 Certified brackets for 16 states with 2 to 5 districts, both parties, 2020 precincts, +-1% population, at most k-1 county splits.

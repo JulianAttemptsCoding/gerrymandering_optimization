@@ -1,8 +1,8 @@
 The relaxation of Section~\ref{sec:relax} has two ingredients that can each tighten the geography-free bound: connectivity of the cell support in the quotient graph, and the subdivision budget. To separate them we ran, for every (state, party, $q$), (a) the geography-free hull bound (one cell, no connectivity: the sorting bound of \citealt{duchin2019}, extended to $k$-way allocations and the whole spectrum), (b) the aggregated relaxation with counties as cells and connectivity but \emph{no budget}, (c) the same after two uniform levels of refinement (roughly four to ten times as many cells), and compared them with the certified bracket under the budget $s=k-1$ (Figure~\ref{fig:ablation}, Table~\ref{tab:ablation} in the appendix; for $k\ge3$ the relaxations (a)--(c) are the pool relaxations with one aggregate for the unsafe districts, which are also valid).
 
-\begin{figure}[t]
+\begin{figure}[!tbp]
 \centering
-\includegraphics[width=\linewidth]{figs/ablation.png}
+\includegraphics[width=\linewidth,height=0.68\textheight,keepaspectratio]{figs/ablation.png}
 \caption{Upper bounds and incumbents for the share of the most extreme district ($q=1$), states with a nontrivial bound. Grey bar: geography-free hull bound; cross: quotient-connectivity relaxation with counties as cells and no budget (identical to within grid resolution after two further refinement levels); circle: 40-second unconstrained ReCom hill-climbing incumbent; thick bar: certified bracket under the budget of $k-1$ county splits.}\label{fig:ablation}
 \end{figure}
 

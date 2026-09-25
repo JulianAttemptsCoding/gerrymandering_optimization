@@ -1,0 +1,30 @@
+{
+ "state": "WV",
+ "k": 2,
+ "cd118": [
+  "01",
+  "02"
+ ],
+ "pop_in_split_precincts": 0.0,
+ "max_pop_dev": 0.0008819679369532762,
+ "D": {
+  "shares_pct": [
+   31.157,
+   29.225
+  ],
+  "wins": 0
+ },
+ "R": {
+  "shares_pct": [
+   70.775,
+   68.843
+  ],
+  "wins": 2
+ },
+ "split_counties": 0,
+ "components_per_district": [
+  1,
+  1
+ ],
+ "assign_hash": "1506756983"
+}

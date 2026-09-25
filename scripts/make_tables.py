@@ -153,16 +153,13 @@ def tightness_table(tags, out):
     open(out, 'w').write("\n".join(lines) + "\n")
 
 
-if __name__ == '__main__':
-    TABDIR.mkdir(parents=True, exist_ok=True)
-    ALL = ['main', 'main_v1', 'lbboost', 'esc', 'ubsweep', 'geofree']
-    instance_table(str(TABDIR / 'instances.tex'))
-    results_table(ALL, str(TABDIR / 'spectrum.tex'))
-    capacity_table(ALL, str(TABDIR / 'capacity.tex'))
-    tightness_table(ALL, str(TABDIR / 'tightness.tex'))
-    if (ROOT / 'runs' / 'abl').exists():
-        ablation_table('abl', ALL, str(TABDIR / 'ablation_q1.tex'))
-    print('tables written')
+def fmt_bracket(lo, hi):
+    """Bracket [lo, hi) for sigma*(q) as a share in percent: '<50' when no q districts reach 50%, '<x' when no verified plan reaches 50%."""
+    if lo is None and hi is not None and hi <= 0:
+        return tex('$<$50')
+    if lo is None:
+        return '--' if hi is None else tex('$<$') + f"{50+100*float(hi):.1f}"
+    return f"{50+100*float(lo):.2f}" + '--' + (tex('$@infty$') if hi is None else f"{50+100*float(hi):.1f}")
 
 
 def closed_brackets(ds, caps):
@@ -191,7 +188,7 @@ def closed_brackets(ds, caps):
     return out
 
 
-def budget_table(main_tags, sweep_tags, out, states=('NH', 'ME', 'RI'), caps=(1, 2, 3, 4), abl_tag='abl'):
+def budget_table(main_tags, sweep_tags, out, states=('NH', 'ME', 'RI', 'ID', 'MT', 'WV'), caps=(1, 2, 3, 4), abl_tag='abl'):
     """sigma*(q) brackets (share %) as the county-split budget s grows, with the geography-free bound and unconstrained ReCom."""
     ds = {}
     for d in merge_runs(list(main_tags) + list(sweep_tags)):
@@ -215,13 +212,7 @@ def budget_table(main_tags, sweep_tags, out, states=('NH', 'ME', 'RI'), caps=(1,
                         cells.append('--')
                         continue
                     lo, hi, unk = b
-                    if lo is None and hi is not None and hi <= 0:
-                        cells.append(tex('$<$50'))
-                    else:
-                        anything = True
-                        a_ = '--' if lo is None else f"{50+100*float(lo):.2f}"
-                        z = tex('$@infty$') if hi is None else f"{50+100*float(hi):.1f}"
-                        cells.append(f"{a_}--{z}")
+                    cells.append(fmt_bracket(lo, hi))
                 gf = rl = '--'
                 if a is not None and str(q) in a['q']:
                     r = a['q'][str(q)]
@@ -234,7 +225,7 @@ def budget_table(main_tags, sweep_tags, out, states=('NH', 'ME', 'RI'), caps=(1,
     open(out, 'w').write("\n".join(lines) + "\n")
 
 
-def robust_table(base_tags, eps_tags, rob_tags, out, states=('NH', 'ME', 'RI', 'ID', 'WV'), qs=(1, 2)):
+def robust_table(base_tags, eps_tags, rob_tags, out, states=('NH', 'ME', 'RI', 'ID', 'MT', 'WV'), qs=(1, 2)):
     """sigma*(q) brackets (share %) for tolerance eps in {0.5,1,2}% (single scenario PRE) and for the robust scenario set (min over up to
     three statewide contests) at 1%.  Monotone closure: eps up => brackets up; scenario set up => brackets down."""
     ds = {}
@@ -265,10 +256,7 @@ def robust_table(base_tags, eps_tags, rob_tags, out, states=('NH', 'ME', 'RI', '
                     his = [raw[x][1] for x in EPS[i:] if x in raw and raw[x][1] is not None]
                     lo = max(los) if los else None
                     hi = min(his) if his else None
-                    if lo is None and hi is not None and hi <= 0:
-                        cells.append(tex('$<$50'))
-                    else:
-                        cells.append(('--' if lo is None else f"{50+100*float(lo):.2f}") + '--' + (tex('$@infty$') if hi is None else f"{50+100*float(hi):.1f}"))
+                    cells.append(fmt_bracket(lo, hi))
                 # robust scenario set (upper end bounded by the single-scenario upper end at 1%)
                 rc = '--'
                 if rob is not None:
@@ -277,10 +265,23 @@ def robust_table(base_tags, eps_tags, rob_tags, out, states=('NH', 'ME', 'RI', '
                         lo, hi, unk = b
                         if '1/100' in raw and raw['1/100'][1] is not None:
                             hi = raw['1/100'][1] if hi is None else min(hi, raw['1/100'][1])
-                        if lo is None and hi is not None and hi <= 0:
-                            rc = tex('$<$50')
-                        else:
-                            rc = ('--' if lo is None else f"{50+100*float(lo):.2f}") + '--' + (tex('$@infty$') if hi is None else f"{50+100*float(hi):.1f}")
+                        rc = fmt_bracket(lo, hi)
                 lines.append(tex(f"{NAMES[st]} & {party} & {q} & " + " & ".join(cells) + f" & {rc} & {ncont if ncont else '--'} @@"))
     lines += [tex("@bottomrule"), tex("@end{tabular}")]
     open(out, 'w').write("\n".join(lines) + "\n")
+
+
+if __name__ == '__main__':
+    TABDIR.mkdir(parents=True, exist_ok=True)
+    ALL = ['main', 'main_v1', 'lbboost', 'esc', 'ubsweep', 'geofree']
+    instance_table(str(TABDIR / 'instances.tex'))
+    results_table(ALL, str(TABDIR / 'spectrum.tex'))
+    capacity_table(ALL, str(TABDIR / 'capacity.tex'))
+    tightness_table(ALL, str(TABDIR / 'tightness.tex'))
+    if (ROOT / 'runs' / 'abl').exists():
+        ablation_table('abl', ALL, str(TABDIR / 'ablation_q1.tex'))
+    if (ROOT / 'runs' / 'sweep').exists():
+        budget_table(ALL, ['sweep'], str(TABDIR / 'budget.tex'))
+    if (ROOT / 'runs' / 'robust').exists():
+        robust_table(ALL, ['eps05', 'eps2'], ['robust'], str(TABDIR / 'robust.tex'))
+    print('tables written')

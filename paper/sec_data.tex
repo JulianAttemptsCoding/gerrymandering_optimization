@@ -12,11 +12,14 @@ Two precincts are adjacent when they share at least 10~m of boundary (2~m snappi
 \paragraph{Regime.}
 The main regime is $\rho_s=(\varepsilon=1\%,\ s=k-1,\ \Omega=\{\mathrm{PRE}\})$: districts within $\pm1\%$ of the ideal population, connected, and at most $k-1$ county splits, where a county divided among $d$ districts counts $d-1$ splits (Section~\ref{sec:frontier}). The budget $k-1$ is the folklore number of splits sufficient to build $k$ districts around whole counties \citep{shahmizad2025}; the tolerance is looser than the near-zero deviation of enacted plans, which is only attainable by splitting precincts or blocks. Section~\ref{sec:robust} varies $\varepsilon$, $s$ and $\Omega$. Instances are selected by a single computational criterion, $2\le k\le5$, and both parties are always run with identical code (Proposition~\ref{prop:mono}(4)).
 
-\begin{table}[t]
+\begin{table}[!tbp]
 \centering\small
 \caption{Instances (2020 precincts). ``Straddle'' counts precincts assigned to one of several counties they overlap; ``Bridges'' are artificial edges joining islands.}\label{tab:instances}
-\input{tables/instances}
+\adjustbox{max width=\linewidth}{\input{tables/instances}}
 \end{table}
+
+\paragraph{Enacted plans.}
+For the comparison of Section~\ref{sec:enacted} we use the Census Bureau's 118th-Congress district polygons \citep{tiger2022cd} (the plans used in the 2022 elections). Every 2020 block is assigned to the district containing its internal point, and every precinct to the district holding the plurality of its population; the population that lies in a precinct outside the district assigned to it is below 0.6\% of the state in every state. The rendered plan is an ordinary atomic plan and is evaluated with the same exact-integer code as ours. Because enacted plans are exactly balanced at the block level and split precincts, this rendering is an approximation whose error is bounded by that fraction; it is used only descriptively.
 
 \paragraph{Verification protocol.}
 Every reported number is one of two kinds, each with its own check.

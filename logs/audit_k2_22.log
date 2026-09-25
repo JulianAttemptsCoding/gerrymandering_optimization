@@ -1,0 +1,20 @@
+18 infeasible records available
+AUDIT ID R q 1 m 13/50 cells 44 cpsat infeasible | highs unknown 320s
+AUDIT ID R q 2 m 33/200 cells 44 cpsat infeasible | highs infeasible 0s
+AUDIT ID D q 1 m 0 cells 44 cpsat infeasible | highs infeasible 0s
+AUDIT MT D q 2 m 0 cells 56 cpsat infeasible | highs infeasible 0s
+AUDIT MT R q 2 m 9/100 cells 56 cpsat infeasible | highs infeasible 0s
+AUDIT ID R q 1 m 61/200 cells 44 cpsat infeasible | highs infeasible 0s
+AUDIT MT R q 1 m 1/4 cells 56 cpsat infeasible | highs infeasible 0s
+AUDIT ID R q 1 m 37/100 cells 44 cpsat infeasible | highs infeasible 0s
+AUDIT ID R q 2 m 41/200 cells 44 cpsat infeasible | highs infeasible 0s
+AUDIT MT R q 1 m 67/200 cells 56 cpsat infeasible | highs infeasible 0s
+AUDIT ID R q 1 m 27/100 cells 44 cpsat infeasible | highs infeasible 12s
+AUDIT MT R q 1 m 41/200 cells 56 cpsat infeasible | highs infeasible 6s
+AUDIT MT R q 2 m 21/200 cells 56 cpsat infeasible | highs infeasible 0s
+AUDIT ID R q 2 m 9/50 cells 44 cpsat infeasible | highs infeasible 0s
+AUDIT ID R q 2 m 4/25 cells 44 cpsat infeasible | highs infeasible 0s
+AUDIT MT R q 2 m 17/200 cells 56 cpsat infeasible | highs infeasible 0s
+AUDIT MT R q 1 m 39/200 cells 56 cpsat infeasible | highs infeasible 92s
+AUDIT MT R q 2 m 27/200 cells 56 cpsat infeasible | highs infeasible 0s
+SUMMARY agree 17 disagree 0 unknown 1

@@ -1,0 +1,30 @@
+{
+ "state": "ME",
+ "k": 2,
+ "cd118": [
+  "01",
+  "02"
+ ],
+ "pop_in_split_precincts": 0.0,
+ "max_pop_dev": 7.340209151607269e-07,
+ "D": {
+  "shares_pct": [
+   61.735,
+   46.852
+  ],
+  "wins": 1
+ },
+ "R": {
+  "shares_pct": [
+   53.148,
+   38.265
+  ],
+  "wins": 1
+ },
+ "split_counties": 1,
+ "components_per_district": [
+  1,
+  1
+ ],
+ "assign_hash": "1242089692"
+}

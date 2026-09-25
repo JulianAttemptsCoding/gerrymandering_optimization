@@ -1,0 +1,34 @@
+{
+ "state": "NE",
+ "k": 3,
+ "cd118": [
+  "01",
+  "02",
+  "03"
+ ],
+ "pop_in_split_precincts": 0.003675241039528851,
+ "max_pop_dev": 0.00369257467739037,
+ "D": {
+  "shares_pct": [
+   53.229,
+   44.329,
+   23.556
+  ],
+  "wins": 1
+ },
+ "R": {
+  "shares_pct": [
+   76.444,
+   55.671,
+   46.771
+  ],
+  "wins": 2
+ },
+ "split_counties": 2,
+ "components_per_district": [
+  1,
+  1,
+  1
+ ],
+ "assign_hash": "2929527481"
+}

@@ -1,0 +1,30 @@
+{
+ "state": "MT",
+ "k": 2,
+ "cd118": [
+  "01",
+  "02"
+ ],
+ "pop_in_split_precincts": 0.0003412575802992921,
+ "max_pop_dev": 0.0006834374783832864,
+ "D": {
+  "shares_pct": [
+   46.49,
+   36.221
+  ],
+  "wins": 0
+ },
+ "R": {
+  "shares_pct": [
+   63.779,
+   53.51
+  ],
+  "wins": 2
+ },
+ "split_counties": 1,
+ "components_per_district": [
+  2,
+  1
+ ],
+ "assign_hash": "4013274194"
+}

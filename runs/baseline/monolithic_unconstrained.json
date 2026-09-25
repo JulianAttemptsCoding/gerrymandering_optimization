@@ -1,0 +1,65 @@
+{
+ "time_limit": 300.0,
+ "results": [
+  {
+   "state": "NH",
+   "party": "D",
+   "q": 1,
+   "m": "2/25",
+   "n_atoms": 321,
+   "cegar": {
+    "status": "unknown",
+    "seconds": 300.91,
+    "cells": 300
+   },
+   "cpsat_atomic": {
+    "status": "unknown",
+    "seconds": 300.37
+   },
+   "milp_atomic": {
+    "status": "unknown",
+    "seconds": 300.29
+   }
+  },
+  {
+   "state": "NH",
+   "party": "D",
+   "q": 1,
+   "m": "3/50",
+   "n_atoms": 321,
+   "cegar": {
+    "status": "unknown",
+    "seconds": 300.87,
+    "cells": 315
+   },
+   "cpsat_atomic": {
+    "status": "unknown",
+    "seconds": 300.36
+   },
+   "milp_atomic": {
+    "status": "unknown",
+    "seconds": 300.34
+   }
+  },
+  {
+   "state": "ME",
+   "party": "D",
+   "q": 1,
+   "m": "7/50",
+   "n_atoms": 567,
+   "cegar": {
+    "status": "unknown",
+    "seconds": 300.87,
+    "cells": 456
+   },
+   "cpsat_atomic": {
+    "status": "unknown",
+    "seconds": 300.43
+   },
+   "milp_atomic": {
+    "status": "unknown",
+    "seconds": 300.62
+   }
+  }
+ ]
+}

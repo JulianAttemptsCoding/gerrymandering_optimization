@@ -1,0 +1,131 @@
+{
+ "job": "MT_D_cap4_eps0.0100_PRE_sweep",
+ "seconds": 242.2,
+ "spectrum": {
+  "regime": "feasible",
+  "1": {
+   "lo": -1,
+   "hi": 101,
+   "unknown": [
+    0
+   ],
+   "best_margin": null,
+   "lo_m": null,
+   "hi_m": null
+  },
+  "2": {
+   "lo": -1,
+   "hi": 0,
+   "unknown": [],
+   "best_margin": null,
+   "lo_m": null,
+   "hi_m": "0"
+  }
+ },
+ "records": [
+  {
+   "state": "MT",
+   "party": "D",
+   "cap": 4,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 0,
+   "m": "0",
+   "status": "feasible",
+   "seconds": 0.74,
+   "iters": 0,
+   "cells": 0,
+   "plan_hash": "53a62d74a904361a"
+  },
+  {
+   "state": "MT",
+   "party": "D",
+   "cap": 4,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "0",
+   "status": "unknown",
+   "seconds": 120.84,
+   "iters": 5,
+   "cells": 169
+  },
+  {
+   "state": "MT",
+   "party": "D",
+   "cap": 4,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 2,
+   "m": "0",
+   "status": "infeasible",
+   "seconds": 0.29,
+   "iters": 1,
+   "cells": 56,
+   "part_nodes": [
+    30,
+    67,
+    82,
+    91,
+    116,
+    123,
+    168,
+    185,
+    212,
+    219,
+    232,
+    259,
+    260,
+    291,
+    378,
+    441,
+    448,
+    479,
+    482,
+    489,
+    522,
+    541,
+    548,
+    593,
+    658,
+    665,
+    692,
+    697,
+    712,
+    713,
+    724,
+    827,
+    838,
+    859,
+    860,
+    863,
+    878,
+    891,
+    916,
+    923,
+    970,
+    995,
+    1018,
+    1041,
+    1058,
+    1069,
+    1130,
+    1145,
+    1154,
+    1163,
+    1172,
+    1173,
+    1178,
+    1187,
+    1188,
+    1275
+   ]
+  }
+ ]
+}

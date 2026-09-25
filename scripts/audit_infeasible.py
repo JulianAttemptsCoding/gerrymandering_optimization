@@ -17,7 +17,7 @@ pool = []
 for f in glob.glob(str(ROOT / 'runs' / tag / '*.json')):
     d = json.load(open(f))
     for r in d['records']:
-        if r['status'] == 'infeasible' and r['q'] >= 1 and r['cells'] <= max_cells:
+        if r['status'] == 'infeasible' and r['q'] >= 1 and r['cells'] <= max_cells and (not os.environ.get('STATES') or r['state'] in os.environ['STATES'].split(',')):
             pool.append(r)
 print(len(pool), 'infeasible records available', flush=True)
 sample = random.sample(pool, min(nsamp, len(pool)))
@@ -40,7 +40,8 @@ for r in sample:
     if milp_status == 'unknown': out['unknown'] += 1
     elif ok: out['agree'] += 1
     else: out['disagree'] += 1
-    out['details'].append(dict(rec=(st, r['party'], r['q'], r['m']), cells=part.ncells, cpsat='infeasible', milp=milp_status))
+    out['details'].append(dict(rec=(st, r['party'], r['q'], r['m']), cells=part.ncells, cpsat='infeasible', milp=milp_status,
+                               part_nodes=[int(x) for x in part.node_ids], cap=cap, eps=r['eps'], contests=list(r['contests'])))
     print('AUDIT', st, r['party'], 'q', r['q'], 'm', r['m'], 'cells', part.ncells, 'cpsat infeasible | highs', milp_status, f'{time.time()-t:.0f}s', flush=True)
 (ROOT / 'runs' / tag / f'audit_{seed}.json').write_text(json.dumps(out, indent=1))
 print('SUMMARY agree', out['agree'], 'disagree', out['disagree'], 'unknown', out['unknown'])

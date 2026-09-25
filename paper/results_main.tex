@@ -1,12 +1,12 @@
 Table~\ref{tab:capacity} states, for every state and party, the number of districts that can simultaneously reach 50\%, 55\% and 60\% of the two-party vote; a single number is an exact value of $F_\rho(m)$ (certified lower and upper bounds coincide) and an interval $a$--$b$ gives $a\le F_\rho(m)\le b$. Figure~\ref{fig:frontier2} shows the certified frontiers of the six two-district states with the region between the certified lower and upper staircases shaded (invisible when the bracket is a fraction of a point wide), Figure~\ref{fig:frontier3} those of the states with $3\le k\le5$, and Table~\ref{tab:spectrum} in the appendix lists every bracket for $\sigma^*(q)$.
 
-\begin{table}[t]
+\begin{table}[!tbp]
 \centering\small
 \caption{Certified seat--safety capacity at $\rho_s$ ($\pm1\%$, $k-1$ county splits, 2020 presidential two-party vote): number of districts that can simultaneously have at least the stated party share. Single number = exact; $a$--$b$ = certified interval.}\label{tab:capacity}
-\input{tables/capacity}
+\adjustbox{max width=\linewidth}{\input{tables/capacity}}
 \end{table}
 
-\begin{figure}[t]
+\begin{figure}[!tbp]
 \centering
 \includegraphics[width=\linewidth]{figs/frontier_k2.png}
 \caption{Certified seat--safety frontiers $F(m)$ for the two-district states, both parties. Solid: certified lower staircase (independently verified plans); dashed: certified upper staircase (infeasibility proofs); shading: unresolved band. A party with no line above zero cannot make a district of that share in any plan of the regime.}\label{fig:frontier2}
@@ -15,19 +15,25 @@ Table~\ref{tab:capacity} states, for every state and party, the number of distri
 \paragraph{Exactness.}
 At the three thresholds of Table~\ref{tab:capacity}, 79 of the 96 values of $F$ are pinned exactly: all 36 in the two-district states and 43 of the 60 in the states with three to five districts. Over a one-point grid of thresholds from 50\% to 80\%, 80\% of the 992 (state, party, threshold) values are exact. In terms of the spectrum (Table~\ref{tab:tightness}), 21 of the 24 brackets in the two-district states are tight to half a point of district share (median width 0.01 point once the geography-free bound is used as an additional upper bound) and the median bracket for $3\le k\le5$ is 2.2--2.6 points wide; the widest open brackets (9--14 points) are those of a party that is a minority in a state with three or more districts (Mississippi and Arkansas Democrats at $q=2$, Connecticut Democrats at $q=1$, Mississippi Republicans at $q=2$, Oklahoma Democrats).
 
-\begin{table}[t]
+\begin{table}[!tbp]
 \centering\small
 \caption{Width of the certified brackets $[r_q,u_q)$ for $\sigma^*(q)$, in points of district share, by number of districts $k$. Brackets proving that no $q$ districts can reach 50\% count as exact.}\label{tab:tightness}
-\input{tables/tightness}
+\adjustbox{max width=\linewidth}{\input{tables/tightness}}
 \end{table}
 
 \paragraph{What the exact values say.}
-(i) \emph{Certified zeros.} Republicans in New Hampshire and Rhode Island and Democrats in Idaho and West Virginia provably cannot make even one majority district (for Rhode Island, Idaho and West Virginia the geography-free bound already shows it; for New Hampshire Republicans it needs geography: the hull bound allows up to 54.6\%). (ii) \emph{Packing gains.} The best single district of a party can be far above the party's statewide share (Figure~\ref{fig:scatter}): for example Idaho Republicans (65.9\% statewide) can reach 75.5--76.0\%, Rhode Island Democrats (60.6\%) 70.0--70.5\%, and Maine Democrats (54.7\%) 62.7--63.0\%. (iii) \emph{The all-safe end is pinned by the statewide share.} Because the turnout-weighted mean of the district margins equals the statewide margin, $\sigma^*(k)$ cannot exceed it, and the resolved certified values sit within 0.2 point of it (Idaho Republicans $q=2$: 65.88\% against 65.9\%; Nebraska Republicans $q=3$: 59.71\% against 59.8\%; Connecticut Democrats $q=5$: 60.12\% against 60.2\%). (iv) \emph{A one-seat statement with geography.} Connecticut Republicans (39.8\% statewide) can make exactly one district with at least 50\%, and none with at least 55\%.
+(i) \emph{Certified zeros.} Republicans in New Hampshire and Rhode Island and Democrats in Idaho and West Virginia provably cannot make even one majority district (for Rhode Island, Idaho and West Virginia the geography-free bound already shows it; for New Hampshire Republicans it needs geography: the hull bound allows up to 54.6\%). (ii) \emph{Packing gains.} The best single district of a party can be far above the party's statewide share (Figure~\ref{fig:scatter}): for example Idaho Republicans (65.9\% statewide) can reach 75.5--76.0\%, Rhode Island Democrats (60.6\%) 70.0--70.5\%, and Maine Democrats (54.7\%) 62.7--63.0\% (Figure~\ref{fig:maps} shows witness plans for three of these states). (iii) \emph{The all-safe end is pinned by the statewide share.} Because the turnout-weighted mean of the district margins equals the statewide margin, $\sigma^*(k)$ cannot exceed it, and the resolved certified values sit within 0.2 point of it (Idaho Republicans $q=2$: 65.88\% against 65.9\%; Nebraska Republicans $q=3$: 59.71\% against 59.8\%; Connecticut Democrats $q=5$: 60.12\% against 60.2\%). (iv) \emph{A one-seat statement with geography.} Connecticut Republicans (39.8\% statewide) can make exactly one district with at least 50\%, and none with at least 55\%.
 
-\begin{figure}[t]
+\begin{figure}[!tbp]
 \centering
-\includegraphics[width=0.62\linewidth]{figs/scatter.png}
+\includegraphics[width=\linewidth]{figs/scatter.png}
 \caption{Certified bracket for the best single district ($q=1$) against the party's statewide two-party share. Points on the dashed diagonal would mean the boundaries give no gain.}\label{fig:scatter}
+\end{figure}
+
+\begin{figure}[!tbp]
+\centering
+\includegraphics[width=0.9\linewidth,height=0.74\textheight,keepaspectratio]{figs/maps.png}
+\caption{Witness plans of the certified brackets for Maine, New Hampshire and Rhode Island (two districts each). Left: the enacted plan rendered at precinct resolution. Middle and right: stored, independently verified plans that maximise the best Democratic (middle) and Republican (right) district; the certified upper end for the same quantity is in the panel title, so each plan is within the bracket width of the true optimum of the regime $\rho_s$. Where the proofs show that a party cannot reach 50\% in any district, no map is shown. Colours identify the district with the higher (blue) and lower (orange) Democratic share, not a party; white lines are county boundaries. These are witnesses that make the lower bounds checkable, not proposals.}\label{fig:maps}
 \end{figure}
 
 \begin{figure}[p]

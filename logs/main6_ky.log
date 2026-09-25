@@ -1,0 +1,5 @@
+2 jobs, 2 to run
+  [KY D cap=5] regime existence (q=0): unknown (134.6s)
+  [KY R cap=5] regime existence (q=0): unknown (134.6s)
+DONE ('KY', 'D', '5') ok 136s
+DONE ('KY', 'R', '5') ok 136s

@@ -81,24 +81,29 @@ def ablation_figure(abl_tag, cert_tags, out, qs=(1,)):
             continue
         rows.append((st, party, r, lo, hi))
     rows.sort(key=lambda t: (t[1], -float(Fraction(t[2]['geo_free_ub']))))
-    fig, ax = plt.subplots(figsize=(6.6, 0.28 * len(rows) + 0.9))
-    for i, (st, party, r, lo, hi) in enumerate(rows):
-        y = -i
-        g = _pct(Fraction(r['geo_free_ub'])); cq = _pct(Fraction(r['county_quotient_ub'])); rq = _pct(Fraction(r['county_quotient_refined_ub']))
-        ax.plot([50, g], [y, y], color='#dddddd', lw=0.6, zorder=0)
-        ax.scatter([g], [y], marker='|', s=90, color='#999999', zorder=2, label='geography-free bound' if i == 0 else None)
-        ax.scatter([cq], [y], marker='x', s=16, color=MUTED, lw=0.8, zorder=2, label='quotient connectivity (counties)' if i == 0 else None)
-        if lo is not None:
-            hi_v = _pct(hi) if hi is not None else g
-            ax.plot([_pct(lo), hi_v], [y, y], color=COL[party], lw=3.2, solid_capstyle='butt', zorder=3, label='certified bracket, $s=k-1$' if i == 0 else None)
-        rl = r.get('recom_lb')
-        if rl is not None and rl >= 0:
-            ax.scatter([50 + 100 * rl], [y], marker='o', s=14, facecolor='white', edgecolor=INK, lw=0.7, zorder=4, label='ReCom incumbent (no budget)' if i == 0 else None)
-    ax.set_yticks([-i for i in range(len(rows))]); ax.set_yticklabels([f"{NAMES[s]} {p}" for s, p, *_ in rows], fontsize=7)
-    ax.set_xlabel('share of the most extreme district (%)  [q = 1]'); ax.set_xlim(50, None)
-    for s_ in ['top', 'right']: ax.spines[s_].set_visible(False)
-    ax.grid(axis='x', lw=0.3, color='#e5e5e5')
-    ax.legend(fontsize=6.5, frameon=False, loc='lower right')
+    per = {p: [r for r in rows if r[1] == p] for p in ('D', 'R')}
+    nmax = max(len(v) for v in per.values())
+    fig, axes = plt.subplots(1, 2, figsize=(7.2, 0.27 * nmax + 1.2), sharex=True)
+    xmax = max(float(Fraction(r[2]['geo_free_ub'])) for r in rows) * 100 + 50 + 3
+    for ax, party in zip(axes, ('D', 'R')):
+        for i, (st, _, r, lo, hi) in enumerate(per[party]):
+            y = -i
+            g = _pct(Fraction(r['geo_free_ub'])); cq = _pct(Fraction(r['county_quotient_ub']))
+            ax.plot([50, g], [y, y], color='#dddddd', lw=0.6, zorder=0)
+            ax.scatter([g], [y], marker='|', s=90, color='#999999', zorder=2, label='geography-free bound' if i == 0 else None)
+            ax.scatter([cq], [y], marker='x', s=16, color=MUTED, lw=0.8, zorder=2, label='quotient connectivity, no budget' if i == 0 else None)
+            if lo is not None:
+                hi_v = _pct(hi) if hi is not None else g
+                ax.plot([_pct(lo), hi_v], [y, y], color=COL[party], lw=3.2, solid_capstyle='butt', zorder=3, label='certified bracket, $s=k-1$' if i == 0 else None)
+            rl = r.get('recom_lb')
+            if rl is not None and rl >= 0:
+                ax.scatter([50 + 100 * rl], [y], marker='o', s=14, facecolor='white', edgecolor=INK, lw=0.7, zorder=4, label='ReCom incumbent (no budget)' if i == 0 else None)
+        ax.set_yticks([-i for i in range(len(per[party]))]); ax.set_yticklabels([NAMES[s] for s, *_ in per[party]], fontsize=7)
+        ax.set_xlabel(f"share of the best {'Democratic' if party == 'D' else 'Republican'} district (%)", fontsize=8)
+        ax.set_xlim(50, xmax); ax.tick_params(axis='x', labelsize=7)
+        for s_ in ['top', 'right']: ax.spines[s_].set_visible(False)
+        ax.grid(axis='x', lw=0.3, color='#e5e5e5')
+    axes[1].legend(fontsize=6.5, frameon=False, loc='lower right')
     fig.tight_layout(pad=0.4); fig.savefig(out, dpi=300); plt.close(fig)
 
 def ladder_figure(tag, out, main_tags=('main', 'main_v1')):
@@ -135,33 +140,51 @@ def ladder_figure(tag, out, main_tags=('main', 'main_v1')):
 
 
 def scatter_figure(tags, out, qs=(1,)):
-    """Certified bracket of sigma*(1) (best single district) against the party's statewide share."""
+    """Certified bracket of sigma*(1) (best single district) against the party's statewide share; one panel per party,
+    with the enacted plan's best district for comparison."""
+    import json as _json
     from gf.analysis import merge_runs
     from gf.data import Instance, PROC
-    fig, ax = plt.subplots(figsize=(4.4, 3.6))
+    fig, axes = plt.subplots(1, 2, figsize=(7.0, 3.6), sharey=True)
     lim = [25, 90]
-    ax.plot(lim, lim, color='#bbbbbb', lw=0.8, ls=(0, (3, 2)), zorder=0)
-    ax.text(84, 81.5, 'no gain', fontsize=6.5, color=MUTED, rotation=38)
-    seen = set()
-    for d in merge_runs(tags):
-        if d['spectrum'].get('regime') != 'feasible': continue
-        inst = Instance.load(PROC / d['state'])
-        dv, rv = inst.votes['PRE']
-        P, O = (dv.sum(), rv.sum()) if d['party'] == 'D' else (rv.sum(), dv.sum())
-        share = 100 * P / (P + O)
-        b = bracket(d, 1)
-        if b is None: continue
-        lo, hi, unk = b
-        if lo is None: continue
-        hi_v = _pct(hi) if hi is not None else _pct(lo)
-        ax.plot([share, share], [_pct(lo), hi_v], color=COL[d['party']], lw=2.0, solid_capstyle='butt', alpha=0.9)
-        ax.scatter([share], [_pct(lo)], s=6, color=COL[d['party']], zorder=3)
-        ax.annotate(d['state'], (share, hi_v), textcoords='offset points', xytext=(2, 2), fontsize=5.5, color=MUTED)
-    ax.set_xlabel("party's statewide two-party share (%)"); ax.set_ylabel('certified best single district (%)')
-    ax.set_xlim(*lim); ax.set_ylim(40, 90)
-    for s_ in ['top', 'right']: ax.spines[s_].set_visible(False)
-    ax.grid(lw=0.3, color='#e5e5e5')
-    fig.tight_layout(pad=0.4); fig.savefig(out, dpi=300); plt.close(fig)
+    runs = [d for d in merge_runs(tags) if d['spectrum'].get('regime') == 'feasible']
+    for ax, party in zip(axes, ['D', 'R']):
+        ax.plot(lim, lim, color='#bbbbbb', lw=0.8, ls=(0, (3, 2)), zorder=0)
+        gx, gy = (57.5, 60.0) if party == 'D' else (67.5, 70.0)
+        ax.text(gx, gy, 'no gain', fontsize=6.5, color=MUTED, rotation=38, ha='center', va='bottom')
+        for d in runs:
+            if d['party'] != party:
+                continue
+            inst = Instance.load(PROC / d['state'])
+            dv, rv = inst.votes['PRE']
+            P, O = (dv.sum(), rv.sum()) if party == 'D' else (rv.sum(), dv.sum())
+            share = 100 * P / (P + O)
+            b = bracket(d, 1)
+            if b is None or b[0] is None:
+                continue
+            lo, hi, unk = b
+            hi_v = _pct(hi) if hi is not None else _pct(lo)
+            ax.plot([share, share], [_pct(lo), hi_v], color=COL[party], lw=2.2, solid_capstyle='butt', alpha=0.9, zorder=2)
+            ax.scatter([share], [_pct(lo)], s=7, color=COL[party], zorder=3)
+            ax.annotate(d['state'], (share, hi_v), textcoords='offset points', xytext=(0, 3), fontsize=6, color=MUTED, ha='center')
+            ef = ROOT / 'runs' / 'enacted' / f"{d['state']}.json"
+            if ef.exists():
+                e = _json.loads(ef.read_text())
+                ax.scatter([share], [e[party]['shares_pct'][0]], marker='D', s=13, facecolor='white', edgecolor='#111111', lw=0.8, zorder=4)
+        ax.set_xlabel(f"{'Democratic' if party == 'D' else 'Republican'} statewide two-party share (%)", fontsize=8)
+        ax.set_xlim(*(lim if party == 'D' else [30, 75])); ax.set_ylim(40, 90)
+        ax.tick_params(labelsize=7)
+        for s_ in ['top', 'right']: ax.spines[s_].set_visible(False)
+        ax.grid(lw=0.3, color='#e5e5e5')
+    axes[0].set_ylabel('best single district (%)', fontsize=8)
+    axes[0].set_xlim(30, 65); axes[1].set_xlim(30, 75)
+    from matplotlib.lines import Line2D
+    axes[0].legend(handles=[Line2D([], [], color='#666666', lw=2.2, label='certified bracket'),
+                            Line2D([], [], marker='D', mfc='white', mec='#111111', ls='none', ms=4, label='enacted 118th-Congress plan')],
+                   fontsize=6.5, frameon=False, loc='upper left')
+    fig.tight_layout(pad=0.5)
+    fig.savefig(out, dpi=300)
+    plt.close(fig)
 
 
 def make_all(all_tags=('main', 'main_v1', 'lbboost', 'esc', 'ubsweep', 'geofree')):

@@ -1,0 +1,25 @@
+{
+ "job": "KY_D_cap5_eps0.0100_PRE_pilot6",
+ "seconds": 164.1,
+ "spectrum": {
+  "regime": "unknown"
+ },
+ "records": [
+  {
+   "state": "KY",
+   "party": "D",
+   "cap": 5,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 0,
+   "m": "0",
+   "status": "unknown",
+   "seconds": 164.05,
+   "iters": 1,
+   "cells": 120,
+   "plan_hash": null
+  }
+ ]
+}

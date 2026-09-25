@@ -1,0 +1,16 @@
+C:\Users\bubga.JULIAN-LAPTOPE2\miniforge3\Lib\site-packages\pyogrio\raw.py:200: UserWarning: Measured (M) geometry types are not supported. Original type 'Measured 3D Polygon' is converted to 'Polygon Z'
+  return ogr_read(
+OR n= 1331 k= 6 pop= 4237256 edges= 3721 PRE D/R 1340383 958448 contests ['PRE', 'USS', 'ATG', 'SOS', 'TRE'] bridges 2
+KY n= 1225 k= 6 pop= 4505836 edges= 3408 PRE D/R 772474 1326646 contests ['PRE', 'USS'] bridges 0
+LA n= 3753 k= 6 pop= 4657757 edges= 10481 PRE D/R 856034 1255776 contests ['PRE'] bridges 0
+AL n= 1972 k= 7 pop= 5024279 edges= 5623 PRE D/R 849624 1441170 contests ['PRE', 'USS'] bridges 0
+SC n= 2263 k= 7 pop= 5118425 edges= 6420 PRE D/R 1091541 1385103 contests ['PRE', 'USS'] bridges 0
+CO n= 3215 k= 8 pop= 5773714 edges= 9005 PRE D/R 1804352 1364607 contests ['PRE', 'USS'] bridges 0
+MN n= 4110 k= 8 pop= 5706494 edges= 9806 PRE D/R 1717077 1484065 contests ['PRE', 'USS'] bridges 0
+WI n= 7093 k= 8 pop= 5893718 edges= 19170 PRE D/R 1630866 1610184 contests ['PRE'] bridges 3
+MD n= 2042 k= 8 pop= 6177224 edges= 5285 PRE D/R 1985023 976414 contests ['PRE'] bridges 10
+MO n= 3733 k= 8 pop= 6154913 edges= 10431 PRE D/R 1253014 1718736 contests ['PRE', 'GOV', 'LTG', 'ATG', 'SOS', 'TRE'] bridges 0
+IN n= 5166 k= 9 pop= 6785528 edges= 14531 PRE D/R 1242498 1729857 contests ['PRE', 'GOV', 'ATG'] bridges 0
+TN n= 1961 k= 9 pop= 6910840 edges= 5596 PRE D/R 1143711 1852475 contests ['PRE', 'USS'] bridges 0
+AZ n= 1489 k= 9 pop= 7151502 edges= 4108 PRE D/R 1672143 1661686 contests ['PRE', 'USS'] bridges 0
+MA n= 2173 k= 9 pop= 7029917 edges= 5920 PRE D/R 2382202 1167202 contests ['PRE', 'USS'] bridges 4

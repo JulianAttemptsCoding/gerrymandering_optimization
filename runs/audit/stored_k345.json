@@ -1,0 +1,1837 @@
+{
+ "total": 203,
+ "agree": 163,
+ "disagree": 0,
+ "unknown": 40,
+ "time_limit": 120.0,
+ "max_cells": 250,
+ "results": [
+  {
+   "state": "KS",
+   "party": "D",
+   "q": 1,
+   "m": "3/10",
+   "cells": 105,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "KS",
+   "party": "D",
+   "q": 1,
+   "m": "1/5",
+   "cells": 105,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "KS",
+   "party": "D",
+   "q": 1,
+   "m": "3/20",
+   "cells": 105,
+   "milp": "unknown",
+   "seconds": 120.1
+  },
+  {
+   "state": "KS",
+   "party": "D",
+   "q": 2,
+   "m": "2/25",
+   "cells": 105,
+   "milp": "unknown",
+   "seconds": 120.2
+  },
+  {
+   "state": "KS",
+   "party": "D",
+   "q": 4,
+   "m": "0",
+   "cells": 105,
+   "milp": "infeasible",
+   "seconds": 0.4
+  },
+  {
+   "state": "KS",
+   "party": "R",
+   "q": 1,
+   "m": "19/50",
+   "cells": 105,
+   "milp": "infeasible",
+   "seconds": 0.3
+  },
+  {
+   "state": "KS",
+   "party": "R",
+   "q": 1,
+   "m": "63/200",
+   "cells": 105,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "KS",
+   "party": "R",
+   "q": 1,
+   "m": "57/200",
+   "cells": 105,
+   "milp": "unknown",
+   "seconds": 120.1
+  },
+  {
+   "state": "KS",
+   "party": "R",
+   "q": 2,
+   "m": "23/100",
+   "cells": 105,
+   "milp": "infeasible",
+   "seconds": 0.4
+  },
+  {
+   "state": "KS",
+   "party": "R",
+   "q": 3,
+   "m": "37/200",
+   "cells": 105,
+   "milp": "infeasible",
+   "seconds": 0.4
+  },
+  {
+   "state": "KS",
+   "party": "R",
+   "q": 3,
+   "m": "4/25",
+   "cells": 105,
+   "milp": "infeasible",
+   "seconds": 0.5
+  },
+  {
+   "state": "KS",
+   "party": "R",
+   "q": 4,
+   "m": "17/200",
+   "cells": 105,
+   "milp": "infeasible",
+   "seconds": 0.4
+  },
+  {
+   "state": "OK",
+   "party": "R",
+   "q": 1,
+   "m": "41/100",
+   "cells": 77,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "OK",
+   "party": "R",
+   "q": 1,
+   "m": "9/25",
+   "cells": 77,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "OK",
+   "party": "R",
+   "q": 1,
+   "m": "67/200",
+   "cells": 77,
+   "milp": "unknown",
+   "seconds": 120.1
+  },
+  {
+   "state": "OK",
+   "party": "R",
+   "q": 3,
+   "m": "29/100",
+   "cells": 77,
+   "milp": "infeasible",
+   "seconds": 0.3
+  },
+  {
+   "state": "OK",
+   "party": "R",
+   "q": 4,
+   "m": "6/25",
+   "cells": 77,
+   "milp": "infeasible",
+   "seconds": 0.5
+  },
+  {
+   "state": "OK",
+   "party": "R",
+   "q": 5,
+   "m": "1/5",
+   "cells": 77,
+   "milp": "infeasible",
+   "seconds": 0.4
+  },
+  {
+   "state": "OK",
+   "party": "R",
+   "q": 5,
+   "m": "9/50",
+   "cells": 77,
+   "milp": "infeasible",
+   "seconds": 0.4
+  },
+  {
+   "state": "OK",
+   "party": "R",
+   "q": 5,
+   "m": "17/100",
+   "cells": 77,
+   "milp": "infeasible",
+   "seconds": 0.7
+  },
+  {
+   "state": "AR",
+   "party": "D",
+   "q": 1,
+   "m": "27/200",
+   "cells": 76,
+   "milp": "unknown",
+   "seconds": 120.1
+  },
+  {
+   "state": "AR",
+   "party": "D",
+   "q": 1,
+   "m": "13/100",
+   "cells": 76,
+   "milp": "unknown",
+   "seconds": 120.1
+  },
+  {
+   "state": "AR",
+   "party": "D",
+   "q": 1,
+   "m": "1/8",
+   "cells": 76,
+   "milp": "unknown",
+   "seconds": 120.1
+  },
+  {
+   "state": "AR",
+   "party": "D",
+   "q": 2,
+   "m": "13/100",
+   "cells": 76,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "AR",
+   "party": "D",
+   "q": 2,
+   "m": "1/8",
+   "cells": 76,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "AR",
+   "party": "D",
+   "q": 2,
+   "m": "3/25",
+   "cells": 76,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "AR",
+   "party": "D",
+   "q": 2,
+   "m": "23/200",
+   "cells": 76,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "AR",
+   "party": "D",
+   "q": 2,
+   "m": "11/100",
+   "cells": 76,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "AR",
+   "party": "D",
+   "q": 2,
+   "m": "21/200",
+   "cells": 76,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "AR",
+   "party": "D",
+   "q": 2,
+   "m": "1/10",
+   "cells": 76,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "AR",
+   "party": "D",
+   "q": 2,
+   "m": "19/200",
+   "cells": 76,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "AR",
+   "party": "D",
+   "q": 2,
+   "m": "9/100",
+   "cells": 76,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "AR",
+   "party": "D",
+   "q": 2,
+   "m": "17/200",
+   "cells": 76,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "AR",
+   "party": "D",
+   "q": 2,
+   "m": "2/25",
+   "cells": 76,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "AR",
+   "party": "D",
+   "q": 2,
+   "m": "3/40",
+   "cells": 76,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "AR",
+   "party": "D",
+   "q": 2,
+   "m": "7/100",
+   "cells": 76,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "AR",
+   "party": "D",
+   "q": 2,
+   "m": "13/200",
+   "cells": 76,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "AR",
+   "party": "D",
+   "q": 2,
+   "m": "3/50",
+   "cells": 76,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "AR",
+   "party": "D",
+   "q": 2,
+   "m": "11/200",
+   "cells": 76,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "AR",
+   "party": "D",
+   "q": 2,
+   "m": "1/20",
+   "cells": 76,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "AR",
+   "party": "D",
+   "q": 2,
+   "m": "9/200",
+   "cells": 76,
+   "milp": "unknown",
+   "seconds": 120.1
+  },
+  {
+   "state": "AR",
+   "party": "R",
+   "q": 1,
+   "m": "63/200",
+   "cells": 76,
+   "milp": "unknown",
+   "seconds": 120.1
+  },
+  {
+   "state": "AR",
+   "party": "R",
+   "q": 2,
+   "m": "63/200",
+   "cells": 76,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "AR",
+   "party": "R",
+   "q": 2,
+   "m": "31/100",
+   "cells": 76,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "AR",
+   "party": "R",
+   "q": 2,
+   "m": "61/200",
+   "cells": 76,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "AR",
+   "party": "R",
+   "q": 2,
+   "m": "3/10",
+   "cells": 76,
+   "milp": "infeasible",
+   "seconds": 0.6
+  },
+  {
+   "state": "AR",
+   "party": "R",
+   "q": 2,
+   "m": "59/200",
+   "cells": 76,
+   "milp": "unknown",
+   "seconds": 120.1
+  },
+  {
+   "state": "AR",
+   "party": "R",
+   "q": 3,
+   "m": "49/200",
+   "cells": 76,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "AR",
+   "party": "R",
+   "q": 3,
+   "m": "6/25",
+   "cells": 76,
+   "milp": "infeasible",
+   "seconds": 0.4
+  },
+  {
+   "state": "AR",
+   "party": "R",
+   "q": 3,
+   "m": "47/200",
+   "cells": 76,
+   "milp": "unknown",
+   "seconds": 120.1
+  },
+  {
+   "state": "CT",
+   "party": "D",
+   "q": 1,
+   "m": "67/200",
+   "cells": 8,
+   "milp": "infeasible",
+   "seconds": 0.0
+  },
+  {
+   "state": "CT",
+   "party": "D",
+   "q": 1,
+   "m": "33/100",
+   "cells": 8,
+   "milp": "infeasible",
+   "seconds": 0.0
+  },
+  {
+   "state": "CT",
+   "party": "D",
+   "q": 1,
+   "m": "13/40",
+   "cells": 8,
+   "milp": "infeasible",
+   "seconds": 1.3
+  },
+  {
+   "state": "CT",
+   "party": "D",
+   "q": 2,
+   "m": "1/4",
+   "cells": 8,
+   "milp": "infeasible",
+   "seconds": 0.0
+  },
+  {
+   "state": "CT",
+   "party": "D",
+   "q": 2,
+   "m": "49/200",
+   "cells": 8,
+   "milp": "infeasible",
+   "seconds": 2.1
+  },
+  {
+   "state": "CT",
+   "party": "D",
+   "q": 2,
+   "m": "6/25",
+   "cells": 8,
+   "milp": "infeasible",
+   "seconds": 2.1
+  },
+  {
+   "state": "CT",
+   "party": "D",
+   "q": 2,
+   "m": "47/200",
+   "cells": 8,
+   "milp": "infeasible",
+   "seconds": 2.4
+  },
+  {
+   "state": "CT",
+   "party": "D",
+   "q": 3,
+   "m": "19/100",
+   "cells": 8,
+   "milp": "infeasible",
+   "seconds": 3.0
+  },
+  {
+   "state": "CT",
+   "party": "D",
+   "q": 3,
+   "m": "37/200",
+   "cells": 8,
+   "milp": "infeasible",
+   "seconds": 9.0
+  },
+  {
+   "state": "CT",
+   "party": "D",
+   "q": 3,
+   "m": "9/50",
+   "cells": 8,
+   "milp": "infeasible",
+   "seconds": 16.0
+  },
+  {
+   "state": "CT",
+   "party": "D",
+   "q": 3,
+   "m": "7/40",
+   "cells": 8,
+   "milp": "infeasible",
+   "seconds": 27.9
+  },
+  {
+   "state": "CT",
+   "party": "D",
+   "q": 4,
+   "m": "29/200",
+   "cells": 8,
+   "milp": "infeasible",
+   "seconds": 2.2
+  },
+  {
+   "state": "CT",
+   "party": "D",
+   "q": 4,
+   "m": "7/50",
+   "cells": 8,
+   "milp": "infeasible",
+   "seconds": 4.7
+  },
+  {
+   "state": "IA",
+   "party": "D",
+   "q": 3,
+   "m": "9/100",
+   "cells": 99,
+   "milp": "infeasible",
+   "seconds": 0.5
+  },
+  {
+   "state": "IA",
+   "party": "D",
+   "q": 3,
+   "m": "17/200",
+   "cells": 99,
+   "milp": "infeasible",
+   "seconds": 0.4
+  },
+  {
+   "state": "IA",
+   "party": "D",
+   "q": 3,
+   "m": "2/25",
+   "cells": 99,
+   "milp": "infeasible",
+   "seconds": 0.4
+  },
+  {
+   "state": "IA",
+   "party": "D",
+   "q": 3,
+   "m": "3/40",
+   "cells": 99,
+   "milp": "infeasible",
+   "seconds": 0.4
+  },
+  {
+   "state": "IA",
+   "party": "D",
+   "q": 3,
+   "m": "7/100",
+   "cells": 99,
+   "milp": "infeasible",
+   "seconds": 0.3
+  },
+  {
+   "state": "IA",
+   "party": "D",
+   "q": 3,
+   "m": "13/200",
+   "cells": 99,
+   "milp": "infeasible",
+   "seconds": 0.3
+  },
+  {
+   "state": "IA",
+   "party": "D",
+   "q": 3,
+   "m": "3/50",
+   "cells": 99,
+   "milp": "infeasible",
+   "seconds": 0.3
+  },
+  {
+   "state": "IA",
+   "party": "D",
+   "q": 3,
+   "m": "11/200",
+   "cells": 99,
+   "milp": "infeasible",
+   "seconds": 0.3
+  },
+  {
+   "state": "IA",
+   "party": "D",
+   "q": 3,
+   "m": "1/20",
+   "cells": 99,
+   "milp": "infeasible",
+   "seconds": 0.3
+  },
+  {
+   "state": "IA",
+   "party": "D",
+   "q": 3,
+   "m": "9/200",
+   "cells": 99,
+   "milp": "infeasible",
+   "seconds": 0.3
+  },
+  {
+   "state": "IA",
+   "party": "D",
+   "q": 3,
+   "m": "1/25",
+   "cells": 99,
+   "milp": "infeasible",
+   "seconds": 0.3
+  },
+  {
+   "state": "IA",
+   "party": "D",
+   "q": 3,
+   "m": "7/200",
+   "cells": 99,
+   "milp": "infeasible",
+   "seconds": 0.3
+  },
+  {
+   "state": "IA",
+   "party": "D",
+   "q": 3,
+   "m": "3/100",
+   "cells": 99,
+   "milp": "infeasible",
+   "seconds": 0.7
+  },
+  {
+   "state": "IA",
+   "party": "R",
+   "q": 1,
+   "m": "21/100",
+   "cells": 99,
+   "milp": "unknown",
+   "seconds": 120.1
+  },
+  {
+   "state": "KS",
+   "party": "D",
+   "q": 3,
+   "m": "3/40",
+   "cells": 105,
+   "milp": "infeasible",
+   "seconds": 0.3
+  },
+  {
+   "state": "KS",
+   "party": "D",
+   "q": 3,
+   "m": "7/100",
+   "cells": 105,
+   "milp": "infeasible",
+   "seconds": 0.3
+  },
+  {
+   "state": "KS",
+   "party": "D",
+   "q": 3,
+   "m": "13/200",
+   "cells": 105,
+   "milp": "infeasible",
+   "seconds": 0.3
+  },
+  {
+   "state": "KS",
+   "party": "D",
+   "q": 3,
+   "m": "3/50",
+   "cells": 105,
+   "milp": "infeasible",
+   "seconds": 0.3
+  },
+  {
+   "state": "KS",
+   "party": "D",
+   "q": 3,
+   "m": "11/200",
+   "cells": 105,
+   "milp": "infeasible",
+   "seconds": 0.3
+  },
+  {
+   "state": "KS",
+   "party": "D",
+   "q": 3,
+   "m": "1/20",
+   "cells": 105,
+   "milp": "infeasible",
+   "seconds": 0.3
+  },
+  {
+   "state": "KS",
+   "party": "D",
+   "q": 3,
+   "m": "9/200",
+   "cells": 105,
+   "milp": "infeasible",
+   "seconds": 0.3
+  },
+  {
+   "state": "KS",
+   "party": "D",
+   "q": 3,
+   "m": "1/25",
+   "cells": 105,
+   "milp": "infeasible",
+   "seconds": 0.3
+  },
+  {
+   "state": "KS",
+   "party": "D",
+   "q": 3,
+   "m": "7/200",
+   "cells": 105,
+   "milp": "infeasible",
+   "seconds": 0.3
+  },
+  {
+   "state": "KS",
+   "party": "D",
+   "q": 3,
+   "m": "3/100",
+   "cells": 105,
+   "milp": "infeasible",
+   "seconds": 0.3
+  },
+  {
+   "state": "KS",
+   "party": "D",
+   "q": 3,
+   "m": "1/40",
+   "cells": 105,
+   "milp": "infeasible",
+   "seconds": 0.3
+  },
+  {
+   "state": "KS",
+   "party": "D",
+   "q": 3,
+   "m": "1/50",
+   "cells": 105,
+   "milp": "infeasible",
+   "seconds": 0.3
+  },
+  {
+   "state": "KS",
+   "party": "D",
+   "q": 3,
+   "m": "3/200",
+   "cells": 105,
+   "milp": "infeasible",
+   "seconds": 1.0
+  },
+  {
+   "state": "KS",
+   "party": "D",
+   "q": 3,
+   "m": "1/100",
+   "cells": 105,
+   "milp": "unknown",
+   "seconds": 120.1
+  },
+  {
+   "state": "KS",
+   "party": "R",
+   "q": 3,
+   "m": "31/200",
+   "cells": 105,
+   "milp": "unknown",
+   "seconds": 120.2
+  },
+  {
+   "state": "MS",
+   "party": "D",
+   "q": 1,
+   "m": "43/200",
+   "cells": 82,
+   "milp": "unknown",
+   "seconds": 120.1
+  },
+  {
+   "state": "MS",
+   "party": "D",
+   "q": 1,
+   "m": "21/100",
+   "cells": 82,
+   "milp": "unknown",
+   "seconds": 120.1
+  },
+  {
+   "state": "MS",
+   "party": "D",
+   "q": 1,
+   "m": "41/200",
+   "cells": 82,
+   "milp": "unknown",
+   "seconds": 120.1
+  },
+  {
+   "state": "MS",
+   "party": "D",
+   "q": 1,
+   "m": "1/5",
+   "cells": 82,
+   "milp": "unknown",
+   "seconds": 120.1
+  },
+  {
+   "state": "MS",
+   "party": "D",
+   "q": 2,
+   "m": "33/200",
+   "cells": 82,
+   "milp": "unknown",
+   "seconds": 120.1
+  },
+  {
+   "state": "MS",
+   "party": "D",
+   "q": 2,
+   "m": "4/25",
+   "cells": 82,
+   "milp": "unknown",
+   "seconds": 120.1
+  },
+  {
+   "state": "MS",
+   "party": "D",
+   "q": 3,
+   "m": "33/200",
+   "cells": 82,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "MS",
+   "party": "D",
+   "q": 3,
+   "m": "4/25",
+   "cells": 82,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "MS",
+   "party": "D",
+   "q": 3,
+   "m": "31/200",
+   "cells": 82,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "MS",
+   "party": "D",
+   "q": 3,
+   "m": "3/20",
+   "cells": 82,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "MS",
+   "party": "D",
+   "q": 3,
+   "m": "29/200",
+   "cells": 82,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "MS",
+   "party": "D",
+   "q": 3,
+   "m": "7/50",
+   "cells": 82,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "MS",
+   "party": "D",
+   "q": 3,
+   "m": "27/200",
+   "cells": 82,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "MS",
+   "party": "D",
+   "q": 3,
+   "m": "13/100",
+   "cells": 82,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "MS",
+   "party": "D",
+   "q": 3,
+   "m": "1/8",
+   "cells": 82,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "MS",
+   "party": "D",
+   "q": 3,
+   "m": "3/25",
+   "cells": 82,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "MS",
+   "party": "D",
+   "q": 3,
+   "m": "23/200",
+   "cells": 82,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "MS",
+   "party": "D",
+   "q": 3,
+   "m": "11/100",
+   "cells": 82,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "MS",
+   "party": "D",
+   "q": 3,
+   "m": "21/200",
+   "cells": 82,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "MS",
+   "party": "D",
+   "q": 3,
+   "m": "1/10",
+   "cells": 82,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "MS",
+   "party": "D",
+   "q": 3,
+   "m": "19/200",
+   "cells": 82,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "MS",
+   "party": "D",
+   "q": 3,
+   "m": "9/100",
+   "cells": 82,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "MS",
+   "party": "D",
+   "q": 3,
+   "m": "17/200",
+   "cells": 82,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "MS",
+   "party": "D",
+   "q": 3,
+   "m": "2/25",
+   "cells": 82,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "MS",
+   "party": "D",
+   "q": 3,
+   "m": "3/40",
+   "cells": 82,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "MS",
+   "party": "D",
+   "q": 3,
+   "m": "7/100",
+   "cells": 82,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "MS",
+   "party": "D",
+   "q": 3,
+   "m": "13/200",
+   "cells": 82,
+   "milp": "infeasible",
+   "seconds": 0.3
+  },
+  {
+   "state": "MS",
+   "party": "D",
+   "q": 3,
+   "m": "3/50",
+   "cells": 82,
+   "milp": "infeasible",
+   "seconds": 0.3
+  },
+  {
+   "state": "MS",
+   "party": "D",
+   "q": 3,
+   "m": "11/200",
+   "cells": 82,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "MS",
+   "party": "D",
+   "q": 3,
+   "m": "1/20",
+   "cells": 82,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "MS",
+   "party": "D",
+   "q": 3,
+   "m": "9/200",
+   "cells": 82,
+   "milp": "infeasible",
+   "seconds": 0.3
+  },
+  {
+   "state": "MS",
+   "party": "D",
+   "q": 3,
+   "m": "1/25",
+   "cells": 82,
+   "milp": "infeasible",
+   "seconds": 0.3
+  },
+  {
+   "state": "MS",
+   "party": "D",
+   "q": 3,
+   "m": "7/200",
+   "cells": 82,
+   "milp": "infeasible",
+   "seconds": 0.5
+  },
+  {
+   "state": "MS",
+   "party": "D",
+   "q": 3,
+   "m": "3/100",
+   "cells": 82,
+   "milp": "unknown",
+   "seconds": 120.1
+  },
+  {
+   "state": "MS",
+   "party": "R",
+   "q": 1,
+   "m": "8/25",
+   "cells": 82,
+   "milp": "unknown",
+   "seconds": 120.1
+  },
+  {
+   "state": "MS",
+   "party": "R",
+   "q": 1,
+   "m": "63/200",
+   "cells": 82,
+   "milp": "unknown",
+   "seconds": 120.1
+  },
+  {
+   "state": "MS",
+   "party": "R",
+   "q": 1,
+   "m": "31/100",
+   "cells": 82,
+   "milp": "unknown",
+   "seconds": 120.1
+  },
+  {
+   "state": "MS",
+   "party": "R",
+   "q": 1,
+   "m": "61/200",
+   "cells": 82,
+   "milp": "unknown",
+   "seconds": 120.1
+  },
+  {
+   "state": "MS",
+   "party": "R",
+   "q": 1,
+   "m": "3/10",
+   "cells": 82,
+   "milp": "unknown",
+   "seconds": 120.1
+  },
+  {
+   "state": "NE",
+   "party": "D",
+   "q": 1,
+   "m": "3/25",
+   "cells": 93,
+   "milp": "unknown",
+   "seconds": 120.1
+  },
+  {
+   "state": "NE",
+   "party": "D",
+   "q": 1,
+   "m": "23/200",
+   "cells": 93,
+   "milp": "unknown",
+   "seconds": 120.1
+  },
+  {
+   "state": "NE",
+   "party": "D",
+   "q": 2,
+   "m": "3/25",
+   "cells": 93,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "NE",
+   "party": "D",
+   "q": 2,
+   "m": "23/200",
+   "cells": 93,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "NE",
+   "party": "D",
+   "q": 2,
+   "m": "11/100",
+   "cells": 93,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "NE",
+   "party": "D",
+   "q": 2,
+   "m": "21/200",
+   "cells": 93,
+   "milp": "infeasible",
+   "seconds": 0.1
+  },
+  {
+   "state": "NE",
+   "party": "D",
+   "q": 2,
+   "m": "1/10",
+   "cells": 93,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "NE",
+   "party": "D",
+   "q": 2,
+   "m": "19/200",
+   "cells": 93,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "NE",
+   "party": "D",
+   "q": 2,
+   "m": "9/100",
+   "cells": 93,
+   "milp": "infeasible",
+   "seconds": 0.1
+  },
+  {
+   "state": "NE",
+   "party": "D",
+   "q": 2,
+   "m": "17/200",
+   "cells": 93,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "NE",
+   "party": "D",
+   "q": 2,
+   "m": "2/25",
+   "cells": 93,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "NE",
+   "party": "D",
+   "q": 2,
+   "m": "3/40",
+   "cells": 93,
+   "milp": "infeasible",
+   "seconds": 0.1
+  },
+  {
+   "state": "NE",
+   "party": "D",
+   "q": 2,
+   "m": "7/100",
+   "cells": 93,
+   "milp": "infeasible",
+   "seconds": 0.1
+  },
+  {
+   "state": "NE",
+   "party": "D",
+   "q": 2,
+   "m": "13/200",
+   "cells": 93,
+   "milp": "infeasible",
+   "seconds": 0.1
+  },
+  {
+   "state": "NE",
+   "party": "D",
+   "q": 2,
+   "m": "3/50",
+   "cells": 93,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "NE",
+   "party": "D",
+   "q": 2,
+   "m": "11/200",
+   "cells": 93,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "NE",
+   "party": "D",
+   "q": 2,
+   "m": "1/20",
+   "cells": 93,
+   "milp": "infeasible",
+   "seconds": 0.1
+  },
+  {
+   "state": "NE",
+   "party": "D",
+   "q": 2,
+   "m": "9/200",
+   "cells": 93,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "NE",
+   "party": "D",
+   "q": 2,
+   "m": "1/25",
+   "cells": 93,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "NE",
+   "party": "D",
+   "q": 2,
+   "m": "7/200",
+   "cells": 93,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "NE",
+   "party": "D",
+   "q": 2,
+   "m": "3/100",
+   "cells": 93,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "NE",
+   "party": "D",
+   "q": 2,
+   "m": "1/40",
+   "cells": 93,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "NE",
+   "party": "D",
+   "q": 2,
+   "m": "1/50",
+   "cells": 93,
+   "milp": "unknown",
+   "seconds": 120.1
+  },
+  {
+   "state": "NE",
+   "party": "D",
+   "q": 2,
+   "m": "3/200",
+   "cells": 93,
+   "milp": "unknown",
+   "seconds": 120.1
+  },
+  {
+   "state": "NM",
+   "party": "D",
+   "q": 1,
+   "m": "6/25",
+   "cells": 34,
+   "milp": "infeasible",
+   "seconds": 8.9
+  },
+  {
+   "state": "NM",
+   "party": "D",
+   "q": 2,
+   "m": "31/200",
+   "cells": 34,
+   "milp": "unknown",
+   "seconds": 120.0
+  },
+  {
+   "state": "NM",
+   "party": "D",
+   "q": 2,
+   "m": "3/20",
+   "cells": 34,
+   "milp": "unknown",
+   "seconds": 120.0
+  },
+  {
+   "state": "NV",
+   "party": "R",
+   "q": 3,
+   "m": "3/100",
+   "cells": 17,
+   "milp": "infeasible",
+   "seconds": 4.3
+  },
+  {
+   "state": "OK",
+   "party": "D",
+   "q": 1,
+   "m": "29/200",
+   "cells": 77,
+   "milp": "unknown",
+   "seconds": 120.1
+  },
+  {
+   "state": "OK",
+   "party": "D",
+   "q": 1,
+   "m": "7/50",
+   "cells": 77,
+   "milp": "unknown",
+   "seconds": 120.1
+  },
+  {
+   "state": "OK",
+   "party": "D",
+   "q": 1,
+   "m": "27/200",
+   "cells": 77,
+   "milp": "unknown",
+   "seconds": 120.3
+  },
+  {
+   "state": "OK",
+   "party": "D",
+   "q": 2,
+   "m": "29/200",
+   "cells": 77,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "OK",
+   "party": "D",
+   "q": 2,
+   "m": "7/50",
+   "cells": 77,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "OK",
+   "party": "D",
+   "q": 2,
+   "m": "27/200",
+   "cells": 77,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "OK",
+   "party": "D",
+   "q": 2,
+   "m": "13/100",
+   "cells": 77,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "OK",
+   "party": "D",
+   "q": 2,
+   "m": "1/8",
+   "cells": 77,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "OK",
+   "party": "D",
+   "q": 2,
+   "m": "3/25",
+   "cells": 77,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "OK",
+   "party": "D",
+   "q": 2,
+   "m": "23/200",
+   "cells": 77,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "OK",
+   "party": "D",
+   "q": 2,
+   "m": "11/100",
+   "cells": 77,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "OK",
+   "party": "D",
+   "q": 2,
+   "m": "21/200",
+   "cells": 77,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "OK",
+   "party": "D",
+   "q": 2,
+   "m": "1/10",
+   "cells": 77,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "OK",
+   "party": "D",
+   "q": 2,
+   "m": "19/200",
+   "cells": 77,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "OK",
+   "party": "D",
+   "q": 2,
+   "m": "9/100",
+   "cells": 77,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "OK",
+   "party": "D",
+   "q": 2,
+   "m": "17/200",
+   "cells": 77,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "OK",
+   "party": "D",
+   "q": 2,
+   "m": "2/25",
+   "cells": 77,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "OK",
+   "party": "D",
+   "q": 2,
+   "m": "3/40",
+   "cells": 77,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "OK",
+   "party": "D",
+   "q": 2,
+   "m": "7/100",
+   "cells": 77,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "OK",
+   "party": "D",
+   "q": 2,
+   "m": "13/200",
+   "cells": 77,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "OK",
+   "party": "D",
+   "q": 2,
+   "m": "3/50",
+   "cells": 77,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "OK",
+   "party": "D",
+   "q": 2,
+   "m": "11/200",
+   "cells": 77,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "OK",
+   "party": "D",
+   "q": 2,
+   "m": "1/20",
+   "cells": 77,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "OK",
+   "party": "D",
+   "q": 2,
+   "m": "9/200",
+   "cells": 77,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "OK",
+   "party": "D",
+   "q": 2,
+   "m": "1/25",
+   "cells": 77,
+   "milp": "infeasible",
+   "seconds": 0.3
+  },
+  {
+   "state": "OK",
+   "party": "D",
+   "q": 2,
+   "m": "7/200",
+   "cells": 77,
+   "milp": "unknown",
+   "seconds": 120.1
+  },
+  {
+   "state": "OK",
+   "party": "D",
+   "q": 2,
+   "m": "3/100",
+   "cells": 77,
+   "milp": "unknown",
+   "seconds": 120.2
+  },
+  {
+   "state": "OK",
+   "party": "R",
+   "q": 2,
+   "m": "33/100",
+   "cells": 77,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "OK",
+   "party": "R",
+   "q": 2,
+   "m": "13/40",
+   "cells": 77,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "OK",
+   "party": "R",
+   "q": 2,
+   "m": "8/25",
+   "cells": 77,
+   "milp": "infeasible",
+   "seconds": 0.2
+  },
+  {
+   "state": "OK",
+   "party": "R",
+   "q": 2,
+   "m": "63/200",
+   "cells": 77,
+   "milp": "unknown",
+   "seconds": 120.1
+  },
+  {
+   "state": "OK",
+   "party": "R",
+   "q": 2,
+   "m": "31/100",
+   "cells": 77,
+   "milp": "unknown",
+   "seconds": 120.1
+  },
+  {
+   "state": "OK",
+   "party": "R",
+   "q": 3,
+   "m": "57/200",
+   "cells": 77,
+   "milp": "infeasible",
+   "seconds": 0.3
+  },
+  {
+   "state": "OK",
+   "party": "R",
+   "q": 3,
+   "m": "7/25",
+   "cells": 77,
+   "milp": "infeasible",
+   "seconds": 0.4
+  },
+  {
+   "state": "UT",
+   "party": "D",
+   "q": 2,
+   "m": "9/200",
+   "cells": 29,
+   "milp": "unknown",
+   "seconds": 120.0
+  },
+  {
+   "state": "UT",
+   "party": "D",
+   "q": 2,
+   "m": "1/25",
+   "cells": 29,
+   "milp": "infeasible",
+   "seconds": 102.9
+  },
+  {
+   "state": "UT",
+   "party": "R",
+   "q": 1,
+   "m": "13/40",
+   "cells": 29,
+   "milp": "infeasible",
+   "seconds": 0.1
+  },
+  {
+   "state": "UT",
+   "party": "R",
+   "q": 1,
+   "m": "8/25",
+   "cells": 29,
+   "milp": "infeasible",
+   "seconds": 3.0
+  },
+  {
+   "state": "UT",
+   "party": "R",
+   "q": 1,
+   "m": "63/200",
+   "cells": 29,
+   "milp": "infeasible",
+   "seconds": 2.4
+  },
+  {
+   "state": "UT",
+   "party": "R",
+   "q": 1,
+   "m": "31/100",
+   "cells": 29,
+   "milp": "infeasible",
+   "seconds": 4.2
+  },
+  {
+   "state": "UT",
+   "party": "R",
+   "q": 2,
+   "m": "53/200",
+   "cells": 29,
+   "milp": "infeasible",
+   "seconds": 0.1
+  },
+  {
+   "state": "UT",
+   "party": "R",
+   "q": 2,
+   "m": "13/50",
+   "cells": 29,
+   "milp": "infeasible",
+   "seconds": 0.1
+  },
+  {
+   "state": "UT",
+   "party": "R",
+   "q": 2,
+   "m": "51/200",
+   "cells": 29,
+   "milp": "infeasible",
+   "seconds": 93.0
+  },
+  {
+   "state": "UT",
+   "party": "R",
+   "q": 2,
+   "m": "1/4",
+   "cells": 29,
+   "milp": "infeasible",
+   "seconds": 70.2
+  }
+ ]
+}

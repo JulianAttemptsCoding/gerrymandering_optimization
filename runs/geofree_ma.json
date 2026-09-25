@@ -1,0 +1,43 @@
+{
+ "state": "MA",
+ "k": 9,
+ "D_share_pct": 67.12,
+ "bounds": [
+  {
+   "party": "R",
+   "q": 1,
+   "share_below_pct": 52.0,
+   "no_district_reaches_50": false
+  },
+  {
+   "party": "R",
+   "q": 2,
+   "share_below_pct": 50.0,
+   "no_district_reaches_50": true
+  },
+  {
+   "party": "R",
+   "q": 3,
+   "share_below_pct": 50.0,
+   "no_district_reaches_50": true
+  },
+  {
+   "party": "D",
+   "q": 1,
+   "share_below_pct": 92.0,
+   "no_district_reaches_50": false
+  },
+  {
+   "party": "D",
+   "q": 2,
+   "share_below_pct": 87.0,
+   "no_district_reaches_50": false
+  },
+  {
+   "party": "D",
+   "q": 3,
+   "share_below_pct": 83.5,
+   "no_district_reaches_50": false
+  }
+ ]
+}

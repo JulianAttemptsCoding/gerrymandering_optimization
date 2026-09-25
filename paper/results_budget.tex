@@ -1,9 +1,9 @@
-Table~\ref{tab:budget} reruns the two-district states New Hampshire, Maine and Rhode Island for budgets $s=1,\dots,4$ (the main regime is $s=1$). Brackets are closed under Proposition~\ref{prop:mono}(3): a plan that is feasible for $s$ is feasible for every larger budget, so the lower end at $s$ is the largest lower end over budgets $\le s$, and the upper end is the smallest over budgets $\ge s$ and the geography-free bound.
+Table~\ref{tab:budget} reruns the six two-district states for budgets $s=1,\dots,4$ (the main regime is $s=1=k-1$). Brackets are closed under Proposition~\ref{prop:mono}(3): a plan that is feasible for $s$ is feasible for every larger budget, so the lower end at $s$ is the largest lower end over budgets $\le s$, and the upper end is the smallest over budgets $\ge s$ and the geography-free bound.
 
-\begin{table}[t]
+\begin{table}[!tbp]
 \centering\small
 \caption{Best-district ($q=1$) and second-best ($q=2$) share, in percent of the two-party vote, as the county-split budget $s$ grows ($\pm1\%$, 2020 presidential vote); geography-free hull bound and unconstrained ReCom incumbent for comparison. ``$<$50'': no plan of the regime has $q$ districts at 50\% or more.}\label{tab:budget}
-\input{tables/budget}
+\adjustbox{max width=\linewidth}{\input{tables/budget}}
 \end{table}
 
 \paragraph{Capacity grows with every split, provably.}
@@ -15,5 +15,8 @@ New Hampshire Republicans cannot make a single 50\% district with one split (cer
 \paragraph{The all-safe end does not depend on the budget.}
 $\sigma^*(2)$ is pinned to the statewide share for every budget tried (New Hampshire 53.75--53.8\%, Maine 54.62--54.7\%, Rhode Island 60.60\%), as it must be when the largest possible value equals the statewide margin (Section~\ref{sec:main}).
 
+\paragraph{The other states: budget effects that are not certified.}
+For Idaho, Montana and West Virginia Republicans the verified best district rises by at most 0.9 point when the budget is enlarged (Idaho $75.50\to75.88$, Montana $67.53\to68.38$ at $s=3$, West Virginia unchanged at $76.00$), while the proven upper ends open up (to $78.0$, $72.9$ and $79.5\%$ at $s=4$); no extra split is certified to raise capacity there, and none is excluded. The same holds for New Hampshire and Rhode Island Democrats. Certified increases from extra splits therefore exist for Maine and for New Hampshire Republicans only.
+
 \paragraph{Tractability.}
-Exactness is lost when the budget grows in New Hampshire (upper end for Democrats 57.5\% at $s=1$, 60.5\% at $s=2$, 61.5\% at $s\ge3$) and Rhode Island, but not in Maine, where every bracket is at most half a point wide for $s\le4$. This is the tractability frontier of the method: it depends on the budget and on the structure of the counties (Maine has 16), and it is where a relaxed solution has room to cheat inside a split county.
+Exactness is lost as soon as the budget exceeds $k-1$ in every two-district state except Maine, where every bracket is at most half a point wide for $s\le4$ (upper ends for New Hampshire Democrats $57.5$, $60.5$, $61.5\%$ at $s=1,2,\ge3$; Rhode Island Democrats $70.5$, $71.5$, $72.4\%$). This is the tractability frontier of the method: it depends on the budget and on the structure of the counties (Maine has 16 counties), and it is where a relaxed solution has room to cheat inside a split county.

@@ -18,3 +18,16 @@ __pycache__/
 /paper/*.out
 /paper/*.bbl
 /paper/*.blg
+
+# scratch helpers and rendered pages from the revision round
+/scratch/pages/
+/scratch/fix_*.py
+/scratch/add_*.py
+/scratch/edit_*.py
+/scratch/patch_*.py
+/scratch/set_*.py
+/scratch/readme_update.py
+/scratch/render.py
+/scratch/*.txt
+/scratch/*_old.tex
+/scratch/*_new*.tex

@@ -1,0 +1,25 @@
+2 jobs, 2 to run
+  [MT R cap=1] regime existence (q=0): feasible (0.4s)
+  [MT D cap=1] regime existence (q=0): feasible (0.4s)
+  [MT R cap=1 q=1] ReCom LB: margin 0.1649 (60s)
+  [MT R cap=1 q=1] LNS: margin 0.1695 (35s)
+  [MT R cap=1 q=1] LNS: margin 0.1726 (38s)
+  [MT R cap=1 q=1] m=0.335: infeasible (0.13s, 1 it, 56 cells)
+  [MT R cap=1 q=1] m=0.250: infeasible (0.41s, 1 it, 56 cells)
+  [MT R cap=1 q=1] m=0.210: infeasible (0.49s, 1 it, 56 cells)
+  [MT D cap=1 q=1] m=0.000: unknown (120.34s, 5 it, 81 cells)
+  => q=1: sigma* in [none, None) unknown=[0]
+  [MT D cap=1 q=2] m=0.000: infeasible (0.22s, 1 it, 56 cells)
+  => q=2: sigma* in [none, 0) unknown=[]
+DONE ('MT', 'D', '1') ok 242s
+  [MT R cap=1 q=1] m=0.190: unknown (120.24s, 5 it, 83 cells)
+  [MT R cap=1 q=1] m=0.200: infeasible (0.48s, 1 it, 56 cells)
+  [MT R cap=1 q=1] m=0.185: unknown (120.29s, 4 it, 85 cells)
+  => q=1: sigma* in [0.17258804432211164, 1/5) unknown=[38, 37]
+  [MT R cap=1 q=2] ReCom LB: margin 0.0840 (60s)
+  [MT R cap=1 q=2] m=0.140: infeasible (0.14s, 1 it, 56 cells)
+  [MT R cap=1 q=2] m=0.110: infeasible (0.15s, 1 it, 56 cells)
+  [MT R cap=1 q=2] m=0.095: infeasible (0.14s, 1 it, 56 cells)
+  [MT R cap=1 q=2] m=0.085: infeasible (0.15s, 1 it, 56 cells)
+  => q=2: sigma* in [0.08395760887564166, 17/200) unknown=[]
+DONE ('MT', 'R', '1') ok 524s

@@ -1,0 +1,38 @@
+{
+ "state": "AR",
+ "k": 4,
+ "cd118": [
+  "01",
+  "02",
+  "03",
+  "04"
+ ],
+ "pop_in_split_precincts": 0.0,
+ "max_pop_dev": 0.0004941019895574605,
+ "D": {
+  "shares_pct": [
+   43.259,
+   37.93,
+   31.878,
+   28.926
+  ],
+  "wins": 0
+ },
+ "R": {
+  "shares_pct": [
+   71.074,
+   68.122,
+   62.07,
+   56.741
+  ],
+  "wins": 4
+ },
+ "split_counties": 3,
+ "components_per_district": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "assign_hash": "1633918991"
+}

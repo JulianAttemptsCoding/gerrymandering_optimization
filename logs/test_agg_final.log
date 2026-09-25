@@ -1,0 +1,9 @@
+seed 0 done; tested 9 bad 0 coarse-loose 0 6.8
+seed 1 done; tested 18 bad 0 coarse-loose 3 19.2
+seed 2 done; tested 27 bad 0 coarse-loose 3 26.4
+seed 3 done; tested 36 bad 0 coarse-loose 4 78.3
+seed 4 done; tested 45 bad 0 coarse-loose 5 86.4
+seed 5 done; tested 54 bad 0 coarse-loose 6 97.8
+seed 6 done; tested 63 bad 0 coarse-loose 9 110.7
+seed 7 done; tested 72 bad 0 coarse-loose 10 149.3
+TOTAL tested 72 bad 0 coarse strictly loose in 10

@@ -1,0 +1,34 @@
+{
+ "state": "NM",
+ "k": 3,
+ "cd118": [
+  "01",
+  "02",
+  "03"
+ ],
+ "pop_in_split_precincts": 0.0030715147233417173,
+ "max_pop_dev": 0.006362153498287171,
+ "D": {
+  "shares_pct": [
+   57.399,
+   55.397,
+   53.084
+  ],
+  "wins": 3
+ },
+ "R": {
+  "shares_pct": [
+   46.916,
+   44.603,
+   42.601
+  ],
+  "wins": 0
+ },
+ "split_counties": 10,
+ "components_per_district": [
+  1,
+  1,
+  1
+ ],
+ "assign_hash": "4114320665"
+}

@@ -1,0 +1,30 @@
+{
+ "state": "NH",
+ "k": 2,
+ "cd118": [
+  "01",
+  "02"
+ ],
+ "pop_in_split_precincts": 0.0,
+ "max_pop_dev": 7.259375301993387e-07,
+ "D": {
+  "shares_pct": [
+   54.491,
+   53.012
+  ],
+  "wins": 2
+ },
+ "R": {
+  "shares_pct": [
+   46.988,
+   45.509
+  ],
+  "wins": 0
+ },
+ "split_counties": 5,
+ "components_per_district": [
+  1,
+  1
+ ],
+ "assign_hash": "777049"
+}

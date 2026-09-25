@@ -1,0 +1,15 @@
+{
+ "in_regime": [
+  "ME",
+  "RI",
+  "ID",
+  "WV",
+  "NE",
+  "AR",
+  "IA",
+  "NV"
+ ],
+ "checked": 46,
+ "violations": [],
+ "beats_lower_end": []
+}

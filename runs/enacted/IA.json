@@ -1,0 +1,38 @@
+{
+ "state": "IA",
+ "k": 4,
+ "cd118": [
+  "01",
+  "02",
+  "03",
+  "04"
+ ],
+ "pop_in_split_precincts": 0.0,
+ "max_pop_dev": 6.613655034892751e-05,
+ "D": {
+  "shares_pct": [
+   49.824,
+   48.528,
+   47.76,
+   36.761
+  ],
+  "wins": 0
+ },
+ "R": {
+  "shares_pct": [
+   63.239,
+   52.24,
+   51.472,
+   50.176
+  ],
+  "wins": 4
+ },
+ "split_counties": 0,
+ "components_per_district": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "assign_hash": "55913537"
+}
