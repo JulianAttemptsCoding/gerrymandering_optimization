@@ -1,0 +1,300 @@
+{
+ "job": "ME_R_cap1_eps0.0100_PRE+USS_robust",
+ "seconds": 182.3,
+ "spectrum": {
+  "regime": "feasible",
+  "1": {
+   "lo": 9,
+   "hi": 10,
+   "unknown": [],
+   "best_margin": "33445/738018",
+   "lo_m": "9/200",
+   "hi_m": "1/20"
+  },
+  "2": {
+   "lo": -1,
+   "hi": 0,
+   "unknown": [],
+   "best_margin": null,
+   "lo_m": null,
+   "hi_m": "0"
+  }
+ },
+ "records": [
+  {
+   "state": "ME",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE",
+    "USS"
+   ],
+   "q": 0,
+   "m": "0",
+   "status": "feasible",
+   "seconds": 0.4,
+   "iters": 0,
+   "cells": 0,
+   "plan_hash": "cc892310d9e0976e"
+  },
+  {
+   "state": "ME",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE",
+    "USS"
+   ],
+   "q": 1,
+   "m": "heuristic",
+   "status": "heuristic",
+   "seconds": 60.05,
+   "iters": 0,
+   "cells": 0,
+   "achieved_margin": "1429/34086",
+   "plan_hash": "08a7e728f75b61fb"
+  },
+  {
+   "state": "ME",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE",
+    "USS"
+   ],
+   "q": 1,
+   "m": "lns",
+   "status": "heuristic",
+   "seconds": 0.8,
+   "iters": 0,
+   "cells": 0,
+   "achieved_margin": "8413/187236",
+   "plan_hash": "c79d6656f03cfd03"
+  },
+  {
+   "state": "ME",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE",
+    "USS"
+   ],
+   "q": 1,
+   "m": "27/100",
+   "status": "infeasible",
+   "seconds": 0.06,
+   "iters": 1,
+   "cells": 16,
+   "part_nodes": [
+    38,
+    187,
+    272,
+    323,
+    412,
+    475,
+    512,
+    549,
+    626,
+    767,
+    808,
+    829,
+    902,
+    957,
+    1056,
+    1117
+   ]
+  },
+  {
+   "state": "ME",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE",
+    "USS"
+   ],
+   "q": 1,
+   "m": "31/200",
+   "status": "infeasible",
+   "seconds": 0.06,
+   "iters": 1,
+   "cells": 16,
+   "part_nodes": [
+    38,
+    187,
+    272,
+    323,
+    412,
+    475,
+    512,
+    549,
+    626,
+    767,
+    808,
+    829,
+    902,
+    957,
+    1056,
+    1117
+   ]
+  },
+  {
+   "state": "ME",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE",
+    "USS"
+   ],
+   "q": 1,
+   "m": "19/200",
+   "status": "infeasible",
+   "seconds": 0.15,
+   "iters": 1,
+   "cells": 16,
+   "part_nodes": [
+    38,
+    187,
+    272,
+    323,
+    412,
+    475,
+    512,
+    549,
+    626,
+    767,
+    808,
+    829,
+    902,
+    957,
+    1056,
+    1117
+   ]
+  },
+  {
+   "state": "ME",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE",
+    "USS"
+   ],
+   "q": 1,
+   "m": "13/200",
+   "status": "infeasible",
+   "seconds": 0.13,
+   "iters": 1,
+   "cells": 16,
+   "part_nodes": [
+    38,
+    187,
+    272,
+    323,
+    412,
+    475,
+    512,
+    549,
+    626,
+    767,
+    808,
+    829,
+    902,
+    957,
+    1056,
+    1117
+   ]
+  },
+  {
+   "state": "ME",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE",
+    "USS"
+   ],
+   "q": 1,
+   "m": "1/20",
+   "status": "infeasible",
+   "seconds": 0.22,
+   "iters": 1,
+   "cells": 16,
+   "part_nodes": [
+    38,
+    187,
+    272,
+    323,
+    412,
+    475,
+    512,
+    549,
+    626,
+    767,
+    808,
+    829,
+    902,
+    957,
+    1056,
+    1117
+   ]
+  },
+  {
+   "state": "ME",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE",
+    "USS"
+   ],
+   "q": 1,
+   "m": "9/200",
+   "status": "feasible",
+   "seconds": 0.23,
+   "iters": 2,
+   "cells": 16,
+   "achieved_margin": "33445/738018",
+   "plan_hash": "098c3ccae668dcb6"
+  },
+  {
+   "state": "ME",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE",
+    "USS"
+   ],
+   "q": 2,
+   "m": "0",
+   "status": "infeasible",
+   "seconds": 0.08,
+   "iters": 1,
+   "cells": 16,
+   "part_nodes": [
+    38,
+    187,
+    272,
+    323,
+    412,
+    475,
+    512,
+    549,
+    626,
+    767,
+    808,
+    829,
+    902,
+    957,
+    1056,
+    1117
+   ]
+  }
+ ]
+}

@@ -1,0 +1,229 @@
+{
+ "job": "NHswap_R_cap1_eps0.0100_PRE_swap",
+ "seconds": 142.7,
+ "spectrum": {
+  "regime": "feasible",
+  "1": {
+   "lo": 14,
+   "hi": 15,
+   "unknown": [],
+   "best_margin": "52629/749722",
+   "lo_m": "7/100",
+   "hi_m": "3/40"
+  },
+  "2": {
+   "lo": 7,
+   "hi": 8,
+   "unknown": [],
+   "best_margin": "7641/204244",
+   "lo_m": "7/200",
+   "hi_m": "1/25"
+  }
+ },
+ "records": [
+  {
+   "state": "NHswap",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 0,
+   "m": "0",
+   "status": "feasible",
+   "seconds": 0.0,
+   "iters": 0,
+   "cells": 0,
+   "plan_hash": "493c8b9c370f0dfa"
+  },
+  {
+   "state": "NHswap",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "heuristic",
+   "status": "heuristic",
+   "seconds": 40.14,
+   "iters": 0,
+   "cells": 0,
+   "achieved_margin": "49853/770930",
+   "plan_hash": "0b2fd65f7c0ccb2f"
+  },
+  {
+   "state": "NHswap",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "lns",
+   "status": "heuristic",
+   "seconds": 0.42,
+   "iters": 0,
+   "cells": 0,
+   "achieved_margin": "51121/755218",
+   "plan_hash": "38df6c7a243f51b9"
+  },
+  {
+   "state": "NHswap",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "57/200",
+   "status": "infeasible",
+   "seconds": 0.03,
+   "iters": 1,
+   "cells": 10
+  },
+  {
+   "state": "NHswap",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "7/40",
+   "status": "infeasible",
+   "seconds": 0.04,
+   "iters": 1,
+   "cells": 10
+  },
+  {
+   "state": "NHswap",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "3/25",
+   "status": "infeasible",
+   "seconds": 0.12,
+   "iters": 1,
+   "cells": 10
+  },
+  {
+   "state": "NHswap",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "9/100",
+   "status": "infeasible",
+   "seconds": 0.13,
+   "iters": 1,
+   "cells": 10
+  },
+  {
+   "state": "NHswap",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "3/40",
+   "status": "infeasible",
+   "seconds": 0.16,
+   "iters": 1,
+   "cells": 10
+  },
+  {
+   "state": "NHswap",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "7/100",
+   "status": "feasible",
+   "seconds": 0.95,
+   "iters": 2,
+   "cells": 10,
+   "achieved_margin": "52629/749722",
+   "plan_hash": "5aed4c1ef1a8a6a1"
+  },
+  {
+   "state": "NHswap",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 2,
+   "m": "heuristic",
+   "status": "heuristic",
+   "seconds": 40.18,
+   "iters": 0,
+   "cells": 0,
+   "achieved_margin": "7641/204244",
+   "plan_hash": "d0d52a5fa79a21bd"
+  },
+  {
+   "state": "NHswap",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 2,
+   "m": "11/200",
+   "status": "infeasible",
+   "seconds": 0.14,
+   "iters": 1,
+   "cells": 10
+  },
+  {
+   "state": "NHswap",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 2,
+   "m": "9/200",
+   "status": "infeasible",
+   "seconds": 0.13,
+   "iters": 1,
+   "cells": 10
+  },
+  {
+   "state": "NHswap",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 2,
+   "m": "1/25",
+   "status": "infeasible",
+   "seconds": 0.12,
+   "iters": 1,
+   "cells": 10
+  }
+ ]
+}

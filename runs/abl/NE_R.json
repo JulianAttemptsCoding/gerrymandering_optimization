@@ -1,0 +1,38 @@
+{
+ "state": "NE",
+ "party": "R",
+ "eps": "1/100",
+ "contests": [
+  "PRE"
+ ],
+ "k": 3,
+ "q": {
+  "1": {
+   "geo_free_ub": "37/125",
+   "county_quotient_ub": "3/10",
+   "county_quotient_refined_ub": "3/10",
+   "cells_county": 93,
+   "cells_refined": 308,
+   "recom_lb": 0.28392426388942066,
+   "seconds": 60.1
+  },
+  "2": {
+   "geo_free_ub": "39/200",
+   "county_quotient_ub": "39/200",
+   "county_quotient_refined_ub": "39/200",
+   "cells_county": 93,
+   "cells_refined": 308,
+   "recom_lb": 0.16924196753791976,
+   "seconds": 238.8
+  },
+  "3": {
+   "geo_free_ub": "49/500",
+   "county_quotient_ub": "1/10",
+   "county_quotient_refined_ub": "1/10",
+   "cells_county": 93,
+   "cells_refined": 308,
+   "recom_lb": 0.0859880510573915,
+   "seconds": 247.2
+  }
+ }
+}

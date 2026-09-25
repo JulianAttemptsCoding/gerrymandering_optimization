@@ -1,0 +1,309 @@
+{
+ "state": "ME",
+ "party": "R",
+ "frac": 0.5,
+ "atoms": 284,
+ "cap": 1,
+ "spectrum": {
+  "regime": "feasible",
+  "1": {
+   "lo": 9,
+   "hi": 10,
+   "unknown": [],
+   "best_margin": "4247/94055",
+   "lo_m": "9/200",
+   "hi_m": "1/20"
+  },
+  "2": {
+   "lo": -1,
+   "hi": 0,
+   "unknown": [],
+   "best_margin": null,
+   "lo_m": null,
+   "hi_m": "0"
+  }
+ },
+ "records": [
+  {
+   "state": "ME@284",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 0,
+   "m": "0",
+   "status": "feasible",
+   "seconds": 0.01,
+   "iters": 0,
+   "cells": 0,
+   "plan_hash": "369614925bb76b35"
+  },
+  {
+   "state": "ME@284",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "heuristic",
+   "status": "heuristic",
+   "seconds": 10.04,
+   "iters": 0,
+   "cells": 0,
+   "achieved_margin": "1429/34086",
+   "plan_hash": "9dda062e4d1b1c7e"
+  },
+  {
+   "state": "ME@284",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "lns",
+   "status": "heuristic",
+   "seconds": 0.8,
+   "iters": 0,
+   "cells": 0,
+   "achieved_margin": "4247/94055",
+   "plan_hash": "ee394b46f1c1b074"
+  },
+  {
+   "state": "ME@284",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "11/40",
+   "status": "infeasible",
+   "seconds": 0.04,
+   "iters": 1,
+   "cells": 16,
+   "part_nodes": [
+    38,
+    77,
+    156,
+    175,
+    206,
+    259,
+    278,
+    295,
+    324,
+    381,
+    396,
+    409,
+    430,
+    453,
+    494,
+    551
+   ]
+  },
+  {
+   "state": "ME@284",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "4/25",
+   "status": "infeasible",
+   "seconds": 0.04,
+   "iters": 1,
+   "cells": 16,
+   "part_nodes": [
+    38,
+    77,
+    156,
+    175,
+    206,
+    259,
+    278,
+    295,
+    324,
+    381,
+    396,
+    409,
+    430,
+    453,
+    494,
+    551
+   ]
+  },
+  {
+   "state": "ME@284",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "1/10",
+   "status": "infeasible",
+   "seconds": 0.13,
+   "iters": 1,
+   "cells": 16,
+   "part_nodes": [
+    38,
+    77,
+    156,
+    175,
+    206,
+    259,
+    278,
+    295,
+    324,
+    381,
+    396,
+    409,
+    430,
+    453,
+    494,
+    551
+   ]
+  },
+  {
+   "state": "ME@284",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "7/100",
+   "status": "infeasible",
+   "seconds": 0.14,
+   "iters": 1,
+   "cells": 16,
+   "part_nodes": [
+    38,
+    77,
+    156,
+    175,
+    206,
+    259,
+    278,
+    295,
+    324,
+    381,
+    396,
+    409,
+    430,
+    453,
+    494,
+    551
+   ]
+  },
+  {
+   "state": "ME@284",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "11/200",
+   "status": "infeasible",
+   "seconds": 0.16,
+   "iters": 1,
+   "cells": 16,
+   "part_nodes": [
+    38,
+    77,
+    156,
+    175,
+    206,
+    259,
+    278,
+    295,
+    324,
+    381,
+    396,
+    409,
+    430,
+    453,
+    494,
+    551
+   ]
+  },
+  {
+   "state": "ME@284",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "1/20",
+   "status": "infeasible",
+   "seconds": 0.16,
+   "iters": 1,
+   "cells": 16,
+   "part_nodes": [
+    38,
+    77,
+    156,
+    175,
+    206,
+    259,
+    278,
+    295,
+    324,
+    381,
+    396,
+    409,
+    430,
+    453,
+    494,
+    551
+   ]
+  },
+  {
+   "state": "ME@284",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 2,
+   "m": "0",
+   "status": "infeasible",
+   "seconds": 0.1,
+   "iters": 1,
+   "cells": 16,
+   "part_nodes": [
+    38,
+    77,
+    156,
+    175,
+    206,
+    259,
+    278,
+    295,
+    324,
+    381,
+    396,
+    409,
+    430,
+    453,
+    494,
+    551
+   ]
+  }
+ ]
+}

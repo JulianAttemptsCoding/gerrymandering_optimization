@@ -1,0 +1,47 @@
+{
+ "state": "KS",
+ "party": "R",
+ "eps": "1/100",
+ "contests": [
+  "PRE"
+ ],
+ "k": 4,
+ "q": {
+  "1": {
+   "geo_free_ub": "151/500",
+   "county_quotient_ub": "31/100",
+   "county_quotient_refined_ub": "31/100",
+   "cells_county": 105,
+   "cells_refined": 394,
+   "recom_lb": 0.25238732932003355,
+   "seconds": 73.6
+  },
+  "2": {
+   "geo_free_ub": "227/1000",
+   "county_quotient_ub": "23/100",
+   "county_quotient_refined_ub": "23/100",
+   "cells_county": 105,
+   "cells_refined": 394,
+   "recom_lb": 0.1759399763952116,
+   "seconds": 404.6
+  },
+  "3": {
+   "geo_free_ub": "157/1000",
+   "county_quotient_ub": "4/25",
+   "county_quotient_refined_ub": "4/25",
+   "cells_county": 105,
+   "cells_refined": 394,
+   "recom_lb": 0.13364489955862296,
+   "seconds": 320.3
+  },
+  "4": {
+   "geo_free_ub": "3/40",
+   "county_quotient_ub": "3/40",
+   "county_quotient_refined_ub": "3/40",
+   "cells_county": 105,
+   "cells_refined": 394,
+   "recom_lb": 0.015233764977404331,
+   "seconds": 412.6
+  }
+ }
+}

@@ -1,0 +1,29 @@
+{
+ "state": "NH",
+ "party": "D",
+ "eps": "1/100",
+ "contests": [
+  "PRE"
+ ],
+ "k": 2,
+ "q": {
+  "1": {
+   "geo_free_ub": "31/250",
+   "county_quotient_ub": "1/8",
+   "county_quotient_refined_ub": "13/100",
+   "cells_county": 10,
+   "cells_refined": 40,
+   "recom_lb": 0.07002306529865585,
+   "seconds": 43.3
+  },
+  "2": {
+   "geo_free_ub": "19/500",
+   "county_quotient_ub": "1/25",
+   "county_quotient_refined_ub": "1/25",
+   "cells_county": 10,
+   "cells_refined": 40,
+   "recom_lb": 0.03748385204094762,
+   "seconds": 43.1
+  }
+ }
+}

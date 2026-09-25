@@ -1,0 +1,63 @@
+{
+ "job": "RI_R_cap1_eps0.0200_PRE_eps2",
+ "seconds": 120.8,
+ "spectrum": {
+  "regime": "feasible",
+  "1": {
+   "lo": -1,
+   "hi": 0,
+   "unknown": [],
+   "best_margin": null,
+   "lo_m": null,
+   "hi_m": "0"
+  },
+  "2": {
+   "lo": -1,
+   "hi": 0,
+   "unknown": [],
+   "best_margin": null,
+   "lo_m": null,
+   "hi_m": "0"
+  }
+ },
+ "records": [
+  {
+   "state": "RI",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/50",
+   "contests": [
+    "PRE"
+   ],
+   "q": 0,
+   "m": "0",
+   "status": "feasible",
+   "seconds": 0.63,
+   "iters": 0,
+   "cells": 0,
+   "plan_hash": "aedd155d8d03487b"
+  },
+  {
+   "state": "RI",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/50",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "0",
+   "status": "infeasible",
+   "seconds": 0.01,
+   "iters": 1,
+   "cells": 5,
+   "part_nodes": [
+    32,
+    171,
+    236,
+    753,
+    840
+   ]
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "job": "NE_R_cap2_eps0.0100_PRE_main",
+ "seconds": 300.6,
+ "spectrum": {
+  "regime": "unknown"
+ },
+ "records": [
+  {
+   "state": "NE",
+   "party": "R",
+   "cap": 2,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 0,
+   "m": "0",
+   "status": "unknown",
+   "seconds": 300.65,
+   "iters": 8,
+   "cells": 195,
+   "plan_hash": null
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+  [NHswap D cap=1] regime existence (q=0): feasible (0.6s)
+  [NHswap D cap=1 q=1] m=0.000: infeasible (0.08s, 1 it, 10 cells)
+  => q=1: sigma* in [none, 0) unknown=[]
+  => q=2: sigma* in [none, 0) unknown=[]
+  [NHswap R cap=1] regime existence (q=0): feasible (0.0s)
+  [NHswap R cap=1 q=1] ReCom LB: margin 0.0647 (40s)
+  [NHswap R cap=1 q=1] LNS: margin 0.0677 (0s)
+  [NHswap R cap=1 q=1] m=0.285: infeasible (0.03s, 1 it, 10 cells)
+  [NHswap R cap=1 q=1] m=0.175: infeasible (0.04s, 1 it, 10 cells)
+  [NHswap R cap=1 q=1] m=0.120: infeasible (0.12s, 1 it, 10 cells)
+  [NHswap R cap=1 q=1] m=0.090: infeasible (0.13s, 1 it, 10 cells)
+  [NHswap R cap=1 q=1] m=0.075: infeasible (0.16s, 1 it, 10 cells)
+  [NHswap R cap=1 q=1] m=0.070: feasible (0.95s, 2 it, 10 cells) achieved=0.0702
+  => q=1: sigma* in [0.0701980200661045, 3/40) unknown=[]
+  [NHswap R cap=1 q=2] ReCom LB: margin 0.0374 (40s)
+  [NHswap R cap=1 q=2] m=0.055: infeasible (0.14s, 1 it, 10 cells)
+  [NHswap R cap=1 q=2] m=0.045: infeasible (0.13s, 1 it, 10 cells)
+  [NHswap R cap=1 q=2] m=0.040: infeasible (0.12s, 1 it, 10 cells)
+  => q=2: sigma* in [0.037411135700436735, 1/25) unknown=[]
+done

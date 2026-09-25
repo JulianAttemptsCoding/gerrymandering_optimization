@@ -1,0 +1,56 @@
+{
+ "job": "WV_D_cap1_eps0.0100_PRE_main",
+ "seconds": 120.7,
+ "spectrum": {
+  "regime": "feasible",
+  "1": {
+   "lo": -1,
+   "hi": 0,
+   "unknown": [],
+   "best_margin": null,
+   "lo_m": null,
+   "hi_m": "0"
+  },
+  "2": {
+   "lo": -1,
+   "hi": 0,
+   "unknown": [],
+   "best_margin": null,
+   "lo_m": null,
+   "hi_m": "0"
+  }
+ },
+ "records": [
+  {
+   "state": "WV",
+   "party": "D",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 0,
+   "m": "0",
+   "status": "feasible",
+   "seconds": 0.33,
+   "iters": 0,
+   "cells": 0,
+   "plan_hash": "6d3029b234b15e86"
+  },
+  {
+   "state": "WV",
+   "party": "D",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "0",
+   "status": "infeasible",
+   "seconds": 0.1,
+   "iters": 1,
+   "cells": 55
+  }
+ ]
+}

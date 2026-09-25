@@ -1,0 +1,231 @@
+== iter1 ==
+[C0] plans enumerated: 4006  -> PASS
+{
+  "meta": {
+    "V0": 0.47319999999999995,
+    "thetas": [
+      -0.08,
+      -0.075,
+      -0.07,
+      -0.065,
+      -0.06,
+      -0.055,
+      -0.05,
+      -0.045,
+      -0.04,
+      -0.035,
+      -0.03,
+      -0.025,
+      -0.02,
+      -0.015,
+      -0.01,
+      -0.005,
+      0.0,
+      0.005,
+      0.01,
+      0.015,
+      0.02,
+      0.025,
+      0.03,
+      0.035,
+      0.04,
+      0.045,
+      0.05,
+      0.055,
+      0.06,
+      0.065,
+      0.07,
+      0.075,
+      0.08
+    ],
+    "sigma_d": 0.03
+  },
+  "C0_enumeration_count": 4006,
+  "ensembles": {
+    "deterministic": {
+      "uniform": {
+        "C1_argmaxGamma_is_argmaxMeanSeats": true,
+        "C3_C_in_[0,1]": true,
+        "Gmin": 0.056038144407625994,
+        "Gmin_plan": 811,
+        "Gmax": 0.1594086252328783,
+        "Gmax_plan": 2019,
+        "Gmax_plan_Gamma": -0.08418281668406025,
+        "Gmax_plan_C": 0.5280944902515688,
+        "Gmax_plan_slope_seatshare_per_vote": 2.3128342245989293,
+        "ensemble_mean_slope": 2.173627927093329,
+        "D_plus": 0.07339294089169733,
+        "D_minus": -0.10842524092648449,
+        "W=D+ - D-": 0.18181818181818182,
+        "A=D+ + D-": -0.03503230003478716,
+        "L_int_monotone": 0.05603814440762599,
+        "L_int_pointwise": 0.05603814440762599,
+        "Gmin_over_L_int": 1.0000000000000002,
+        "n_plans_at_Gmin": 27
+      },
+      "spanning_tree(ReCom/SMC-like)": {
+        "C1_argmaxGamma_is_argmaxMeanSeats": true,
+        "C3_C_in_[0,1]": true,
+        "Gmin": 0.06351995558427144,
+        "Gmin_plan": 1425,
+        "Gmax": 0.15325616402228112,
+        "Gmax_plan": 432,
+        "Gmax_plan_Gamma": 0.0958621308803629,
+        "Gmax_plan_C": 0.6255026118650993,
+        "Gmax_plan_slope_seatshare_per_vote": 3.502673796791444,
+        "ensemble_mean_slope": 2.035451267189577,
+        "D_plus": 0.10192273694096896,
+        "D_minus": -0.07989544487721285,
+        "W=D+ - D-": 0.18181818181818182,
+        "A=D+ + D-": 0.0220272920637561,
+        "L_int_monotone": 0.06341724090158052,
+        "L_int_pointwise": 0.06341724090158052,
+        "Gmin_over_L_int": 1.0016196649559437,
+        "n_plans_at_Gmin": 7
+      },
+      "cut_edge_tilt(beta=1)": {
+        "C1_argmaxGamma_is_argmaxMeanSeats": true,
+        "C3_C_in_[0,1]": true,
+        "Gmin": 0.06360556060560311,
+        "Gmin_plan": 670,
+        "Gmax": 0.14485299658446474,
+        "Gmax_plan": 432,
+        "Gmax_plan_Gamma": 0.08775171593581059,
+        "Gmax_plan_C": 0.6057984163595952,
+        "Gmax_plan_slope_seatshare_per_vote": 3.502673796791444,
+        "ensemble_mean_slope": 2.0668494253551937,
+        "D_plus": 0.09381232199641665,
+        "D_minus": -0.08800585982176516,
+        "W=D+ - D-": 0.18181818181818182,
+        "A=D+ + D-": 0.005806462174651486,
+        "L_int_monotone": 0.06360556060560311,
+        "L_int_pointwise": 0.06360556060560311,
+        "Gmin_over_L_int": 1.0,
+        "n_plans_at_Gmin": 27
+      },
+      "C2_envelope_width_ensemble_free": true,
+      "C6_spearman_G": {
+        "uniform vs spanning_tree(ReCom/SMC-like)": 0.5644085772701388,
+        "uniform vs cut_edge_tilt(beta=1)": 0.7594484509584244,
+        "spanning_tree(ReCom/SMC-like) vs cut_edge_tilt(beta=1)": 0.9612391404433753
+      },
+      "C6_argmin_plans": {
+        "uniform": 811,
+        "spanning_tree(ReCom/SMC-like)": 1425,
+        "cut_edge_tilt(beta=1)": 670
+      },
+      "C6_argmin_same_across_ensembles": false
+    },
+    "probabilistic": {
+      "uniform": {
+        "C1_argmaxGamma_is_argmaxMeanSeats": true,
+        "C3_C_in_[0,1]": true,
+        "Gmin": 0.008419419338861422,
+        "Gmin_plan": 2945,
+        "Gmax": 0.1024563516544232,
+        "Gmax_plan": 2026,
+        "Gmax_plan_Gamma": -0.08941485122258876,
+        "Gmax_plan_C": 0.8727116452884996,
+        "Gmax_plan_slope_seatshare_per_vote": 1.9874516027270845,
+        "ensemble_mean_slope": 2.3405747468191715,
+        "D_plus": 0.057047282892271026,
+        "D_minus": -0.08995138675081077,
+        "W=D+ - D-": 0.14699866964308178,
+        "A=D+ + D-": -0.03290410385853974,
+        "L_int_monotone": null,
+        "L_int_pointwise": null,
+        "Gmin_over_L_int": null,
+        "n_plans_at_Gmin": 2
+      },
+      "spanning_tree(ReCom/SMC-like)": {
+        "C1_argmaxGamma_is_argmaxMeanSeats": true,
+        "C3_C_in_[0,1]": true,
+        "Gmin": 0.014220074605011474,
+        "Gmin_plan": 584,
+        "Gmax": 0.11143577883899215,
+        "Gmax_plan": 3591,
+        "Gmax_plan_Gamma": 0.08113273800692122,
+        "Gmax_plan_C": 0.72806722268389,
+        "Gmax_plan_slope_seatshare_per_vote": 3.362840526585517,
+        "ensemble_mean_slope": 2.2438598047125997,
+        "D_plus": 0.08113273800692122,
+        "D_minus": -0.06586593163616056,
+        "W=D+ - D-": 0.14699866964308178,
+        "A=D+ + D-": 0.015266806370760666,
+        "L_int_monotone": null,
+        "L_int_pointwise": null,
+        "Gmin_over_L_int": null,
+        "n_plans_at_Gmin": 1
+      },
+      "cut_edge_tilt(beta=1)": {
+        "C1_argmaxGamma_is_argmaxMeanSeats": true,
+        "C3_C_in_[0,1]": true,
+        "Gmin": 0.013125118447773752,
+        "Gmin_plan": 2536,
+        "Gmax": 0.10423604041974058,
+        "Gmax_plan": 3591,
+        "Gmax_plan_Gamma": 0.07434210725509033,
+        "Gmax_plan_C": 0.7132092408319375,
+        "Gmax_plan_slope_seatshare_per_vote": 3.362840526585517,
+        "ensemble_mean_slope": 2.2653399408841044,
+        "D_plus": 0.07434210725509033,
+        "D_minus": -0.07265656238799145,
+        "W=D+ - D-": 0.14699866964308178,
+        "A=D+ + D-": 0.001685544867098876,
+        "L_int_monotone": null,
+        "L_int_pointwise": null,
+        "Gmin_over_L_int": null,
+        "n_plans_at_Gmin": 1
+      },
+      "C2_envelope_width_ensemble_free": true,
+      "C6_spearman_G": {
+        "uniform vs spanning_tree(ReCom/SMC-like)": 0.5516289818805329,
+        "uniform vs cut_edge_tilt(beta=1)": 0.7238483642065398,
+        "spanning_tree(ReCom/SMC-like) vs cut_edge_tilt(beta=1)": 0.9693831768005186
+      },
+      "C6_argmin_plans": {
+        "uniform": 2945,
+        "spanning_tree(ReCom/SMC-like)": 584,
+        "cut_edge_tilt(beta=1)": 2536
+      },
+      "C6_argmin_same_across_ensembles": false
+    }
+  },
+  "C7_insample_optimism": {
+    "mean": 0.0008726916257686113,
+    "sd": 0.0023856174010107437,
+    "frac_positive": 0.6566666666666666
+  },
+  "C8": {
+    "m=0.0": {
+      "exact": 2,
+      "rows_relax": 4,
+      "int_nocontig": 4,
+      "frac_nocontig": 4,
+      "hierarchy_valid": true
+    },
+    "m=0.02": {
+      "exact": 2,
+      "rows_relax": 3,
+      "int_nocontig": 3,
+      "frac_nocontig": 3,
+      "hierarchy_valid": true
+    },
+    "m=0.05": {
+      "exact": 2,
+      "rows_relax": 2,
+      "int_nocontig": 2,
+      "frac_nocontig": 2,
+      "hierarchy_valid": true
+    },
+    "m=0.08": {
+      "exact": 2,
+      "rows_relax": 2,
+      "int_nocontig": 2,
+      "frac_nocontig": 2,
+      "hierarchy_valid": true
+    }
+  },
+  "runtime_sec": 6.1
+}
+== iter2 ==

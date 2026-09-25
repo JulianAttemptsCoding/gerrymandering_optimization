@@ -1,0 +1,298 @@
+{
+ "job": "UT_R_cap3_eps0.0100_PRE_main",
+ "seconds": 728.0,
+ "spectrum": {
+  "regime": "feasible",
+  "1": {
+   "lo": 55,
+   "hi": 66,
+   "unknown": [
+    60
+   ],
+   "best_margin": "1359/4912",
+   "lo_m": "11/40",
+   "hi_m": "33/100"
+  },
+  "2": {
+   "lo": 43,
+   "hi": 54,
+   "unknown": [
+    48
+   ],
+   "best_margin": "39088/178775",
+   "lo_m": "43/200",
+   "hi_m": "27/100"
+  },
+  "3": {
+   "lo": 36,
+   "hi": 40,
+   "unknown": [
+    38
+   ],
+   "best_margin": "33227/183936",
+   "lo_m": "9/50",
+   "hi_m": "1/5"
+  },
+  "4": {
+   "lo": 16,
+   "hi": 22,
+   "unknown": [
+    19
+   ],
+   "best_margin": "63611/776646",
+   "lo_m": "2/25",
+   "hi_m": "11/100"
+  }
+ },
+ "records": [
+  {
+   "state": "UT",
+   "party": "R",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 0,
+   "m": "0",
+   "status": "feasible",
+   "seconds": 0.98,
+   "iters": 0,
+   "cells": 0,
+   "plan_hash": "ed72507f3429b0cd"
+  },
+  {
+   "state": "UT",
+   "party": "R",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "heuristic",
+   "status": "heuristic",
+   "seconds": 60.16,
+   "iters": 0,
+   "cells": 0,
+   "achieved_margin": "1359/4912",
+   "plan_hash": "47eeefaa7394465b"
+  },
+  {
+   "state": "UT",
+   "party": "R",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "39/100",
+   "status": "infeasible",
+   "seconds": 0.04,
+   "iters": 1,
+   "cells": 29
+  },
+  {
+   "state": "UT",
+   "party": "R",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "33/100",
+   "status": "infeasible",
+   "seconds": 0.11,
+   "iters": 1,
+   "cells": 29
+  },
+  {
+   "state": "UT",
+   "party": "R",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "3/10",
+   "status": "unknown",
+   "seconds": 90.28,
+   "iters": 1,
+   "cells": 29
+  },
+  {
+   "state": "UT",
+   "party": "R",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 2,
+   "m": "heuristic",
+   "status": "heuristic",
+   "seconds": 60.36,
+   "iters": 0,
+   "cells": 0,
+   "achieved_margin": "39088/178775",
+   "plan_hash": "20a31506b0a2a3ba"
+  },
+  {
+   "state": "UT",
+   "party": "R",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 2,
+   "m": "27/100",
+   "status": "infeasible",
+   "seconds": 0.34,
+   "iters": 1,
+   "cells": 29
+  },
+  {
+   "state": "UT",
+   "party": "R",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 2,
+   "m": "6/25",
+   "status": "unknown",
+   "seconds": 90.33,
+   "iters": 1,
+   "cells": 29
+  },
+  {
+   "state": "UT",
+   "party": "R",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 3,
+   "m": "heuristic",
+   "status": "heuristic",
+   "seconds": 60.25,
+   "iters": 0,
+   "cells": 0,
+   "achieved_margin": "33227/183936",
+   "plan_hash": "49d5a47d058683bf"
+  },
+  {
+   "state": "UT",
+   "party": "R",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 3,
+   "m": "9/40",
+   "status": "infeasible",
+   "seconds": 0.45,
+   "iters": 1,
+   "cells": 29
+  },
+  {
+   "state": "UT",
+   "party": "R",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 3,
+   "m": "1/5",
+   "status": "infeasible",
+   "seconds": 0.73,
+   "iters": 1,
+   "cells": 29
+  },
+  {
+   "state": "UT",
+   "party": "R",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 3,
+   "m": "19/100",
+   "status": "unknown",
+   "seconds": 90.28,
+   "iters": 1,
+   "cells": 29
+  },
+  {
+   "state": "UT",
+   "party": "R",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 4,
+   "m": "heuristic",
+   "status": "heuristic",
+   "seconds": 60.23,
+   "iters": 0,
+   "cells": 0,
+   "achieved_margin": "63611/776646",
+   "plan_hash": "55144897a885d1e0"
+  },
+  {
+   "state": "UT",
+   "party": "R",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 4,
+   "m": "7/50",
+   "status": "infeasible",
+   "seconds": 0.74,
+   "iters": 1,
+   "cells": 29
+  },
+  {
+   "state": "UT",
+   "party": "R",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 4,
+   "m": "11/100",
+   "status": "infeasible",
+   "seconds": 0.69,
+   "iters": 1,
+   "cells": 29
+  },
+  {
+   "state": "UT",
+   "party": "R",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 4,
+   "m": "19/200",
+   "status": "unknown",
+   "seconds": 90.47,
+   "iters": 1,
+   "cells": 29
+  }
+ ]
+}

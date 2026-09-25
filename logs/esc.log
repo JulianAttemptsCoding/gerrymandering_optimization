@@ -1,0 +1,33 @@
+22 jobs: [('AR', 'D'), ('AR', 'R'), ('CT', 'D'), ('CT', 'R'), ('IA', 'D'), ('IA', 'R'), ('KS', 'D'), ('KS', 'R'), ('MS', 'D'), ('MS', 'R'), ('MT', 'D'), ('MT', 'R'), ('NE', 'D'), ('NE', 'R'), ('NM', 'D'), ('NM', 'R'), ('NV', 'D'), ('NV', 'R'), ('OK', 'D'), ('OK', 'R'), ('UT', 'D'), ('UT', 'R')]
+  [AR R cap=3] regime existence (q=0): feasible (0.9s)
+  [AR D cap=3] regime existence (q=0): feasible (0.9s)
+  [AR D cap=3 q=1] m=0.105: unknown (240.88s, 1 it, 76 cells)
+  [AR R cap=3 q=1] m=0.305: unknown (240.95s, 1 it, 76 cells)
+  [AR D cap=3 q=1] m=0.135: infeasible (1.18s, 1 it, 76 cells)
+  [AR R cap=3 q=1] m=0.315: infeasible (11.8s, 1 it, 76 cells)
+  [AR D cap=3 q=1] m=0.095: unknown (241.18s, 1 it, 76 cells)
+  [AR R cap=3 q=1] m=0.310: unknown (241.11s, 1 it, 76 cells)
+  [AR D cap=3 q=1] m=0.075: unknown (241.59s, 1 it, 76 cells)
+  => q=1: sigma* in [0.055991315200109415, 27/200) unknown=[21, 19, 15]
+  [AR R cap=3 q=1] m=0.300: unknown (242.11s, 3 it, 128 cells)
+  => q=1: sigma* in [0.29861142860875073, 63/200) unknown=[61, 62, 60]
+  [AR D cap=3 q=2] m=0.000: unknown (241.13s, 1 it, 76 cells)
+  => q=2: sigma* in [none, 27/200) unknown=[0]
+  => q=3: sigma* in [none, 0) unknown=[]
+  => q=4: sigma* in [none, 0) unknown=[]
+DONE ('AR', 'D') rc 0
+  [CT D cap=4] regime existence (q=0): feasible (1.3s)
+  [AR R cap=3 q=2] m=0.275: unknown (241.18s, 1 it, 76 cells)
+  [AR R cap=3 q=2] m=0.295: infeasible (11.2s, 1 it, 76 cells)
+  [CT D cap=4 q=1] m=0.270: unknown (242.22s, 4 it, 261 cells)
+  [AR R cap=3 q=2] m=0.265: unknown (241.07s, 1 it, 76 cells)
+  [CT D cap=4 q=1] m=0.305: unknown (241.53s, 4 it, 199 cells)
+  [AR R cap=3 q=2] m=0.255: unknown (240.95s, 1 it, 76 cells)
+  => q=2: sigma* in [0.2436378475203239, 59/200) unknown=[55, 53, 51]
+  [CT D cap=4 q=1] m=0.235: unknown (241.64s, 4 it, 187 cells)
+  => q=1: sigma* in [0.20115705735090417, 17/50) unknown=[54, 61, 47]
+  [AR R cap=3 q=3] m=0.220: unknown (241.04s, 1 it, 76 cells)
+  [AR R cap=3 q=3] m=0.235: infeasible (7.74s, 1 it, 76 cells)
+  [CT D cap=4 q=2] m=0.215: unknown (241.24s, 3 it, 141 cells)
+  [CT D cap=4 q=2] m=0.235: infeasible (0.24s, 1 it, 8 cells)
+  [AR R cap=3 q=3] m=0.215: unknown (241.08s, 1 it, 76 cells)

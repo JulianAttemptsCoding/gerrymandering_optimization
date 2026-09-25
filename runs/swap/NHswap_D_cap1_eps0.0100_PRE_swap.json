@@ -1,0 +1,56 @@
+{
+ "job": "NHswap_D_cap1_eps0.0100_PRE_swap",
+ "seconds": 80.8,
+ "spectrum": {
+  "regime": "feasible",
+  "1": {
+   "lo": -1,
+   "hi": 0,
+   "unknown": [],
+   "best_margin": null,
+   "lo_m": null,
+   "hi_m": "0"
+  },
+  "2": {
+   "lo": -1,
+   "hi": 0,
+   "unknown": [],
+   "best_margin": null,
+   "lo_m": null,
+   "hi_m": "0"
+  }
+ },
+ "records": [
+  {
+   "state": "NHswap",
+   "party": "D",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 0,
+   "m": "0",
+   "status": "feasible",
+   "seconds": 0.63,
+   "iters": 0,
+   "cells": 0,
+   "plan_hash": "493c8b9c370f0dfa"
+  },
+  {
+   "state": "NHswap",
+   "party": "D",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "0",
+   "status": "infeasible",
+   "seconds": 0.08,
+   "iters": 1,
+   "cells": 10
+  }
+ ]
+}

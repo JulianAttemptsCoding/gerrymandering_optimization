@@ -1,0 +1,439 @@
+{
+ "job": "ME_D_cap1_eps0.0200_PRE_eps2",
+ "seconds": 242.6,
+ "spectrum": {
+  "regime": "feasible",
+  "1": {
+   "lo": 26,
+   "hi": 27,
+   "unknown": [],
+   "best_margin": "108959/830234",
+   "lo_m": "13/100",
+   "hi_m": "27/200"
+  },
+  "2": {
+   "lo": 9,
+   "hi": 10,
+   "unknown": [],
+   "best_margin": "37791/812066",
+   "lo_m": "9/200",
+   "hi_m": "1/20"
+  }
+ },
+ "records": [
+  {
+   "state": "ME",
+   "party": "D",
+   "cap": 1,
+   "eps": "1/50",
+   "contests": [
+    "PRE"
+   ],
+   "q": 0,
+   "m": "0",
+   "status": "feasible",
+   "seconds": 0.57,
+   "iters": 0,
+   "cells": 0,
+   "plan_hash": "6b20b6a6e0256fc4"
+  },
+  {
+   "state": "ME",
+   "party": "D",
+   "cap": 1,
+   "eps": "1/50",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "heuristic",
+   "status": "heuristic",
+   "seconds": 60.06,
+   "iters": 0,
+   "cells": 0,
+   "achieved_margin": "13008/103435",
+   "plan_hash": "7bb1cddd7bf0d5a5"
+  },
+  {
+   "state": "ME",
+   "party": "D",
+   "cap": 1,
+   "eps": "1/50",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "lns",
+   "status": "heuristic",
+   "seconds": 0.62,
+   "iters": 0,
+   "cells": 0,
+   "achieved_margin": "108323/843122",
+   "plan_hash": "9fbf8ce5331b54b7"
+  },
+  {
+   "state": "ME",
+   "party": "D",
+   "cap": 1,
+   "eps": "1/50",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "lns",
+   "status": "heuristic",
+   "seconds": 0.87,
+   "iters": 0,
+   "cells": 0,
+   "achieved_margin": "108959/830234",
+   "plan_hash": "d31cee21eb6a6a67"
+  },
+  {
+   "state": "ME",
+   "party": "D",
+   "cap": 1,
+   "eps": "1/50",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "63/200",
+   "status": "infeasible",
+   "seconds": 0.03,
+   "iters": 1,
+   "cells": 16,
+   "part_nodes": [
+    38,
+    187,
+    272,
+    323,
+    412,
+    475,
+    512,
+    549,
+    626,
+    767,
+    808,
+    829,
+    902,
+    957,
+    1056,
+    1117
+   ]
+  },
+  {
+   "state": "ME",
+   "party": "D",
+   "cap": 1,
+   "eps": "1/50",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "11/50",
+   "status": "infeasible",
+   "seconds": 0.06,
+   "iters": 1,
+   "cells": 16,
+   "part_nodes": [
+    38,
+    187,
+    272,
+    323,
+    412,
+    475,
+    512,
+    549,
+    626,
+    767,
+    808,
+    829,
+    902,
+    957,
+    1056,
+    1117
+   ]
+  },
+  {
+   "state": "ME",
+   "party": "D",
+   "cap": 1,
+   "eps": "1/50",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "7/40",
+   "status": "infeasible",
+   "seconds": 0.11,
+   "iters": 1,
+   "cells": 16,
+   "part_nodes": [
+    38,
+    187,
+    272,
+    323,
+    412,
+    475,
+    512,
+    549,
+    626,
+    767,
+    808,
+    829,
+    902,
+    957,
+    1056,
+    1117
+   ]
+  },
+  {
+   "state": "ME",
+   "party": "D",
+   "cap": 1,
+   "eps": "1/50",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "3/20",
+   "status": "infeasible",
+   "seconds": 0.13,
+   "iters": 1,
+   "cells": 16,
+   "part_nodes": [
+    38,
+    187,
+    272,
+    323,
+    412,
+    475,
+    512,
+    549,
+    626,
+    767,
+    808,
+    829,
+    902,
+    957,
+    1056,
+    1117
+   ]
+  },
+  {
+   "state": "ME",
+   "party": "D",
+   "cap": 1,
+   "eps": "1/50",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "7/50",
+   "status": "infeasible",
+   "seconds": 0.13,
+   "iters": 1,
+   "cells": 16,
+   "part_nodes": [
+    38,
+    187,
+    272,
+    323,
+    412,
+    475,
+    512,
+    549,
+    626,
+    767,
+    808,
+    829,
+    902,
+    957,
+    1056,
+    1117
+   ]
+  },
+  {
+   "state": "ME",
+   "party": "D",
+   "cap": 1,
+   "eps": "1/50",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "27/200",
+   "status": "infeasible",
+   "seconds": 0.16,
+   "iters": 1,
+   "cells": 16,
+   "part_nodes": [
+    38,
+    187,
+    272,
+    323,
+    412,
+    475,
+    512,
+    549,
+    626,
+    767,
+    808,
+    829,
+    902,
+    957,
+    1056,
+    1117
+   ]
+  },
+  {
+   "state": "ME",
+   "party": "D",
+   "cap": 1,
+   "eps": "1/50",
+   "contests": [
+    "PRE"
+   ],
+   "q": 2,
+   "m": "heuristic",
+   "status": "heuristic",
+   "seconds": 60.06,
+   "iters": 0,
+   "cells": 0,
+   "achieved_margin": "37791/812066",
+   "plan_hash": "b213ce59952cf42c"
+  },
+  {
+   "state": "ME",
+   "party": "D",
+   "cap": 1,
+   "eps": "1/50",
+   "contests": [
+    "PRE"
+   ],
+   "q": 2,
+   "m": "9/100",
+   "status": "infeasible",
+   "seconds": 0.1,
+   "iters": 1,
+   "cells": 16,
+   "part_nodes": [
+    38,
+    187,
+    272,
+    323,
+    412,
+    475,
+    512,
+    549,
+    626,
+    767,
+    808,
+    829,
+    902,
+    957,
+    1056,
+    1117
+   ]
+  },
+  {
+   "state": "ME",
+   "party": "D",
+   "cap": 1,
+   "eps": "1/50",
+   "contests": [
+    "PRE"
+   ],
+   "q": 2,
+   "m": "13/200",
+   "status": "infeasible",
+   "seconds": 0.11,
+   "iters": 1,
+   "cells": 16,
+   "part_nodes": [
+    38,
+    187,
+    272,
+    323,
+    412,
+    475,
+    512,
+    549,
+    626,
+    767,
+    808,
+    829,
+    902,
+    957,
+    1056,
+    1117
+   ]
+  },
+  {
+   "state": "ME",
+   "party": "D",
+   "cap": 1,
+   "eps": "1/50",
+   "contests": [
+    "PRE"
+   ],
+   "q": 2,
+   "m": "11/200",
+   "status": "infeasible",
+   "seconds": 0.09,
+   "iters": 1,
+   "cells": 16,
+   "part_nodes": [
+    38,
+    187,
+    272,
+    323,
+    412,
+    475,
+    512,
+    549,
+    626,
+    767,
+    808,
+    829,
+    902,
+    957,
+    1056,
+    1117
+   ]
+  },
+  {
+   "state": "ME",
+   "party": "D",
+   "cap": 1,
+   "eps": "1/50",
+   "contests": [
+    "PRE"
+   ],
+   "q": 2,
+   "m": "1/20",
+   "status": "infeasible",
+   "seconds": 0.1,
+   "iters": 1,
+   "cells": 16,
+   "part_nodes": [
+    38,
+    187,
+    272,
+    323,
+    412,
+    475,
+    512,
+    549,
+    626,
+    767,
+    808,
+    829,
+    902,
+    957,
+    1056,
+    1117
+   ]
+  }
+ ]
+}

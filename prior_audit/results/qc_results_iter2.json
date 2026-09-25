@@ -1,0 +1,54 @@
+{
+  "C5b": {
+    "max_G_among_plans_with_C<0.25": 0.11676052140402557,
+    "its_G_percentile": 0.9448327508736895,
+    "its_Gamma": -0.011455543956792083,
+    "its_C": 0.09811144913572756,
+    "its_slope_minus_ensemble_slope": 1.1953560301259345,
+    "share_of_top_decile_G_with_C<0.5": 0.5714285714285714,
+    "corr(G, |slope - slope_mu|)": 0.4559005555638426,
+    "corr(G, |Gamma|)": 0.692280822206736
+  },
+  "C8b": {
+    "m=0.0": {
+      "exact_enumeration": 2,
+      "exact_flowMILP": {
+        "status": 0,
+        "value": 2,
+        "returned_plan_contiguous_balanced": true
+      },
+      "relax_units=precincts_fracx": 2,
+      "relax_units=9blocks_fracx": 4,
+      "relax_units=5rows_fracx": 4,
+      "flowMILP_matches_enumeration": true,
+      "all_bounds_valid(>=exact)": true
+    },
+    "m=0.02": {
+      "exact_enumeration": 2,
+      "exact_flowMILP": {
+        "status": 0,
+        "value": 2,
+        "returned_plan_contiguous_balanced": true
+      },
+      "relax_units=precincts_fracx": 2,
+      "relax_units=9blocks_fracx": 3,
+      "relax_units=5rows_fracx": 3,
+      "flowMILP_matches_enumeration": true,
+      "all_bounds_valid(>=exact)": true
+    },
+    "m=0.05": {
+      "exact_enumeration": 2,
+      "exact_flowMILP": {
+        "status": 0,
+        "value": 2,
+        "returned_plan_contiguous_balanced": true
+      },
+      "relax_units=precincts_fracx": 2,
+      "relax_units=9blocks_fracx": 2,
+      "relax_units=5rows_fracx": 2,
+      "flowMILP_matches_enumeration": true,
+      "all_bounds_valid(>=exact)": true
+    }
+  },
+  "runtime_sec": 64.5
+}

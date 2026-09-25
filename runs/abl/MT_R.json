@@ -1,0 +1,29 @@
+{
+ "state": "MT",
+ "party": "R",
+ "eps": "1/100",
+ "contests": [
+  "PRE"
+ ],
+ "k": 2,
+ "q": {
+  "1": {
+   "geo_free_ub": "229/1000",
+   "county_quotient_ub": "23/100",
+   "county_quotient_refined_ub": "23/100",
+   "cells_county": 56,
+   "cells_refined": 192,
+   "recom_lb": 0.16649898673412192,
+   "seconds": 239.0
+  },
+  "2": {
+   "geo_free_ub": "21/250",
+   "county_quotient_ub": "17/200",
+   "county_quotient_refined_ub": "17/200",
+   "cells_county": 56,
+   "cells_refined": 192,
+   "recom_lb": 0.08394280852895386,
+   "seconds": 57.9
+  }
+ }
+}

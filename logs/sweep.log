@@ -1,0 +1,88 @@
+18 jobs, 18 to run
+  [NH D cap=2] regime existence (q=0): feasible (0.4s)
+  [NH R cap=2] regime existence (q=0): feasible (0.4s)
+  [NH D cap=2 q=1] ReCom LB: margin 0.0647 (60s)
+  [NH R cap=2 q=1] m=0.000: feasible (29.22s, 11 it, 126 cells) achieved=0.0001
+  [NH R cap=2 q=1] m=0.250: infeasible (0.05s, 1 it, 10 cells)
+  [NH R cap=2 q=1] m=0.125: infeasible (0.06s, 1 it, 10 cells)
+  [NH R cap=2 q=1] m=0.060: infeasible (0.07s, 1 it, 10 cells)
+  [NH R cap=2 q=1] m=0.030: infeasible (0.23s, 1 it, 10 cells)
+  [NH D cap=2 q=1] LNS: margin 0.0672 (31s)
+  [NH D cap=2 q=1] LNS: margin 0.0698 (46s)
+  [NH D cap=2 q=1] m=0.285: infeasible (0.05s, 1 it, 10 cells)
+  [NH D cap=2 q=1] m=0.175: infeasible (0.06s, 1 it, 10 cells)
+  [NH D cap=2 q=1] m=0.120: infeasible (0.16s, 1 it, 10 cells)
+  [NH R cap=2 q=1] m=0.015: unknown (120.69s, 4 it, 82 cells)
+  [NH R cap=2 q=1] m=0.025: infeasible (0.29s, 1 it, 10 cells)
+  [NH D cap=2 q=1] m=0.090: unknown (121.11s, 7 it, 103 cells)
+  [NH D cap=2 q=1] m=0.105: infeasible (0.17s, 1 it, 10 cells)
+  [NH R cap=2 q=1] m=0.010: unknown (120.67s, 9 it, 113 cells)
+  => q=1: sigma* in [0.00012668179882930345, 1/40) unknown=[3, 2]
+  [NH R cap=2 q=2] m=0.000: infeasible (0.05s, 1 it, 10 cells)
+  => q=2: sigma* in [none, 0) unknown=[]
+DONE ('NH', 'R', '2') ok 395s
+  [NH D cap=3] regime existence (q=0): feasible (0.6s)
+  [NH D cap=2 q=1] m=0.085: unknown (120.43s, 9 it, 125 cells)
+  => q=1: sigma* in [0.06978139303798138, 21/200) unknown=[18, 17]
+  [NH D cap=3 q=1] ReCom LB: margin 0.0647 (60s)
+  [NH D cap=2 q=2] ReCom LB: margin 0.0374 (60s)
+  [NH D cap=3 q=1] m=0.280: infeasible (0.02s, 1 it, 10 cells)
+  [NH D cap=3 q=1] m=0.170: infeasible (0.03s, 1 it, 10 cells)
+  [NH D cap=3 q=1] m=0.115: infeasible (0.1s, 1 it, 10 cells)
+  [NH D cap=2 q=2] m=0.070: infeasible (0.23s, 1 it, 10 cells)
+  [NH D cap=2 q=2] m=0.050: infeasible (0.18s, 1 it, 10 cells)
+  [NH D cap=2 q=2] m=0.040: infeasible (0.22s, 1 it, 10 cells)
+  => q=2: sigma* in [0.037411135700436735, 1/25) unknown=[]
+DONE ('NH', 'D', '2') ok 531s
+  [NH R cap=3] regime existence (q=0): feasible (1.4s)
+  [NH D cap=3 q=1] m=0.085: unknown (121.29s, 9 it, 160 cells)
+  [NH R cap=3 q=1] m=0.000: unknown (120.71s, 12 it, 206 cells)
+  => q=1: sigma* in [none, None) unknown=[0]
+  [NH D cap=3 q=1] m=0.100: unknown (120.91s, 6 it, 130 cells)
+  => q=1: sigma* in [0.06466605268960865, 23/200) unknown=[17, 20]
+  [NH R cap=3 q=2] m=0.000: infeasible (0.05s, 1 it, 10 cells)
+  => q=2: sigma* in [none, 0) unknown=[]
+DONE ('NH', 'R', '3') ok 777s
+  [NH D cap=4] regime existence (q=0): feasible (1.3s)
+  [NH D cap=3 q=2] ReCom LB: margin 0.0374 (60s)
+  [NH D cap=4 q=1] ReCom LB: margin 0.0647 (60s)
+  [NH D cap=3 q=2] m=0.075: infeasible (0.27s, 1 it, 10 cells)
+  [NH D cap=3 q=2] m=0.055: infeasible (0.28s, 1 it, 10 cells)
+  [NH D cap=3 q=2] m=0.045: infeasible (0.27s, 1 it, 10 cells)
+  [NH D cap=3 q=2] m=0.040: infeasible (0.24s, 1 it, 10 cells)
+  => q=2: sigma* in [0.037411135700436735, 1/25) unknown=[]
+DONE ('NH', 'D', '3') ok 882s
+  [NH R cap=4] regime existence (q=0): feasible (1.8s)
+  [NH D cap=4 q=1] m=0.280: infeasible (0.07s, 1 it, 10 cells)
+  [NH D cap=4 q=1] m=0.170: infeasible (0.12s, 1 it, 10 cells)
+  [NH D cap=4 q=1] m=0.115: infeasible (0.32s, 1 it, 10 cells)
+  [NH D cap=4 q=1] m=0.085: unknown (120.38s, 10 it, 193 cells)
+  [NH R cap=4 q=1] m=0.000: unknown (120.89s, 9 it, 207 cells)
+  => q=1: sigma* in [none, None) unknown=[0]
+  [NH R cap=4 q=2] m=0.000: infeasible (0.05s, 1 it, 10 cells)
+  => q=2: sigma* in [none, 0) unknown=[]
+DONE ('NH', 'R', '4') ok 1128s
+  [ME D cap=2] regime existence (q=0): feasible (0.6s)
+  [NH D cap=4 q=1] m=0.100: unknown (120.58s, 8 it, 182 cells)
+  => q=1: sigma* in [0.06466605268960865, 23/200) unknown=[17, 20]
+  [ME D cap=2 q=1] ReCom LB: margin 0.1256 (60s)
+  [ME D cap=2 q=1] LNS: margin 0.1282 (1s)
+  [ME D cap=2 q=1] LNS: margin 0.1307 (2s)
+  [ME D cap=2 q=1] LNS: margin 0.1333 (3s)
+  [ME D cap=2 q=1] LNS: margin 0.1360 (5s)
+  [ME D cap=2 q=1] LNS: margin 0.1386 (7s)
+  [NH D cap=4 q=2] ReCom LB: margin 0.0375 (60s)
+  [ME D cap=2 q=1] m=0.320: infeasible (0.03s, 1 it, 16 cells)
+  [ME D cap=2 q=1] m=0.225: infeasible (0.08s, 1 it, 16 cells)
+  [ME D cap=2 q=1] m=0.180: infeasible (0.08s, 1 it, 16 cells)
+  [ME D cap=2 q=1] m=0.155: infeasible (0.09s, 1 it, 16 cells)
+  [ME D cap=2 q=1] m=0.145: infeasible (0.12s, 1 it, 16 cells)
+  [ME D cap=2 q=1] m=0.140: infeasible (0.19s, 1 it, 16 cells)
+  => q=1: sigma* in [0.13857752338553675, 7/50) unknown=[]
+  [NH D cap=4 q=2] m=0.075: infeasible (0.08s, 1 it, 10 cells)
+  [NH D cap=4 q=2] m=0.055: infeasible (0.08s, 1 it, 10 cells)
+  [NH D cap=4 q=2] m=0.045: infeasible (0.09s, 1 it, 10 cells)
+  [NH D cap=4 q=2] m=0.040: infeasible (0.1s, 1 it, 10 cells)
+  => q=2: sigma* in [0.037475876909414285, 1/25) unknown=[]
+DONE ('NH', 'D', '4') ok 1264s
+  [ME R cap=2] regime existence (q=0): feasible (0.4s)

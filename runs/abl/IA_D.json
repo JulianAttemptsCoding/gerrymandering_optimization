@@ -1,0 +1,47 @@
+{
+ "state": "IA",
+ "party": "D",
+ "eps": "1/100",
+ "contests": [
+  "PRE"
+ ],
+ "k": 4,
+ "q": {
+  "1": {
+   "geo_free_ub": "179/1000",
+   "county_quotient_ub": "9/50",
+   "county_quotient_refined_ub": "9/50",
+   "cells_county": 99,
+   "cells_refined": 367,
+   "recom_lb": 0.10098816187032543,
+   "seconds": 217.4
+  },
+  "2": {
+   "geo_free_ub": "97/1000",
+   "county_quotient_ub": "1/10",
+   "county_quotient_refined_ub": "1/10",
+   "cells_county": 99,
+   "cells_refined": 367,
+   "recom_lb": 0.05118162311513477,
+   "seconds": 301.8
+  },
+  "3": {
+   "geo_free_ub": "29/1000",
+   "county_quotient_ub": "3/100",
+   "county_quotient_refined_ub": "3/100",
+   "cells_county": 99,
+   "cells_refined": 367,
+   "recom_lb": 0.0014602285060283757,
+   "seconds": 421.6
+  },
+  "4": {
+   "geo_free_ub": "0",
+   "county_quotient_ub": "0",
+   "county_quotient_refined_ub": "0",
+   "cells_county": 99,
+   "cells_refined": 367,
+   "recom_lb": -0.05661797736169456,
+   "seconds": 55.0
+  }
+ }
+}

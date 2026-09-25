@@ -1,0 +1,22 @@
+C:\Users\bubga.JULIAN-LAPTOPE2\miniforge3\Lib\site-packages\pyogrio\raw.py:200: RuntimeWarning: /vsizip/C:\Users\bubga.JULIAN-LAPTOPE2\OneDrive\Desktop\coding\gerrymandering_optimization\data\raw/ar_vest_2020.zip/ar_2020.shp contains polygon(s) with rings with invalid winding order. Autocorrecting them, but that shapefile should be corrected using ogr2ogr for example.
+  return ogr_read(
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\bubga.JULIAN-LAPTOPE2\OneDrive\Desktop\coding\gerrymandering_optimization\src\gf\data.py", line 240, in <module>
+    inst = build_state(st, force=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bubga.JULIAN-LAPTOPE2\OneDrive\Desktop\coding\gerrymandering_optimization\src\gf\data.py", line 191, in build_state
+    assert len(best) == n, "some precinct received no block"
+           ^^^^^^^^^^^^^^
+AssertionError: some precinct received no block
+NH n= 321 k= 2 pop= 1377529 edges= 864 PRE D/R 424937 365660 contests ['PRE', 'USS', 'GOV'] bridges 0
+ID n= 935 k= 2 pop= 1839106 edges= 2582 PRE D/R 287021 554119 contests ['PRE', 'USS'] bridges 0
+ME n= 567 k= 2 pop= 1362359 edges= 1545 PRE D/R 435070 360767 contests ['PRE', 'USS'] bridges 0
+MT n= 666 k= 2 pop= 1084225 edges= 1849 PRE D/R 244786 343602 contests ['PRE', 'USS', 'GOV', 'ATG', 'SOS', 'AUD', 'SPI'] bridges 0
+RI n= 423 k= 2 pop= 1097379 edges= 1152 PRE D/R 307486 199922 contests ['PRE', 'USS'] bridges 1
+WV n= 1671 k= 2 pop= 1793716 edges= 4651 PRE D/R 235984 545382 contests ['PRE', 'USS', 'GOV', 'SOS', 'AUD', 'TRE', 'AGR', 'ATG'] bridges 0
+NE n= 1386 k= 3 pop= 1961504 edges= 3711 PRE D/R 374583 556846 contests ['PRE', 'USS'] bridges 0
+NM n= 1917 k= 3 pop= 2117522 edges= 5291 PRE D/R 501614 401894 contests ['PRE', 'USS'] bridges 0
+AR n= 2591 k= 4 pop= 3011524 edges= 7141 PRE D/R 423932 760647 contests ['PRE', 'USS'] bridges 4
+IA n= 1661 k= 4 pop= 3190369 edges= 4290 PRE D/R 759061 897672 contests ['PRE', 'USS'] bridges 0

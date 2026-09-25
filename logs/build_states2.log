@@ -1,0 +1,6 @@
+KS n= 4062 k= 4 pop= 2937880 edges= 9841 PRE D/R 570323 771406 contests ['PRE', 'USS'] bridges 0
+MS n= 1764 k= 4 pop= 2961279 edges= 5038 PRE D/R 539398 756764 contests ['PRE', 'USS'] bridges 0
+NV n= 2094 k= 4 pop= 3104614 edges= 5280 PRE D/R 703486 669890 contests ['PRE'] bridges 0
+UT n= 2423 k= 4 pop= 3271616 edges= 6766 PRE D/R 560282 865139 contests ['PRE', 'GOV', 'ATG'] bridges 0
+CT n= 741 k= 5 pop= 3605944 edges= 2087 PRE D/R 1080831 714717 contests ['PRE'] bridges 0
+OK n= 1948 k= 5 pop= 3959353 edges= 5316 PRE D/R 503890 1020280 contests ['PRE', 'USS'] bridges 0

@@ -1,0 +1,23 @@
+2 jobs
+  [NE R cap=2] regime existence (q=0): feasible (0.4s)
+  [NE D cap=2] regime existence (q=0): feasible (0.4s)
+  [NE R cap=2 q=1] ReCom LB: margin 0.2829 (40s)
+  [NE D cap=2 q=1] ReCom LB: margin 0.0571 (40s)
+  [NE R cap=2 q=1] m=0.390: infeasible (0.16s, 1 it, 93 cells)
+  [NE D cap=2 q=1] m=0.280: infeasible (0.16s, 1 it, 93 cells)
+  [NE R cap=2 q=1] m=0.335: infeasible (0.82s, 1 it, 93 cells)
+  [NE D cap=2 q=1] m=0.165: infeasible (0.82s, 1 it, 93 cells)
+  [NE R cap=2 q=1] m=0.305: infeasible (0.88s, 1 it, 93 cells)
+  [NE R cap=2 q=1] m=0.290: infeasible (2.8s, 1 it, 93 cells)
+  [NE D cap=2 q=1] m=0.110: unknown (121.06s, 3 it, 153 cells)
+  [NE D cap=2 q=1] m=0.140: infeasible (1.23s, 1 it, 93 cells)
+  [NE R cap=2 q=1] m=0.285: unknown (120.76s, 1 it, 93 cells)
+  => q=1: sigma* in [0.2829035469700777, 29/100) unknown=[57]
+  [NE R cap=2 q=2] ReCom LB: margin 0.1678 (40s)
+  [NE R cap=2 q=2] m=0.225: infeasible (1.58s, 1 it, 93 cells)
+  [NE R cap=2 q=2] m=0.195: infeasible (1.83s, 1 it, 93 cells)
+  [NE D cap=2 q=1] m=0.095: unknown (121.08s, 3 it, 164 cells)
+  [NE R cap=2 q=2] m=0.180: unknown (120.95s, 2 it, 107 cells)
+  [NE D cap=2 q=1] m=0.075: unknown (121.26s, 3 it, 153 cells)
+  => q=1: sigma* in [0.05713960590095553, 7/50) unknown=[22, 19, 15]
+  [NE R cap=2 q=2] m=0.190: unknown (120.86s, 2 it, 107 cells)

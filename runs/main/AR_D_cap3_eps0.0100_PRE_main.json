@@ -1,0 +1,153 @@
+{
+ "job": "AR_D_cap3_eps0.0100_PRE_main",
+ "seconds": 457.4,
+ "spectrum": {
+  "regime": "feasible",
+  "1": {
+   "lo": 9,
+   "hi": 32,
+   "unknown": [
+    20
+   ],
+   "best_margin": "6744/143251",
+   "lo_m": "9/200",
+   "hi_m": "4/25"
+  },
+  "2": {
+   "lo": -1,
+   "hi": 32,
+   "unknown": [
+    0
+   ],
+   "best_margin": null,
+   "lo_m": null,
+   "hi_m": "4/25"
+  },
+  "3": {
+   "lo": -1,
+   "hi": 0,
+   "unknown": [],
+   "best_margin": null,
+   "lo_m": null,
+   "hi_m": "0"
+  },
+  "4": {
+   "lo": -1,
+   "hi": 0,
+   "unknown": [],
+   "best_margin": null,
+   "lo_m": null,
+   "hi_m": "0"
+  }
+ },
+ "records": [
+  {
+   "state": "AR",
+   "party": "D",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 0,
+   "m": "0",
+   "status": "feasible",
+   "seconds": 0.51,
+   "iters": 0,
+   "cells": 0,
+   "plan_hash": "1fa8ccc4d2feeb7f"
+  },
+  {
+   "state": "AR",
+   "party": "D",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "heuristic",
+   "status": "heuristic",
+   "seconds": 60.3,
+   "iters": 0,
+   "cells": 0,
+   "achieved_margin": "6744/143251",
+   "plan_hash": "17363dfe56a3ace7"
+  },
+  {
+   "state": "AR",
+   "party": "D",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "11/40",
+   "status": "infeasible",
+   "seconds": 0.51,
+   "iters": 1,
+   "cells": 76
+  },
+  {
+   "state": "AR",
+   "party": "D",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "4/25",
+   "status": "infeasible",
+   "seconds": 0.64,
+   "iters": 1,
+   "cells": 76
+  },
+  {
+   "state": "AR",
+   "party": "D",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "1/10",
+   "status": "unknown",
+   "seconds": 90.5,
+   "iters": 1,
+   "cells": 76
+  },
+  {
+   "state": "AR",
+   "party": "D",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 2,
+   "m": "0",
+   "status": "unknown",
+   "seconds": 90.69,
+   "iters": 1,
+   "cells": 76
+  },
+  {
+   "state": "AR",
+   "party": "D",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 3,
+   "m": "0",
+   "status": "infeasible",
+   "seconds": 2.07,
+   "iters": 1,
+   "cells": 76
+  }
+ ]
+}

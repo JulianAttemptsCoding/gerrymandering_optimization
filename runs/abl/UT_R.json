@@ -1,0 +1,47 @@
+{
+ "state": "UT",
+ "party": "R",
+ "eps": "1/100",
+ "contests": [
+  "PRE"
+ ],
+ "k": 4,
+ "q": {
+  "1": {
+   "geo_free_ub": "319/1000",
+   "county_quotient_ub": "13/40",
+   "county_quotient_refined_ub": "13/40",
+   "cells_county": 29,
+   "cells_refined": 113,
+   "recom_lb": 0.2747767757984985,
+   "seconds": 51.4
+  },
+  "2": {
+   "geo_free_ub": "129/500",
+   "county_quotient_ub": "13/50",
+   "county_quotient_refined_ub": "13/50",
+   "cells_county": 29,
+   "cells_refined": 113,
+   "recom_lb": 0.23353262282297896,
+   "seconds": 80.5
+  },
+  "3": {
+   "geo_free_ub": "1/5",
+   "county_quotient_ub": "41/200",
+   "county_quotient_refined_ub": "41/200",
+   "cells_county": 29,
+   "cells_refined": 113,
+   "recom_lb": 0.18995277782570935,
+   "seconds": 177.1
+  },
+  "4": {
+   "geo_free_ub": "107/1000",
+   "county_quotient_ub": "11/100",
+   "county_quotient_refined_ub": "11/100",
+   "cells_county": 29,
+   "cells_refined": 113,
+   "recom_lb": 0.09668287681193356,
+   "seconds": 211.5
+  }
+ }
+}

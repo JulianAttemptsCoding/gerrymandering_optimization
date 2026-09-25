@@ -1,0 +1,19 @@
+Table~\ref{tab:budget} reruns the two-district states New Hampshire, Maine and Rhode Island for budgets $s=1,\dots,4$ (the main regime is $s=1$). Brackets are closed under Proposition~\ref{prop:mono}(3): a plan that is feasible for $s$ is feasible for every larger budget, so the lower end at $s$ is the largest lower end over budgets $\le s$, and the upper end is the smallest over budgets $\ge s$ and the geography-free bound.
+
+\begin{table}[t]
+\centering\small
+\caption{Best-district ($q=1$) and second-best ($q=2$) share, in percent of the two-party vote, as the county-split budget $s$ grows ($\pm1\%$, 2020 presidential vote); geography-free hull bound and unconstrained ReCom incumbent for comparison. ``$<$50'': no plan of the regime has $q$ districts at 50\% or more.}\label{tab:budget}
+\input{tables/budget}
+\end{table}
+
+\paragraph{Capacity grows with every split, provably.}
+For Maine the certified best-district share of Democrats is 62.67--63.0\% at $s=1$, 63.87--64.0\% at $s=2$, 64.07--64.5\% at $s=3$ and 64.51--65.0\% at $s=4$ (Republicans: 54.5--55.0, 55.5--56.0, 55.8--56.0, 56.0--56.5\%). Wherever the upper end of one budget lies below the lower end of the next (Maine $s=1\to2$ for both parties, Democrats $s=2\to3$ and $3\to4$, Republicans $3\to4$), the extra split is \emph{certified} to increase capacity, by at least 0.8 point for the first split of Maine Democrats. The geography-free bound (66.7\% and 57.9\%) is far above even $s=4$: contiguity and the remaining budget, not the vote totals alone, bind in these states.
+
+\paragraph{A seat-level effect.}
+New Hampshire Republicans cannot make a single 50\% district with one split (certified), but can with two: a verified plan has a 50.01\% district. The frontier therefore moves by a whole seat at the first extra split.
+
+\paragraph{The all-safe end does not depend on the budget.}
+$\sigma^*(2)$ is pinned to the statewide share for every budget tried (New Hampshire 53.75--53.8\%, Maine 54.62--54.7\%, Rhode Island 60.60\%), as it must be when the largest possible value equals the statewide margin (Section~\ref{sec:main}).
+
+\paragraph{Tractability.}
+Exactness is lost when the budget grows in New Hampshire (upper end for Democrats 57.5\% at $s=1$, 60.5\% at $s=2$, 61.5\% at $s\ge3$) and Rhode Island, but not in Maine, where every bracket is at most half a point wide for $s\le4$. This is the tractability frontier of the method: it depends on the budget and on the structure of the counties (Maine has 16), and it is where a relaxed solution has room to cheat inside a split county.

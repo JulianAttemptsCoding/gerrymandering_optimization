@@ -1,0 +1,29 @@
+{
+ "state": "RI",
+ "party": "D",
+ "eps": "1/100",
+ "contests": [
+  "PRE"
+ ],
+ "k": 2,
+ "q": {
+  "1": {
+   "geo_free_ub": "28/125",
+   "county_quotient_ub": "23/100",
+   "county_quotient_refined_ub": "9/40",
+   "cells_county": 5,
+   "cells_refined": 19,
+   "recom_lb": 0.19629845658900247,
+   "seconds": 43.7
+  },
+  "2": {
+   "geo_free_ub": "53/500",
+   "county_quotient_ub": "11/100",
+   "county_quotient_refined_ub": "11/100",
+   "cells_county": 5,
+   "cells_refined": 19,
+   "recom_lb": 0.10595317563805025,
+   "seconds": 41.6
+  }
+ }
+}

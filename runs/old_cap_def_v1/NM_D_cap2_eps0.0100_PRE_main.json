@@ -1,0 +1,25 @@
+{
+ "job": "NM_D_cap2_eps0.0100_PRE_main",
+ "seconds": 301.5,
+ "spectrum": {
+  "regime": "unknown"
+ },
+ "records": [
+  {
+   "state": "NM",
+   "party": "D",
+   "cap": 2,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 0,
+   "m": "0",
+   "status": "unknown",
+   "seconds": 301.47,
+   "iters": 7,
+   "cells": 462,
+   "plan_hash": null
+  }
+ ]
+}

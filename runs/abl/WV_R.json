@@ -1,0 +1,29 @@
+{
+ "state": "WV",
+ "party": "R",
+ "eps": "1/100",
+ "contests": [
+  "PRE"
+ ],
+ "k": 2,
+ "q": {
+  "1": {
+   "geo_free_ub": "38/125",
+   "county_quotient_ub": "61/200",
+   "county_quotient_refined_ub": "61/200",
+   "cells_county": 55,
+   "cells_refined": 205,
+   "recom_lb": 0.2404589456541752,
+   "seconds": 191.8
+  },
+  "2": {
+   "geo_free_ub": "99/500",
+   "county_quotient_ub": "1/5",
+   "county_quotient_refined_ub": "1/5",
+   "cells_county": 55,
+   "cells_refined": 205,
+   "recom_lb": 0.19791897474295989,
+   "seconds": 56.7
+  }
+ }
+}

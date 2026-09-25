@@ -1,0 +1,185 @@
+% ---------------------------------------------------------------------------
+\section{The seat--safety frontier and spectrum}\label{sec:frontier}
+
+\paragraph{Instances.}
+An \emph{instance} consists of a connected graph $G=(V,E)$ of \emph{atoms} (in our application: 2020 voting precincts, adjacent when they share boundary), a partition $\mathcal K$ of $V$ into \emph{subdivisions} (counties), integer populations $p_i\ge 0$, a finite set $\Omega$ of \emph{scenarios} (statewide contests), integer two-party vote counts $D_{i\omega},R_{i\omega}\ge 0$, and a number of districts $k$. For $A\subseteq V$ write $p(A)=\sum_{i\in A}p_i$ and $T=p(V)$. For a party $\pi\in\{D,R\}$ let $P_{i\omega}$ be its votes and $O_{i\omega}$ the other party's votes.
+
+\paragraph{Plans and regimes.}
+A \emph{regime} is a triple $\rho=(\varepsilon,s,\Omega)$: a population tolerance $\varepsilon\ge0$, a \emph{subdivision budget} $s\in\{0,1,\dots\}\cup\{\infty\}$, and a scenario set. Let $L=\lceil(1-\varepsilon)T/k\rceil$ and $U=\lfloor(1+\varepsilon)T/k\rfloor$. A \emph{plan} is a partition $M=\{V_1,\dots,V_k\}$ of $V$ into $k$ nonempty parts. It is \emph{$\rho$-feasible} if
+\begin{enumerate}
+\item[(a)] every $G[V_j]$ is connected;
+\item[(b)] $L\le p(V_j)\le U$ for all $j$;
+\item[(c)] at most $s$ splits, where $\mathrm{split}(M)=\sum_{K\in\mathcal K}\bigl(d_K(M)-1\bigr)$ and $d_K(M)\ge1$ is the number of parts meeting $K$: a subdivision divided among $d$ districts counts $d-1$ splits, as in the county-split literature \citep{shahmizad2025}.
+\end{enumerate}
+Let $\mathcal M_\rho$ be the set of $\rho$-feasible plans. The regime is a \emph{modelling} choice: satisfying it is neither necessary nor sufficient for legality, and the paper makes no legal claim.
+
+\paragraph{Robust margins.}
+The \emph{robust margin} of a district $V_j$ for party $\pi$ is
+\[
+r^\pi_j(M)=\min_{\omega\in\Omega}\Bigl(\frac{P_\omega(V_j)}{P_\omega(V_j)+O_\omega(V_j)}-\frac12\Bigr),
+\]
+where $P_\omega(A)=\sum_{i\in A}P_{i\omega}$ (all instances used here have positive vote totals in every plausible district). Sorting the margins of a plan in decreasing order gives $r^\pi_{(1)}(M)\ge\dots\ge r^\pi_{(k)}(M)$.
+
+\begin{definition}[Frontier and spectrum]
+For $m\ge0$ and $q\in\{1,\dots,k\}$,
+\[
+F^\pi_\rho(m)=\max_{M\in\mathcal M_\rho}\bigl|\{j:\ r^\pi_j(M)\ge m\}\bigr|,
+\qquad
+\sigma^{*,\pi}_\rho(q)=\max_{M\in\mathcal M_\rho} r^\pi_{(q)}(M),
+\]
+(both defined when $\mathcal M_\rho\neq\emptyset$). $F$ is the \emph{seat--safety frontier}: the largest number of districts that can simultaneously win with a robust cushion of $m$ share points over one half. $\Sigma^*=(\sigma^*(1),\dots,\sigma^*(k))$ is the \emph{seat--safety spectrum}.
+\end{definition}
+
+The frontier generalises the single-threshold objectives of heuristic ``maximum'' maps (for instance the 51\% and 55\% maps of the Algorithmic Redistricting Atlas \cite{atlas2026}) to a whole curve, and $m=0$ recovers the largest feasible number of majority districts.
+
+\begin{proposition}[Monotonicity and symmetry]\label{prop:mono}
+Fix an instance and party.
+\begin{enumerate}
+\item $m\mapsto F_\rho(m)$ is non-increasing; $q\mapsto\sigma^*_\rho(q)$ is non-increasing.
+\item If $\Omega\subseteq\Omega'$ then $F_{(\varepsilon,s,\Omega)}\ge F_{(\varepsilon,s,\Omega')}$ pointwise.
+\item If $\varepsilon\le\varepsilon'$ and $s\le s'$ then $\mathcal M_{(\varepsilon,s,\Omega)}\subseteq\mathcal M_{(\varepsilon',s',\Omega)}$, hence $F_{(\varepsilon,s,\Omega)}\le F_{(\varepsilon',s',\Omega)}$ and $\sigma^*$ likewise.
+\item Swapping the roles of the two parties in all vote data maps $F^D$ to $F^R$ (and $\sigma^{*,D}$ to $\sigma^{*,R}$) exactly.
+\end{enumerate}
+\end{proposition}
+\begin{proof}
+(1)--(3) are immediate from the definitions (a smaller scenario set lowers a minimum; a larger regime enlarges the feasible set). (4): the margins are computed from $(P,O)$, which the swap exchanges.
+\end{proof}
+
+\begin{theorem}[Spectrum duality]\label{thm:duality}
+If $\mathcal M_\rho\neq\emptyset$ then for all $m$ and $q$: $F_\rho(m)\ge q\iff\sigma^*_\rho(q)\ge m$. Consequently $F_\rho(m)=\max\{q:\sigma^*_\rho(q)\ge m\}$ (with $\max\emptyset=0$) and $\sigma^*_\rho(q)=\max\{m: F_\rho(m)\ge q\}$.
+\end{theorem}
+\begin{proof}
+$F(m)\ge q$ iff some plan has at least $q$ districts with margin $\ge m$, iff some plan has $r_{(q)}\ge m$, iff $\max_M r_{(q)}(M)\ge m$ (the maximum over the finite set $\mathcal M_\rho$ is attained).
+\end{proof}
+
+\begin{corollary}[Layer-cake identity]\label{cor:layer}
+$\displaystyle\int_0^{1/2}F_\rho(m)\,dm=\sum_{q=1}^k[\sigma^*_\rho(q)]_+$, where $[x]_+=\max(x,0)$.
+\end{corollary}
+\begin{proof}
+By Theorem~\ref{thm:duality}, $F(m)=\sum_q\mathbf 1\{\sigma^*(q)\ge m\}$; integrate termwise, using $\sigma^*(q)\le 1/2$.
+\end{proof}
+The area under the frontier is a structural summary of capacity, not a normative fairness score.
+
+\begin{proposition}[Separability]\label{prop:sep}
+If states choose plans independently, the national maximum number of safe districts is the sum of the state frontiers: $F_{\mathrm{US}}(m)=\sum_{\text{states}}F_{\mathrm{state}}(m)$.
+\end{proposition}
+\begin{proof}
+$\max_{(M_s)}\sum_s f_s(M_s)=\sum_s\max_{M_s}f_s(M_s)$ over a product of feasible sets.
+\end{proof}
+
+\begin{proposition}[Hardness]\label{prop:hard}
+Deciding whether $\mathcal M_\rho\ne\emptyset$ is NP-hard when $k$ is part of the input, even for $\varepsilon=0$, $s=\infty$ and unit populations; hence deciding $F_\rho(m)\ge q$ is NP-hard.
+\end{proposition}
+\begin{proof}
+With unit populations and $\varepsilon=0$, $\mathcal M_\rho\neq\emptyset$ iff $G$ can be partitioned into $k$ connected parts of equal size, which is NP-complete \cite{dyer1985}. Take all votes tied and $q=0$.
+\end{proof}
+
+% ---------------------------------------------------------------------------
+\section{Aggregated outer relaxations}\label{sec:relax}
+
+Exact atom-level models are intractable at realistic resolution (Section~\ref{sec:negative}), so certification needs relaxations of the plan class whose optimum is still a \emph{valid} upper bound. Our relaxations coarsen the \emph{geography} while keeping all arithmetic exact.
+
+\paragraph{Cells.}
+A \emph{partition} $\mathcal P$ of $V$ into \emph{cells} is admissible if every cell lies inside one subdivision and induces a connected subgraph of $G$. The \emph{quotient graph} $G/\mathcal P$ has the cells as vertices and joins two cells when some edge of $G$ crosses between them. A partition $\mathcal P'$ \emph{refines} $\mathcal P$ if every cell of $\mathcal P'$ lies in a cell of $\mathcal P$; the finest partition consists of singletons (the \emph{atomic} partition).
+
+\paragraph{Safety coefficients.}
+For a margin $m$ and scenario $\omega$ put $c_{i\omega}=(1-2m)P_{i\omega}-(1+2m)O_{i\omega}$. Then a district $A$ has share at least $\tfrac12+m$ in scenario $\omega$ iff $c_\omega(A)=\sum_{i\in A}c_{i\omega}\ge0$. With $m=a/b$ rational all $c_{i\omega}$ scale to integers, so \emph{all safety tests are exact integer inequalities}.
+
+\paragraph{Local hull (fractional-knapsack envelopes).}
+Fix a cell $C$ and scenario $\omega$. Let $C_0=\{i\in C:p_i=0\}$ and $C_+=C\setminus C_0$, and put $Z^\pm=\sum_{i\in C_0}\max/\min(c_{i\omega},0)$. For $x\in[0,p(C)]$ define
+\[
+\varphi^{+}_{C\omega}(x)=Z^{+}+\max\Bigl\{\sum_{i\in C_+}c_{i\omega}\lambda_i:\ \sum_{i\in C_+}p_i\lambda_i=x,\ 0\le\lambda\le1\Bigr\},
+\]
+and $\varphi^{-}_{C\omega}$ likewise with $\min$ and $Z^-$. These are the concave/convex piecewise-linear envelopes obtained by sorting atoms by $c_{i\omega}/p_i$ (the classical fractional knapsack).
+
+\begin{lemma}[Envelope validity]\label{lem:env}
+For every $A\subseteq C$: $\varphi^-_{C\omega}(p(A))\le c_\omega(A)\le\varphi^+_{C\omega}(p(A))$. In particular any supporting line of $\varphi^+$ (resp.\ $\varphi^-$) is a valid inequality $c_\omega(A)\le a\,p(A)+b$ (resp.\ $\ge$).
+\end{lemma}
+\begin{proof}
+The indicator vector of $A\cap C_+$ is feasible for the linear program at $x=p(A)$, and $A\cap C_0$ contributes a value in $[Z^-,Z^+]$. Concavity of $\varphi^+$ makes each supporting line an upper bound.
+\end{proof}
+The same inequalities hold for the union of \emph{several} disjoint subsets (a union is again a subset), which we use for the union of the $q$ required safe districts. An integral allocation of a cell among districts therefore lies in the convex hull described by these envelopes; note that the exact hull of all $k$-way integral allocations of $C$ is the set of fractional atom allocations, of which the envelopes are single-district projections.
+
+\paragraph{The relaxation $\mathcal R(\mathcal P,q,\rho)$.}
+Fix an admissible $\mathcal P$, a target $q\le k$ and a regime with margin $m$. Variables: for every cell $C$ and district index $j\in[k]$ a support bit $y_{Cj}\in\{0,1\}$, an integer allocation $p_{Cj}\in[0,p(C)]$, and for $j\le q$ integers $c_{Cj\omega}$. Constraints:
+\begin{itemize}
+\item[(R1)] \emph{Conservation and support:} $\sum_jp_{Cj}=p(C)$; $p^{\min}_Cy_{Cj}\le p_{Cj}\le p(C)y_{Cj}$ where $p^{\min}_C=\min_{i\in C}p_i$; $\sum_jy_{Cj}\ge1$, with equality for singleton cells.
+\item[(R2)] \emph{Exactness of whole cells:} if $\sum_{j'}y_{Cj'}=1$ with $y_{Cj}=1$, then $c_{Cj\omega}=c_\omega(C)$. Also $y_{Cj}=0\Rightarrow c_{Cj\omega}=0$.
+\item[(R3)] \emph{Hull cuts:} for $j\le q$, $c_{Cj\omega}$ lies between the (finitely many, supporting-line) lower and upper envelope inequalities of Lemma~\ref{lem:env} evaluated at $p_{Cj}$, and the same for the sums $\sum_{j\le q}(p_{Cj},c_{Cj\omega})$.
+\item[(R4)] \emph{Windows and safety:} $L\le\sum_Cp_{Cj}\le U$ for all $j$; $\sum_Cc_{Cj\omega}\ge0$ for $j\le q$ and all $\omega\in\Omega$.
+\item[(R5)] \emph{Quotient connectivity:} for every $j$ the set $\{C:y_{Cj}=1\}$ induces a connected subgraph of $G/\mathcal P$.
+\item[(R6)] \emph{Subdivision budget:} $\sum_{K\in\mathcal K}\bigl(\sum_j\mathbf 1[\exists C\subseteq K:\ y_{Cj}=1]-1\bigr)\le s$.
+\end{itemize}
+(Symmetry breaking---ordering the safe districts, and the unsafe ones, by their lowest-indexed cell---is added for speed; it only fixes a labelling.)
+
+\begin{lemma}[Quotient connectivity]\label{lem:quot}
+If $A\subseteq V$ induces a connected subgraph of $G$, the cells meeting $A$ induce a connected subgraph of $G/\mathcal P$. Conversely, if $A$ is a union of whole cells (each connected, as admissible) and the cells it contains are connected in $G/\mathcal P$, then $A$ is connected in $G$.
+\end{lemma}
+\begin{proof}
+A path in $G[A]$ maps to a walk in $G/\mathcal P$. Conversely two adjacent cells contained in $A$ are joined by an edge of $G$ inside $A$, and each cell is internally connected.
+\end{proof}
+
+\begin{theorem}[Embedding, validity]\label{thm:valid}
+Let $\mathcal P$ be any admissible partition. Every plan $M\in\mathcal M_\rho$ with at least $q$ districts of margin $\ge m$ yields a feasible point of $\mathcal R(\mathcal P,q,\rho)$. Hence if $\mathcal R(\mathcal P,q,\rho)$ is infeasible, then $F_\rho(m)<q$.
+\end{theorem}
+\begin{proof}
+Label the districts so that $q$ safe ones come first and set $y_{Cj}=\mathbf 1[V_j\cap C\ne\emptyset]$, $p_{Cj}=p(V_j\cap C)$, $c_{Cj\omega}=c_\omega(V_j\cap C)$. (R1) is conservation together with $p^{\min}_C\le p(V_j\cap C)$ whenever $V_j$ meets $C$; (R2) holds since a district owning all of $C$ has $V_j\cap C=C$; (R3) is Lemma~\ref{lem:env} applied to $V_j\cap C$ and to the union of the first $q$ districts; (R4) is the definition of $\rho$ and of safety; (R5) is Lemma~\ref{lem:quot}; (R6) equals $\mathrm{split}(M)$ because $y$ is the exact support. Relabelling within the safe and the unsafe group by lowest cell realises the symmetry breaking.
+\end{proof}
+
+\begin{theorem}[Exactness]\label{thm:exact}
+(a) If $\mathcal P$ is atomic, feasible points of $\mathcal R(\mathcal P,q,\rho)$ correspond exactly to $\rho$-feasible plans with at least $q$ districts of margin $\ge m$ (the first $q$ being the safe ones).
+(b) For any admissible $\mathcal P$: if a feasible point has $\sum_jy_{Cj}=1$ for every cell $C$ (no cell is split), then assigning each cell to its district gives a $\rho$-feasible plan with at least $q$ safe districts.
+\end{theorem}
+\begin{proof}
+(b) Whole cells have $p_{Cj}=p(C)$ and, by (R2), $c_{Cj\omega}=c_\omega(C)$, so (R4) is exactly the population window and the safety tests for the assembled districts; (R5) and Lemma~\ref{lem:quot} give connectivity; (R6) then equals the true split count. (a) is (b) plus Theorem~\ref{thm:valid}, since singletons are never split.
+\end{proof}
+
+\begin{theorem}[Refinement is monotone]\label{thm:mono}
+Let $\mathcal R^*(\mathcal P,q,\rho)$ denote the relaxation in which (R3) uses \emph{all} supporting lines. If $\mathcal P'$ refines $\mathcal P$ and $\mathcal R^*(\mathcal P',q,\rho)$ is feasible, then $\mathcal R^*(\mathcal P,q,\rho)$ is feasible. Hence the upper bounds $U_{\mathcal P}(m)=\min\{q:\mathcal R^*(\mathcal P,q,\rho)\text{ infeasible}\}-1$ (valid bounds on $F_\rho(m)$ by Theorem~\ref{thm:valid}) are non-increasing along refinements.
+\end{theorem}
+\begin{proof}
+Aggregate a feasible point of $\mathcal R^*(\mathcal P')$: $y_{Cj}=\max_{C'\subseteq C}y_{C'j}$, $p_{Cj}=\sum_{C'\subseteq C}p_{C'j}$, $c_{Cj\omega}=\sum c_{C'j\omega}$. (R1): sums and maxima preserve conservation; if $y_{Cj}=1$ some child has $y_{C'j}=1$ so $p_{Cj}\ge p^{\min}_{C'}\ge p^{\min}_C$. (R2): if $C$ is whole in $j$ no child touches another district, so every child is whole in $j$ and the child masses sum to $c_\omega(C)$. (R3): the exact envelope of the union of children's fractional knapsack solutions is a feasible solution of $C$'s knapsack, so child pairs sum into the parent's envelope. (R4) is unchanged. (R5) the image of a connected set under the quotient map is connected. (R6): $y$ aggregates to the exact support at the coarser level, and the split count $\sum_K(d_K-1)$ is unchanged. Re-ordering labels restores the symmetry breaking.
+\end{proof}
+Our implementation uses a fixed number $\approx10$ of supporting lines per cell; it is still a valid relaxation (Theorem~\ref{thm:valid}), only possibly weaker than $\mathcal R^*$.
+
+% ---------------------------------------------------------------------------
+\section{Counterexample-guided refinement}\label{sec:cegar}
+
+\begin{algorithm}[t]
+\caption{CEGAR decision procedure for ``$F_\rho(m)\ge q$?''}\label{alg:cegar}
+\begin{algorithmic}[1]
+\State $\mathcal P\gets$ connected components of the counties
+\Loop
+  \State solve $\mathcal R(\mathcal P,q,\rho)$ exactly (CP-SAT, integer arithmetic)
+  \If{infeasible} \Return \textsc{No} (proof: Theorem~\ref{thm:valid})
+  \EndIf
+  \State $S\gets$ multi-atom cells split among $\ge2$ districts in the solution
+  \If{$S=\emptyset$} extract the plan (Theorem~\ref{thm:exact}b); verify it independently; \Return \textsc{Yes}
+  \EndIf
+  \State \emph{(primal heuristic)} freeze all whole cells, expand $S$ to atoms and re-solve; if feasible, verify and \Return \textsc{Yes}
+  \State $\mathcal P\gets\mathcal P$ with every cell of $S$ replaced by its descendants three levels down
+\EndLoop
+\end{algorithmic}
+\end{algorithm}
+
+Cells below the county level come from an adjacency-constrained Ward agglomeration on (two-party share, votes per capita), so every cell is connected and cells are homogeneous, which makes the knapsack envelopes tight.
+
+\begin{theorem}[Correctness and termination]\label{thm:cegar}
+Algorithm~\ref{alg:cegar} terminates after at most $|V|$ solves. It answers \textsc{No} only if $F_\rho(m)<q$, and \textsc{Yes} only after an independently verified $\rho$-feasible plan with $q$ safe districts is produced; hence its answer equals the truth of ``$F_\rho(m)\ge q$'' whenever every relaxation solve finishes.
+\end{theorem}
+\begin{proof}
+Each iteration either stops or replaces a multi-atom cell by strictly smaller cells, so there are at most $|V|$ iterations. Soundness of \textsc{No} is Theorem~\ref{thm:valid}; \textsc{Yes} requires an extracted plan, which is a plan by Theorem~\ref{thm:exact}(b) and is re-checked by code that shares nothing with the solver. Completeness: the loop stops only via one of these two exits.
+\end{proof}
+
+\paragraph{Certified spectrum brackets.}
+By Proposition~\ref{prop:mono} and Theorem~\ref{thm:duality}, $\sigma^*(q)\ge m$ iff $F(m)\ge q$, and $\sigma^*(1)\ge\dots\ge\sigma^*(k)$. We bisect $m$ on a grid; a \textsc{Yes} at $m$ returns a plan whose $q$-th robust margin $r\ge m$ certifies $\sigma^*(q)\ge r$, and a \textsc{No} at $m'$ certifies $\sigma^*(q)<m'$. The pair is a \emph{certified bracket} $r\le\sigma^*(q)<m'$; from all brackets we read certified bounds $F_L(m)\le F(m)\le F_U(m)$, exact wherever they coincide.
+
+\paragraph{Why the budget matters.}
+Without a subdivision budget a relaxed solution may split every cell it likes, and quotient connectivity cannot see inside a cell:
+\begin{proposition}[Quotient blindness]\label{prop:blind}
+Let $G$ be a path on $2n$ atoms of unit population with alternating votes ($D{=}9,R{=}1$ on odd atoms, $D{=}1,R{=}9$ on even atoms), $k=2$, $\varepsilon=0$, $s=\infty$, $\pi=D$. Then $\sigma^*(1)\le 0.4/n$, while for every partition into consecutive pairs of atoms (and, more generally, into cells that each have $\ge2$ atoms) the relaxation $\mathcal R(\mathcal P,1,\rho)$ is feasible at $m=0.4$.
+\end{proposition}
+\begin{proof}
+A connected district is an interval of $n$ atoms; it contains $\lceil n/2\rceil$ or $\lfloor n/2\rfloor$ odd atoms so its $D$ share is at most $\tfrac12+\tfrac{0.4}{n}$. In the relaxation give district~1 the odd atom of every cell and district~2 the even one: populations are $n$, both supports are all cells (connected in the quotient path), the hull cuts hold with equality, and the $D$ share of district~1 is $0.9=\tfrac12+0.4$.
+\end{proof}
+Thus quotient-based coarsening alone can be arbitrarily loose for every non-atomic partition; Section~\ref{sec:negative} shows the same on real precinct data. A subdivision budget of $s$ splits confines the looseness to at most $s$ extra pieces of subdivisions, which CEGAR then refines. (Counting split \emph{subdivisions} instead of pieces would let one large county be cut among all $k$ districts at the price of a single split; in our experiments this is precisely the regime in which relaxations stay loose, and it is the reason the budget is defined by pieces.)

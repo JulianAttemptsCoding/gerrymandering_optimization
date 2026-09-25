@@ -1,0 +1,119 @@
+10 jobs, 10 to run
+  [NH D cap=1] regime existence (q=0): feasible (0.4s)
+  [NH R cap=1] regime existence (q=0): feasible (0.4s)
+  [NH D cap=1 q=1] ReCom LB: margin 0.0660 (60s)
+  [NH R cap=1 q=1] m=0.000: infeasible (0.09s, 1 it, 10 cells)
+  => q=1: sigma* in [none, 0) unknown=[]
+  [NH D cap=1 q=1] LNS: margin 0.0686 (0s)
+  => q=2: sigma* in [none, 0) unknown=[]
+DONE ('NH', 'R', '1') ok 122s
+  [NH D cap=1 q=1] m=0.285: infeasible (0.02s, 1 it, 10 cells)
+  [NH D cap=1 q=1] m=0.175: infeasible (0.02s, 1 it, 10 cells)
+  [NH D cap=1 q=1] m=0.120: infeasible (0.09s, 1 it, 10 cells)
+  [NH D cap=1 q=1] m=0.090: infeasible (0.09s, 1 it, 10 cells)
+  [NH D cap=1 q=1] m=0.075: infeasible (0.09s, 1 it, 10 cells)
+  [NH D cap=1 q=1] m=0.070: feasible (0.64s, 2 it, 10 cells) achieved=0.0701
+  => q=1: sigma* in [0.0701112693444664, 3/40) unknown=[]
+  [ME D cap=1] regime existence (q=0): feasible (0.5s)
+  [NH D cap=1 q=2] ReCom LB: margin 0.0375 (60s)
+  [ME D cap=1 q=1] ReCom LB: margin 0.1243 (60s)
+  [ME D cap=1 q=1] LNS: margin 0.1274 (6s)
+  [NH D cap=1 q=2] m=0.055: infeasible (0.08s, 1 it, 10 cells)
+  [NH D cap=1 q=2] m=0.045: infeasible (0.08s, 1 it, 10 cells)
+  [NH D cap=1 q=2] m=0.040: infeasible (0.08s, 1 it, 10 cells)
+  => q=2: sigma* in [0.03748724325922909, 1/25) unknown=[]
+DONE ('NH', 'D', '1') ok 244s
+  [ME R cap=1] regime existence (q=0): feasible (0.4s)
+  [ME D cap=1 q=1] m=0.315: infeasible (0.03s, 1 it, 16 cells)
+  [ME D cap=1 q=1] m=0.220: infeasible (0.04s, 1 it, 16 cells)
+  [ME D cap=1 q=1] m=0.170: infeasible (0.08s, 1 it, 16 cells)
+  [ME D cap=1 q=1] m=0.145: infeasible (0.09s, 1 it, 16 cells)
+  [ME D cap=1 q=1] m=0.135: infeasible (0.14s, 1 it, 16 cells)
+  [ME D cap=1 q=1] m=0.130: infeasible (0.18s, 1 it, 16 cells)
+  => q=1: sigma* in [0.1274228420727506, 13/100) unknown=[]
+  [ME R cap=1 q=1] ReCom LB: margin 0.0396 (60s)
+  [ME R cap=1 q=1] LNS: margin 0.0423 (0s)
+  [ME R cap=1 q=1] LNS: margin 0.0448 (1s)
+  [ME D cap=1 q=2] ReCom LB: margin 0.0462 (60s)
+  [ME R cap=1 q=1] m=0.270: infeasible (0.02s, 1 it, 16 cells)
+  [ME R cap=1 q=1] m=0.155: infeasible (0.03s, 1 it, 16 cells)
+  [ME R cap=1 q=1] m=0.095: infeasible (0.09s, 1 it, 16 cells)
+  [ME R cap=1 q=1] m=0.065: infeasible (0.09s, 1 it, 16 cells)
+  [ME R cap=1 q=1] m=0.050: infeasible (0.12s, 1 it, 16 cells)
+  [ME R cap=1 q=1] m=0.045: feasible (0.18s, 2 it, 16 cells) achieved=0.0451
+  => q=1: sigma* in [0.04513893564816436, 1/20) unknown=[]
+  [ME D cap=1 q=2] m=0.085: infeasible (0.06s, 1 it, 16 cells)
+  [ME D cap=1 q=2] m=0.065: infeasible (0.07s, 1 it, 16 cells)
+  [ME D cap=1 q=2] m=0.055: infeasible (0.07s, 1 it, 16 cells)
+  [ME D cap=1 q=2] m=0.050: infeasible (0.06s, 1 it, 16 cells)
+  => q=2: sigma* in [0.04624794189840301, 1/20) unknown=[]
+DONE ('ME', 'D', '1') ok 372s
+  [RI D cap=1] regime existence (q=0): feasible (0.5s)
+  [ME R cap=1 q=2] m=0.000: infeasible (0.05s, 1 it, 16 cells)
+  => q=2: sigma* in [none, 0) unknown=[]
+DONE ('ME', 'R', '1') ok 428s
+  [RI R cap=1] regime existence (q=0): feasible (0.4s)
+  [RI D cap=1 q=1] ReCom LB: margin 0.1978 (60s)
+  [RI D cap=1 q=1] LNS: margin 0.2012 (6s)
+  [RI R cap=1 q=1] m=0.000: infeasible (0.01s, 1 it, 5 cells)
+  => q=1: sigma* in [none, 0) unknown=[]
+  [RI D cap=1 q=1] m=0.350: infeasible (0.01s, 1 it, 5 cells)
+  [RI D cap=1 q=1] m=0.275: infeasible (0.01s, 1 it, 5 cells)
+  [RI D cap=1 q=1] m=0.235: infeasible (0.01s, 1 it, 5 cells)
+  [RI D cap=1 q=1] m=0.215: infeasible (0.01s, 1 it, 5 cells)
+  [RI D cap=1 q=1] m=0.205: infeasible (46.44s, 8 it, 141 cells)
+  => q=1: sigma* in [0.20124160902108734, 41/200) unknown=[]
+  => q=2: sigma* in [none, 0) unknown=[]
+DONE ('RI', 'R', '1') ok 550s
+  [ID D cap=1] regime existence (q=0): feasible (0.4s)
+  [RI D cap=1 q=2] ReCom LB: margin 0.1060 (60s)
+  [ID D cap=1 q=1] m=0.000: infeasible (0.22s, 1 it, 44 cells)
+  => q=1: sigma* in [none, 0) unknown=[]
+  [RI D cap=1 q=2] m=0.155: infeasible (0.01s, 1 it, 5 cells)
+  [RI D cap=1 q=2] m=0.130: infeasible (0.01s, 1 it, 5 cells)
+  [RI D cap=1 q=2] m=0.115: infeasible (0.02s, 1 it, 5 cells)
+  [RI D cap=1 q=2] m=0.110: infeasible (0.02s, 1 it, 5 cells)
+  => q=2: sigma* in [0.1059904969137173, 11/100) unknown=[]
+DONE ('RI', 'D', '1') ok 668s
+  [ID R cap=1] regime existence (q=0): feasible (0.4s)
+  => q=2: sigma* in [none, 0) unknown=[]
+DONE ('ID', 'D', '1') ok 674s
+  [WV D cap=1] regime existence (q=0): feasible (0.4s)
+  [ID R cap=1 q=1] ReCom LB: margin 0.2428 (60s)
+  [WV D cap=1 q=1] m=0.000: infeasible (0.36s, 1 it, 55 cells)
+  => q=1: sigma* in [none, 0) unknown=[]
+  [ID R cap=1 q=1] LNS: margin 0.2455 (15s)
+  => q=2: sigma* in [none, 0) unknown=[]
+DONE ('WV', 'D', '1') ok 798s
+  [WV R cap=1] regime existence (q=0): feasible (0.4s)
+  [ID R cap=1 q=1] m=0.375: infeasible (0.07s, 1 it, 44 cells)
+  [ID R cap=1 q=1] m=0.310: infeasible (0.21s, 1 it, 44 cells)
+  [ID R cap=1 q=1] m=0.275: infeasible (0.29s, 1 it, 44 cells)
+  [ID R cap=1 q=1] m=0.260: infeasible (17.2s, 1 it, 44 cells)
+  [ID R cap=1 q=1] m=0.250: feasible (26.03s, 2 it, 44 cells) achieved=0.2500
+  [ID R cap=1 q=1] m=0.255: feasible (11.31s, 2 it, 44 cells) achieved=0.2552
+  => q=1: sigma* in [0.25521003061110015, 13/50) unknown=[]
+  [WV R cap=1 q=1] ReCom LB: margin 0.2382 (60s)
+  [WV R cap=1 q=1] LNS: margin 0.2407 (2s)
+  [WV R cap=1 q=1] LNS: margin 0.2432 (9s)
+  [WV R cap=1 q=1] LNS: margin 0.2457 (10s)
+  [ID R cap=1 q=2] ReCom LB: margin 0.1587 (60s)
+  [WV R cap=1 q=1] m=0.375: infeasible (0.15s, 1 it, 55 cells)
+  [WV R cap=1 q=1] m=0.310: infeasible (0.31s, 1 it, 55 cells)
+  [WV R cap=1 q=1] m=0.275: infeasible (1.07s, 1 it, 55 cells)
+  [ID R cap=1 q=2] m=0.205: infeasible (0.29s, 1 it, 44 cells)
+  [ID R cap=1 q=2] m=0.180: infeasible (0.26s, 1 it, 44 cells)
+  [ID R cap=1 q=2] m=0.165: infeasible (0.22s, 1 it, 44 cells)
+  [ID R cap=1 q=2] m=0.160: infeasible (0.2s, 1 it, 44 cells)
+  => q=2: sigma* in [0.15870414552105355, 4/25) unknown=[]
+DONE ('ID', 'R', '1') ok 983s
+  [WV R cap=1 q=1] m=0.260: unknown (120.33s, 3 it, 93 cells)
+  [WV R cap=1 q=1] m=0.270: infeasible (72.79s, 1 it, 55 cells)
+  [WV R cap=1 q=1] m=0.255: unknown (120.27s, 1 it, 55 cells)
+  => q=1: sigma* in [0.24573304494013448, 27/100) unknown=[52, 51]
+  [WV R cap=1 q=2] ReCom LB: margin 0.1979 (60s)
+  [WV R cap=1 q=2] m=0.230: infeasible (0.17s, 1 it, 55 cells)
+  [WV R cap=1 q=2] m=0.210: infeasible (0.16s, 1 it, 55 cells)
+  [WV R cap=1 q=2] m=0.200: infeasible (0.17s, 1 it, 55 cells)
+  => q=2: sigma* in [0.1979307970567682, 1/5) unknown=[]
+DONE ('WV', 'R', '1') ok 1367s

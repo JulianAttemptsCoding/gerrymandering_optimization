@@ -1,0 +1,19 @@
+\paragraph{Tolerance and scenario set.}
+Table~\ref{tab:robust} varies the population tolerance $\varepsilon\in\{0.5\%,1\%,2\%\}$ (single scenario, $s=k-1$) and replaces the single 2020 presidential race by the minimum share over up to three statewide contests (presidential, and where available Senate and governor), for five of the six two-district states (Montana is omitted: its brackets were still open at the main tolerance and the other tolerances were not run). Brackets are closed under Proposition~\ref{prop:mono} (a larger tolerance can only raise both ends; a larger scenario set can only lower them).
+
+\begin{table}[t]
+\centering\small
+\caption{Best-district ($q=1$) and second-best ($q=2$) share (\%) for tolerances 0.5\%, 1\% and 2\%, and for the robust scenario set at 1\% (number of contests in the last column). $s=k-1=1$.}\label{tab:robust}
+\input{tables/robust}
+\end{table}
+
+The tolerance matters little: doubling it from 1\% to 2\% raises the certified best-district share by 0.4--0.5 point in Maine (Democrats) and Rhode Island (Democrats), where the two brackets are disjoint and the change is therefore certified, by up to 0.1 point in New Hampshire, and by less than the bracket width elsewhere. Requiring the margin to hold in \emph{all} available contests matters a great deal for parties that did worse in the other races: New Hampshire Democrats, whose 57\% district relies on the presidential vote alone, can no longer make any district above 50\% in all of presidential, Senate and gubernatorial results (the 2020 governor's race was a Republican landslide); Maine Democrats fall from 62.7--63.0\% to 53.2--53.5\%; West Virginia Republicans from 76.0--77.0\% to 73.1--75.5\%. Rhode Island Democrats and Maine Republicans are unaffected. The seat--safety spectrum therefore doubles as a durability measure: the share cushion a district retains across elections is exactly its robust margin.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\linewidth]{figs/ladder.png}
+\caption{Resolution ladder: best-district share ($q=1$, $s=k-1$) when precincts are merged into fewer, larger atoms (plans keep merged atoms whole, so each rung is a lower-bound class for the next). Solid: best verified plan on the coarse instance; dashed: proven upper end for the coarse instance; large dot: the certified bracket at full precinct resolution. Non-monotone wiggles are heuristic search noise.}\label{fig:ladder}
+\end{figure}
+
+\paragraph{Resolution.}
+Figure~\ref{fig:ladder} merges precincts, using the same homogeneity hierarchy as the algorithm, into $1/16,\dots,1/2$ as many atoms and recomputes the exact frontier. Because coarser atoms only shrink the plan class, each rung is a lower bound for the next, and the frontier saturates early: with a quarter of the precincts the best-district share is within 0.25 point of its precinct-level value in New Hampshire, Maine (both parties) and Rhode Island Democrats, and with a sixteenth it is within 0.7 point except in Rhode Island (1.5 points). This is evidence about sensitivity to \emph{coarser} atoms only; it does not bound what splitting precincts (or blocks, with an allocation model for the votes) could add.

@@ -1,0 +1,27 @@
+\section{Data, instances and verification protocol}\label{sec:data}
+
+\paragraph{Atoms and votes.}
+Atoms are the 2020 voting precincts of the Voting and Election Science Team (VEST) release \citep{vest2021}, whose statewide two-party presidential totals reproduce the certified returns (for example New Hampshire: 424{,}937 Biden and 365{,}660 Trump votes). Using precincts means the vote data are \emph{observed}, not allocated. The main scenario is the 2020 presidential race ($\Omega=\{\mathrm{PRE}\}$); as a robustness variant $\Omega$ contains all statewide contests in the file for which exactly one Democratic and one Republican column exist (up to three). Third-party votes are ignored, i.e.\ shares are two-party shares.
+
+\paragraph{Population.}
+Precinct population is aggregated exactly from 2020 Census block populations (TIGER/Line \texttt{POP20}; \citealp{tiger2020}): each block's internal point is assigned to the precinct polygon containing it, and the few blocks with no containing polygon (at most 19 blocks and 16 people in any state) are assigned to the nearest one. Every state total equals the Census resident population (verified by assertion). As a check on the alignment of the two sources, atoms whose two-party votes exceed their residents hold less than 0.7\% of the votes in every state, and atoms with zero residents hold a negligible share of votes. The atomic model therefore only considers plans that respect precinct boundaries; plans that split precincts are outside the model class and can only have \emph{larger} frontiers (Proposition~\ref{prop:mono}, applied to a refinement of the atoms). We do not claim results about such plans.
+
+\paragraph{Adjacency and subdivisions.}
+Two precincts are adjacent when they share at least 10~m of boundary (2~m snapping tolerance); disconnected components (islands) are joined to the main component by a single edge between their nearest polygons (Rhode Island: 1 such edge; Arkansas: 4). The county of a precinct is the population-plurality county of its blocks (a handful of precincts straddle counties and are counted in one; Table~\ref{tab:instances}). Counties are the subdivisions in every state, including New England, where they have little administrative role; results there should be read as a statement about the stated regime.
+
+\paragraph{Regime.}
+The main regime is $\rho_s=(\varepsilon=1\%,\ s=k-1,\ \Omega=\{\mathrm{PRE}\})$: districts within $\pm1\%$ of the ideal population, connected, and at most $k-1$ county splits, where a county divided among $d$ districts counts $d-1$ splits (Section~\ref{sec:frontier}). The budget $k-1$ is the folklore number of splits sufficient to build $k$ districts around whole counties \citep{shahmizad2025}; the tolerance is looser than the near-zero deviation of enacted plans, which is only attainable by splitting precincts or blocks. Section~\ref{sec:robust} varies $\varepsilon$, $s$ and $\Omega$. Instances are selected by a single computational criterion, $2\le k\le5$, and both parties are always run with identical code (Proposition~\ref{prop:mono}(4)).
+
+\begin{table}[t]
+\centering\small
+\caption{Instances (2020 precincts). ``Straddle'' counts precincts assigned to one of several counties they overlap; ``Bridges'' are artificial edges joining islands.}\label{tab:instances}
+\input{tables/instances}
+\end{table}
+
+\paragraph{Verification protocol.}
+Every reported number is one of two kinds, each with its own check.
+\begin{itemize}[leftmargin=*]
+\item \emph{Lower bounds are plans.} Each plan is re-checked by an independent verifier (plain Python with Fractions: labels, non-emptiness, population window, connectivity by breadth-first search from raw adjacency, robust margins from raw votes, split counties). It shares no code with either solver. The stored plan hash allows re-verification.
+\item \emph{Upper bounds are infeasibility proofs} of a valid relaxation (Theorem~\ref{thm:valid}) by CP-SAT in exact integer arithmetic, so no floating-point tolerance can produce a false proof. Because a solver bug is still possible, we cross-audit a random sample of proofs by re-solving the same relaxation with an independently written MILP encoding (single-commodity-flow connectivity, big-$M$ split rows; HiGHS with outer-safe tolerances), and we validate the entire pipeline against brute-force enumeration of all plans on random toy graphs (Section~\ref{sec:audit}).
+\end{itemize}
+Two implementation bugs were caught by these checks during development (a symmetry-breaking rule that was wrongly strict for coarse cells, and an envelope cache keyed without the margin); both would have produced wrong bounds and are fixed and covered by regression tests.

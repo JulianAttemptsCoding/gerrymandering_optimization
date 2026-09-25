@@ -1,0 +1,56 @@
+{
+ "job": "NH_R_cap1_eps0.0100_PRE_main",
+ "seconds": 25.0,
+ "spectrum": {
+  "regime": "feasible",
+  "1": {
+   "lo": -1,
+   "hi": 0,
+   "unknown": [],
+   "best_margin": null,
+   "lo_m": null,
+   "hi_m": "0"
+  },
+  "2": {
+   "lo": -1,
+   "hi": 0,
+   "unknown": [],
+   "best_margin": null,
+   "lo_m": null,
+   "hi_m": "0"
+  }
+ },
+ "records": [
+  {
+   "state": "NH",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 0,
+   "m": "0",
+   "status": "feasible",
+   "seconds": 24.93,
+   "iters": 5,
+   "cells": 55,
+   "plan_hash": "ff8ea43c6d8f8812"
+  },
+  {
+   "state": "NH",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "0",
+   "status": "infeasible",
+   "seconds": 0.05,
+   "iters": 1,
+   "cells": 10
+  }
+ ]
+}

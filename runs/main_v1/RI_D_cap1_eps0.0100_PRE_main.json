@@ -1,0 +1,252 @@
+{
+ "job": "RI_D_cap1_eps0.0100_PRE_main",
+ "seconds": 552.7,
+ "spectrum": {
+  "regime": "feasible",
+  "1": {
+   "lo": 40,
+   "hi": 41,
+   "unknown": [],
+   "best_margin": "43257/216076",
+   "lo_m": "1/5",
+   "hi_m": "41/200"
+  },
+  "2": {
+   "lo": 21,
+   "hi": 22,
+   "unknown": [],
+   "best_margin": "15293/145424",
+   "lo_m": "21/200",
+   "hi_m": "11/100"
+  }
+ },
+ "records": [
+  {
+   "state": "RI",
+   "party": "D",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 0,
+   "m": "0",
+   "status": "feasible",
+   "seconds": 48.37,
+   "iters": 7,
+   "cells": 260,
+   "plan_hash": "db44252648c9c3eb"
+  },
+  {
+   "state": "RI",
+   "party": "D",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "0",
+   "status": "feasible",
+   "seconds": 75.43,
+   "iters": 10,
+   "cells": 253,
+   "achieved_margin": "62907/587446",
+   "plan_hash": "c16b745b2d858412"
+  },
+  {
+   "state": "RI",
+   "party": "D",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "61/200",
+   "status": "infeasible",
+   "seconds": 0.02,
+   "iters": 1,
+   "cells": 5
+  },
+  {
+   "state": "RI",
+   "party": "D",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "41/200",
+   "status": "infeasible",
+   "seconds": 77.22,
+   "iters": 10,
+   "cells": 144
+  },
+  {
+   "state": "RI",
+   "party": "D",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "31/200",
+   "status": "feasible",
+   "seconds": 21.78,
+   "iters": 4,
+   "cells": 37,
+   "achieved_margin": "9781/59354",
+   "plan_hash": "cd0c68eb2806743b"
+  },
+  {
+   "state": "RI",
+   "party": "D",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "9/50",
+   "status": "feasible",
+   "seconds": 9.89,
+   "iters": 3,
+   "cells": 12,
+   "achieved_margin": "75657/418910",
+   "plan_hash": "fbbbf001716924bc"
+  },
+  {
+   "state": "RI",
+   "party": "D",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "19/100",
+   "status": "feasible",
+   "seconds": 15.95,
+   "iters": 3,
+   "cells": 12,
+   "achieved_margin": "3440/17899",
+   "plan_hash": "c5599979bca20394"
+  },
+  {
+   "state": "RI",
+   "party": "D",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "39/200",
+   "status": "feasible",
+   "seconds": 28.06,
+   "iters": 5,
+   "cells": 91,
+   "achieved_margin": "84143/431282",
+   "plan_hash": "47237f4aaf581c2f"
+  },
+  {
+   "state": "RI",
+   "party": "D",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "1/5",
+   "status": "feasible",
+   "seconds": 65.42,
+   "iters": 10,
+   "cells": 201,
+   "achieved_margin": "43257/216076",
+   "plan_hash": "ac5ba4beb51fff86"
+  },
+  {
+   "state": "RI",
+   "party": "D",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 2,
+   "m": "0",
+   "status": "feasible",
+   "seconds": 55.37,
+   "iters": 8,
+   "cells": 256,
+   "achieved_margin": "9725/96032",
+   "plan_hash": "59e87c770dff222b"
+  },
+  {
+   "state": "RI",
+   "party": "D",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 2,
+   "m": "3/20",
+   "status": "infeasible",
+   "seconds": 0.03,
+   "iters": 1,
+   "cells": 5
+  },
+  {
+   "state": "RI",
+   "party": "D",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 2,
+   "m": "1/8",
+   "status": "infeasible",
+   "seconds": 0.04,
+   "iters": 1,
+   "cells": 5
+  },
+  {
+   "state": "RI",
+   "party": "D",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 2,
+   "m": "11/100",
+   "status": "infeasible",
+   "seconds": 0.03,
+   "iters": 1,
+   "cells": 5
+  },
+  {
+   "state": "RI",
+   "party": "D",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 2,
+   "m": "21/200",
+   "status": "feasible",
+   "seconds": 155.01,
+   "iters": 10,
+   "cells": 243,
+   "achieved_margin": "15293/145424",
+   "plan_hash": "b961e88cf29c32a6"
+  }
+ ]
+}

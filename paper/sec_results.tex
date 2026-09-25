@@ -1,0 +1,27 @@
+\section{Results}\label{sec:results}
+
+All experiments use the instances of Table~\ref{tab:instances} and the regime $\rho_s$ of Section~\ref{sec:data} unless stated otherwise. For each state and party we compute a certified bracket $[r_q,u_q)$ for every $\sigma^*(q)$: $r_q$ is the $q$-th robust margin of an independently verified plan, and $\sigma^*(q)<u_q$ is proved by an infeasibility certificate at a grid margin $u_q$ (grid step 0.5 points of two-party share; Section~\ref{sec:frontier}). Margins are reported as district two-party share $=50\%+m$. Lower bounds come from a county-aware recombination hill climber followed by exact large-neighbourhood search (Algorithm~\ref{alg:cegar} on restricted instances), and every improvement is then attacked by the certifying loop.
+
+\subsection{Certified seat--safety frontiers}\label{sec:main}
+
+\input{results_main}
+
+\subsection{Why the budget matters: connectivity coarsening alone does not help}\label{sec:negative}
+
+\input{results_negative}
+
+\subsection{Heuristic incumbents versus certified brackets}\label{sec:heur}
+
+\input{results_heur}
+
+\subsection{Dependence on the subdivision budget}\label{sec:budget}
+
+\input{results_budget}
+
+\subsection{Robustness: tolerance, scenarios and resolution}\label{sec:robust}
+
+\input{results_robust}
+
+\subsection{Audits and sanity checks}\label{sec:audit}
+
+\input{results_audit}

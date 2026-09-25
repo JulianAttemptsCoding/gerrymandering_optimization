@@ -1,0 +1,28 @@
+{
+ "state": "NH",
+ "party": "D",
+ "frac": 0.03125,
+ "atoms": 10,
+ "cap": 1,
+ "spectrum": {
+  "regime": "infeasible"
+ },
+ "records": [
+  {
+   "state": "NH@10",
+   "party": "D",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 0,
+   "m": "0",
+   "status": "infeasible",
+   "seconds": 3.79,
+   "iters": 1,
+   "cells": 10,
+   "plan_hash": null
+  }
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "state": "NV",
+ "party": "D",
+ "eps": "1/100",
+ "contests": [
+  "PRE"
+ ],
+ "k": 4,
+ "q": {
+  "1": {
+   "geo_free_ub": "107/500",
+   "county_quotient_ub": "11/50",
+   "county_quotient_refined_ub": "11/50",
+   "cells_county": 17,
+   "cells_refined": 65,
+   "recom_lb": 0.1752730105809282,
+   "seconds": 44.5
+  },
+  "2": {
+   "geo_free_ub": "29/200",
+   "county_quotient_ub": "3/20",
+   "county_quotient_refined_ub": "3/20",
+   "cells_county": 17,
+   "cells_refined": 65,
+   "recom_lb": 0.09116124667642107,
+   "seconds": 52.5
+  },
+  "3": {
+   "geo_free_ub": "9/100",
+   "county_quotient_ub": "19/200",
+   "county_quotient_refined_ub": "19/200",
+   "cells_county": 17,
+   "cells_refined": 65,
+   "recom_lb": 0.040249533860924135,
+   "seconds": 56.1
+  },
+  "4": {
+   "geo_free_ub": "13/1000",
+   "county_quotient_ub": "3/200",
+   "county_quotient_refined_ub": "3/200",
+   "cells_county": 17,
+   "cells_refined": 65,
+   "recom_lb": -0.028759287758973733,
+   "seconds": 56.0
+  }
+ }
+}

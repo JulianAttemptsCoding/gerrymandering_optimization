@@ -1,0 +1,30 @@
+16 jobs, 16 to run
+  [IA D cap=3] regime existence (q=0): feasible (0.4s)
+  [IA R cap=3] regime existence (q=0): feasible (0.4s)
+  [IA D cap=3 q=1] ReCom LB: margin 0.1018 (80s)
+  [IA R cap=3 q=1] ReCom LB: margin 0.1869 (80s)
+  [IA D cap=3 q=1] m=0.300: infeasible (0.16s, 1 it, 99 cells)
+  [IA R cap=3 q=1] m=0.345: infeasible (0.19s, 1 it, 99 cells)
+  [IA D cap=3 q=1] m=0.200: infeasible (0.6s, 1 it, 99 cells)
+  [IA R cap=3 q=1] m=0.265: infeasible (0.58s, 1 it, 99 cells)
+  [IA R cap=3 q=1] m=0.225: infeasible (0.51s, 1 it, 99 cells)
+  [IA D cap=3 q=1] m=0.150: infeasible (2.49s, 1 it, 99 cells)
+  [IA R cap=3 q=1] m=0.205: unknown (121.08s, 1 it, 99 cells)
+  [IA R cap=3 q=1] m=0.215: infeasible (1.06s, 1 it, 99 cells)
+  [IA D cap=3 q=1] m=0.125: unknown (121.42s, 1 it, 99 cells)
+  [IA R cap=3 q=1] m=0.200: unknown (120.98s, 1 it, 99 cells)
+  => q=1: sigma* in [0.18693517354481934, 43/200) unknown=[41, 40]
+  [IA D cap=3 q=1] m=0.140: unknown (120.86s, 1 it, 99 cells)
+  => q=1: sigma* in [0.10180033618071188, 3/20) unknown=[25, 28]
+  [IA R cap=3 q=2] ReCom LB: margin 0.1402 (80s)
+  [IA D cap=3 q=2] ReCom LB: margin 0.0569 (80s)
+  [IA R cap=3 q=2] m=0.175: infeasible (1.61s, 1 it, 99 cells)
+  [IA D cap=3 q=2] m=0.100: infeasible (1.69s, 1 it, 99 cells)
+  [IA R cap=3 q=2] m=0.155: unknown (121.03s, 1 it, 99 cells)
+  [IA D cap=3 q=2] m=0.075: unknown (120.83s, 1 it, 99 cells)
+  [IA D cap=3 q=2] m=0.090: infeasible (22.78s, 1 it, 99 cells)
+  [IA R cap=3 q=2] m=0.165: infeasible (26.32s, 1 it, 99 cells)
+  [IA D cap=3 q=2] m=0.070: unknown (121.94s, 1 it, 99 cells)
+  => q=2: sigma* in [0.05689847616036484, 9/100) unknown=[15, 14]
+  [IA R cap=3 q=2] m=0.150: unknown (121.76s, 1 it, 99 cells)
+  => q=2: sigma* in [0.14017784051489246, 33/200) unknown=[31, 30]

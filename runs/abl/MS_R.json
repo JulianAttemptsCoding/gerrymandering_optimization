@@ -1,0 +1,47 @@
+{
+ "state": "MS",
+ "party": "R",
+ "eps": "1/100",
+ "contests": [
+  "PRE"
+ ],
+ "k": 4,
+ "q": {
+  "1": {
+   "geo_free_ub": "47/125",
+   "county_quotient_ub": "19/50",
+   "county_quotient_refined_ub": "19/50",
+   "cells_county": 82,
+   "cells_refined": 312,
+   "recom_lb": 0.21425365129136067,
+   "seconds": 114.2
+  },
+  "2": {
+   "geo_free_ub": "3/10",
+   "county_quotient_ub": "61/200",
+   "county_quotient_refined_ub": "61/200",
+   "cells_county": 82,
+   "cells_refined": 312,
+   "recom_lb": 0.17346041055718475,
+   "seconds": 429.8
+  },
+  "3": {
+   "geo_free_ub": "43/200",
+   "county_quotient_ub": "11/50",
+   "county_quotient_refined_ub": "43/200",
+   "cells_county": 82,
+   "cells_refined": 312,
+   "recom_lb": 0.15029812949468616,
+   "seconds": 488.6
+  },
+  "4": {
+   "geo_free_ub": "21/250",
+   "county_quotient_ub": "17/200",
+   "county_quotient_refined_ub": "17/200",
+   "cells_county": 82,
+   "cells_refined": 312,
+   "recom_lb": 0.07527334882040769,
+   "seconds": 416.7
+  }
+ }
+}

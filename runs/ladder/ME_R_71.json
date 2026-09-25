@@ -1,0 +1,309 @@
+{
+ "state": "ME",
+ "party": "R",
+ "frac": 0.125,
+ "atoms": 71,
+ "cap": 1,
+ "spectrum": {
+  "regime": "feasible",
+  "1": {
+   "lo": 9,
+   "hi": 10,
+   "unknown": [],
+   "best_margin": "1215/26734",
+   "lo_m": "9/200",
+   "hi_m": "1/20"
+  },
+  "2": {
+   "lo": -1,
+   "hi": 0,
+   "unknown": [],
+   "best_margin": null,
+   "lo_m": null,
+   "hi_m": "0"
+  }
+ },
+ "records": [
+  {
+   "state": "ME@71",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 0,
+   "m": "0",
+   "status": "feasible",
+   "seconds": 0.0,
+   "iters": 0,
+   "cells": 0,
+   "plan_hash": "3c83f48f570d052d"
+  },
+  {
+   "state": "ME@71",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "heuristic",
+   "status": "heuristic",
+   "seconds": 10.03,
+   "iters": 0,
+   "cells": 0,
+   "achieved_margin": "30707/749214",
+   "plan_hash": "4ece2c669293b924"
+  },
+  {
+   "state": "ME@71",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "lns",
+   "status": "heuristic",
+   "seconds": 0.39,
+   "iters": 0,
+   "cells": 0,
+   "achieved_margin": "1215/26734",
+   "plan_hash": "4752a168b5e9dcdb"
+  },
+  {
+   "state": "ME@71",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "11/40",
+   "status": "infeasible",
+   "seconds": 0.03,
+   "iters": 1,
+   "cells": 16,
+   "part_nodes": [
+    10,
+    15,
+    48,
+    49,
+    52,
+    67,
+    70,
+    73,
+    76,
+    91,
+    92,
+    95,
+    102,
+    105,
+    106,
+    125
+   ]
+  },
+  {
+   "state": "ME@71",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "4/25",
+   "status": "infeasible",
+   "seconds": 0.03,
+   "iters": 1,
+   "cells": 16,
+   "part_nodes": [
+    10,
+    15,
+    48,
+    49,
+    52,
+    67,
+    70,
+    73,
+    76,
+    91,
+    92,
+    95,
+    102,
+    105,
+    106,
+    125
+   ]
+  },
+  {
+   "state": "ME@71",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "1/10",
+   "status": "infeasible",
+   "seconds": 0.05,
+   "iters": 1,
+   "cells": 16,
+   "part_nodes": [
+    10,
+    15,
+    48,
+    49,
+    52,
+    67,
+    70,
+    73,
+    76,
+    91,
+    92,
+    95,
+    102,
+    105,
+    106,
+    125
+   ]
+  },
+  {
+   "state": "ME@71",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "7/100",
+   "status": "infeasible",
+   "seconds": 0.09,
+   "iters": 1,
+   "cells": 16,
+   "part_nodes": [
+    10,
+    15,
+    48,
+    49,
+    52,
+    67,
+    70,
+    73,
+    76,
+    91,
+    92,
+    95,
+    102,
+    105,
+    106,
+    125
+   ]
+  },
+  {
+   "state": "ME@71",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "11/200",
+   "status": "infeasible",
+   "seconds": 0.08,
+   "iters": 1,
+   "cells": 16,
+   "part_nodes": [
+    10,
+    15,
+    48,
+    49,
+    52,
+    67,
+    70,
+    73,
+    76,
+    91,
+    92,
+    95,
+    102,
+    105,
+    106,
+    125
+   ]
+  },
+  {
+   "state": "ME@71",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "1/20",
+   "status": "infeasible",
+   "seconds": 0.12,
+   "iters": 1,
+   "cells": 16,
+   "part_nodes": [
+    10,
+    15,
+    48,
+    49,
+    52,
+    67,
+    70,
+    73,
+    76,
+    91,
+    92,
+    95,
+    102,
+    105,
+    106,
+    125
+   ]
+  },
+  {
+   "state": "ME@71",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 2,
+   "m": "0",
+   "status": "infeasible",
+   "seconds": 0.04,
+   "iters": 1,
+   "cells": 16,
+   "part_nodes": [
+    10,
+    15,
+    48,
+    49,
+    52,
+    67,
+    70,
+    73,
+    76,
+    91,
+    92,
+    95,
+    102,
+    105,
+    106,
+    125
+   ]
+  }
+ ]
+}

@@ -1,0 +1,402 @@
+{
+ "agree": 33,
+ "disagree": 0,
+ "unknown": 3,
+ "details": [
+  {
+   "rec": [
+    "IA",
+    "R",
+    4,
+    "1/20"
+   ],
+   "cells": 99,
+   "cpsat": "infeasible",
+   "milp": "infeasible"
+  },
+  {
+   "rec": [
+    "NV",
+    "R",
+    1,
+    "7/50"
+   ],
+   "cells": 17,
+   "cpsat": "infeasible",
+   "milp": "infeasible"
+  },
+  {
+   "rec": [
+    "CT",
+    "D",
+    5,
+    "11/100"
+   ],
+   "cells": 8,
+   "cpsat": "infeasible",
+   "milp": "infeasible"
+  },
+  {
+   "rec": [
+    "ME",
+    "D",
+    2,
+    "11/200"
+   ],
+   "cells": 16,
+   "cpsat": "infeasible",
+   "milp": "infeasible"
+  },
+  {
+   "rec": [
+    "IA",
+    "R",
+    2,
+    "33/200"
+   ],
+   "cells": 99,
+   "cpsat": "infeasible",
+   "milp": "unknown"
+  },
+  {
+   "rec": [
+    "NM",
+    "D",
+    3,
+    "13/200"
+   ],
+   "cells": 34,
+   "cpsat": "infeasible",
+   "milp": "infeasible"
+  },
+  {
+   "rec": [
+    "NH",
+    "D",
+    2,
+    "11/200"
+   ],
+   "cells": 10,
+   "cpsat": "infeasible",
+   "milp": "infeasible"
+  },
+  {
+   "rec": [
+    "NM",
+    "D",
+    1,
+    "53/200"
+   ],
+   "cells": 34,
+   "cpsat": "infeasible",
+   "milp": "infeasible"
+  },
+  {
+   "rec": [
+    "RI",
+    "D",
+    2,
+    "13/100"
+   ],
+   "cells": 5,
+   "cpsat": "infeasible",
+   "milp": "infeasible"
+  },
+  {
+   "rec": [
+    "NE",
+    "D",
+    1,
+    "27/200"
+   ],
+   "cells": 93,
+   "cpsat": "infeasible",
+   "milp": "infeasible"
+  },
+  {
+   "rec": [
+    "KS",
+    "R",
+    2,
+    "23/100"
+   ],
+   "cells": 105,
+   "cpsat": "infeasible",
+   "milp": "infeasible"
+  },
+  {
+   "rec": [
+    "IA",
+    "D",
+    4,
+    "0"
+   ],
+   "cells": 99,
+   "cpsat": "infeasible",
+   "milp": "infeasible"
+  },
+  {
+   "rec": [
+    "NM",
+    "D",
+    3,
+    "1/10"
+   ],
+   "cells": 34,
+   "cpsat": "infeasible",
+   "milp": "infeasible"
+  },
+  {
+   "rec": [
+    "AR",
+    "R",
+    4,
+    "39/200"
+   ],
+   "cells": 76,
+   "cpsat": "infeasible",
+   "milp": "infeasible"
+  },
+  {
+   "rec": [
+    "NE",
+    "D",
+    3,
+    "0"
+   ],
+   "cells": 93,
+   "cpsat": "infeasible",
+   "milp": "infeasible"
+  },
+  {
+   "rec": [
+    "NH",
+    "D",
+    1,
+    "7/25"
+   ],
+   "cells": 10,
+   "cpsat": "infeasible",
+   "milp": "infeasible"
+  },
+  {
+   "rec": [
+    "OK",
+    "R",
+    1,
+    "67/200"
+   ],
+   "cpsat": "unknown",
+   "milp": null
+  },
+  {
+   "rec": [
+    "AR",
+    "D",
+    1,
+    "11/40"
+   ],
+   "cells": 76,
+   "cpsat": "infeasible",
+   "milp": "infeasible"
+  },
+  {
+   "rec": [
+    "NH",
+    "D",
+    1,
+    "3/40"
+   ],
+   "cells": 10,
+   "cpsat": "infeasible",
+   "milp": "infeasible"
+  },
+  {
+   "rec": [
+    "ME",
+    "R",
+    1,
+    "31/200"
+   ],
+   "cells": 16,
+   "cpsat": "infeasible",
+   "milp": "infeasible"
+  },
+  {
+   "rec": [
+    "ME",
+    "D",
+    1,
+    "11/50"
+   ],
+   "cells": 16,
+   "cpsat": "infeasible",
+   "milp": "infeasible"
+  },
+  {
+   "rec": [
+    "OK",
+    "D",
+    1,
+    "3/20"
+   ],
+   "cells": 77,
+   "cpsat": "infeasible",
+   "milp": "infeasible"
+  },
+  {
+   "rec": [
+    "IA",
+    "R",
+    1,
+    "53/200"
+   ],
+   "cells": 99,
+   "cpsat": "infeasible",
+   "milp": "infeasible"
+  },
+  {
+   "rec": [
+    "MS",
+    "R",
+    3,
+    "11/50"
+   ],
+   "cells": 82,
+   "cpsat": "infeasible",
+   "milp": "infeasible"
+  },
+  {
+   "rec": [
+    "UT",
+    "R",
+    1,
+    "33/100"
+   ],
+   "cells": 29,
+   "cpsat": "infeasible",
+   "milp": "infeasible"
+  },
+  {
+   "rec": [
+    "AR",
+    "R",
+    1,
+    "8/25"
+   ],
+   "cells": 76,
+   "cpsat": "infeasible",
+   "milp": "unknown"
+  },
+  {
+   "rec": [
+    "AR",
+    "R",
+    3,
+    "1/4"
+   ],
+   "cells": 76,
+   "cpsat": "infeasible",
+   "milp": "infeasible"
+  },
+  {
+   "rec": [
+    "NV",
+    "D",
+    2,
+    "3/20"
+   ],
+   "cells": 17,
+   "cpsat": "infeasible",
+   "milp": "infeasible"
+  },
+  {
+   "rec": [
+    "AR",
+    "D",
+    3,
+    "0"
+   ],
+   "cells": 76,
+   "cpsat": "infeasible",
+   "milp": "infeasible"
+  },
+  {
+   "rec": [
+    "UT",
+    "R",
+    4,
+    "7/50"
+   ],
+   "cells": 29,
+   "cpsat": "infeasible",
+   "milp": "infeasible"
+  },
+  {
+   "rec": [
+    "KS",
+    "R",
+    3,
+    "4/25"
+   ],
+   "cells": 105,
+   "cpsat": "infeasible",
+   "milp": "infeasible"
+  },
+  {
+   "rec": [
+    "NE",
+    "R",
+    3,
+    "21/200"
+   ],
+   "cells": 93,
+   "cpsat": "infeasible",
+   "milp": "infeasible"
+  },
+  {
+   "rec": [
+    "RI",
+    "D",
+    2,
+    "23/200"
+   ],
+   "cells": 5,
+   "cpsat": "infeasible",
+   "milp": "infeasible"
+  },
+  {
+   "rec": [
+    "NV",
+    "D",
+    1,
+    "51/200"
+   ],
+   "cells": 17,
+   "cpsat": "infeasible",
+   "milp": "infeasible"
+  },
+  {
+   "rec": [
+    "KS",
+    "R",
+    4,
+    "17/200"
+   ],
+   "cells": 105,
+   "cpsat": "infeasible",
+   "milp": "infeasible"
+  },
+  {
+   "rec": [
+    "NH",
+    "D",
+    1,
+    "23/200"
+   ],
+   "cells": 10,
+   "cpsat": "infeasible",
+   "milp": "infeasible"
+  }
+ ]
+}

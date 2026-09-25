@@ -1,0 +1,38 @@
+{
+ "state": "NM",
+ "party": "D",
+ "eps": "1/100",
+ "contests": [
+  "PRE"
+ ],
+ "k": 3,
+ "q": {
+  "1": {
+   "geo_free_ub": "133/500",
+   "county_quotient_ub": "27/100",
+   "county_quotient_refined_ub": "27/100",
+   "cells_county": 34,
+   "cells_refined": 127,
+   "recom_lb": 0.19199630168066717,
+   "seconds": 48.2
+  },
+  "2": {
+   "geo_free_ub": "21/125",
+   "county_quotient_ub": "17/100",
+   "county_quotient_refined_ub": "17/100",
+   "cells_county": 34,
+   "cells_refined": 127,
+   "recom_lb": 0.11557069992190551,
+   "seconds": 77.7
+  },
+  "3": {
+   "geo_free_ub": "7/125",
+   "county_quotient_ub": "3/50",
+   "county_quotient_refined_ub": "3/50",
+   "cells_county": 34,
+   "cells_refined": 127,
+   "recom_lb": 0.05240448628812504,
+   "seconds": 78.9
+  }
+ }
+}

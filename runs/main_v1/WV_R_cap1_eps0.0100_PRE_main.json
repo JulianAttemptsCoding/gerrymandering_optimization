@@ -1,0 +1,235 @@
+{
+ "job": "WV_R_cap1_eps0.0100_PRE_main",
+ "seconds": 469.9,
+ "spectrum": {
+  "regime": "feasible",
+  "1": {
+   "lo": 52,
+   "hi": 54,
+   "unknown": [
+    53
+   ],
+   "best_margin": "203813/783894",
+   "lo_m": "13/50",
+   "hi_m": "27/100"
+  },
+  "2": {
+   "lo": 39,
+   "hi": 40,
+   "unknown": [],
+   "best_margin": "3895/19934",
+   "lo_m": "39/200",
+   "hi_m": "1/5"
+  }
+ },
+ "records": [
+  {
+   "state": "WV",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 0,
+   "m": "0",
+   "status": "feasible",
+   "seconds": 12.29,
+   "iters": 13,
+   "cells": 97,
+   "plan_hash": "4094892d1ff9bfa6"
+  },
+  {
+   "state": "WV",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "0",
+   "status": "feasible",
+   "seconds": 3.59,
+   "iters": 4,
+   "cells": 66,
+   "achieved_margin": "157911/767498",
+   "plan_hash": "9145887b1a1003f9"
+  },
+  {
+   "state": "WV",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "71/200",
+   "status": "infeasible",
+   "seconds": 0.19,
+   "iters": 1,
+   "cells": 55
+  },
+  {
+   "state": "WV",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "7/25",
+   "status": "infeasible",
+   "seconds": 0.64,
+   "iters": 1,
+   "cells": 55
+  },
+  {
+   "state": "WV",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "6/25",
+   "status": "feasible",
+   "seconds": 6.49,
+   "iters": 3,
+   "cells": 62,
+   "achieved_margin": "94069/390516",
+   "plan_hash": "15e51657b13c4726"
+  },
+  {
+   "state": "WV",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "13/50",
+   "status": "feasible",
+   "seconds": 129.53,
+   "iters": 3,
+   "cells": 62,
+   "achieved_margin": "203813/783894",
+   "plan_hash": "bc6d375a30e80591"
+  },
+  {
+   "state": "WV",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "27/100",
+   "status": "infeasible",
+   "seconds": 2.4,
+   "iters": 1,
+   "cells": 55
+  },
+  {
+   "state": "WV",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "53/200",
+   "status": "unknown",
+   "seconds": 300.2,
+   "iters": 1,
+   "cells": 55
+  },
+  {
+   "state": "WV",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 2,
+   "m": "0",
+   "status": "feasible",
+   "seconds": 1.06,
+   "iters": 2,
+   "cells": 55,
+   "achieved_margin": "129839/792874",
+   "plan_hash": "c10fd5aa9ceb7349"
+  },
+  {
+   "state": "WV",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 2,
+   "m": "43/200",
+   "status": "infeasible",
+   "seconds": 0.35,
+   "iters": 1,
+   "cells": 55
+  },
+  {
+   "state": "WV",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 2,
+   "m": "37/200",
+   "status": "feasible",
+   "seconds": 1.77,
+   "iters": 2,
+   "cells": 55,
+   "achieved_margin": "152875/794586",
+   "plan_hash": "abe713289a547c48"
+  },
+  {
+   "state": "WV",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 2,
+   "m": "1/5",
+   "status": "infeasible",
+   "seconds": 0.34,
+   "iters": 1,
+   "cells": 55
+  },
+  {
+   "state": "WV",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 2,
+   "m": "39/200",
+   "status": "feasible",
+   "seconds": 10.32,
+   "iters": 3,
+   "cells": 62,
+   "achieved_margin": "3895/19934",
+   "plan_hash": "61490fb530292e5e"
+  }
+ ]
+}

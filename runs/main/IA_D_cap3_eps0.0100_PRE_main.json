@@ -1,0 +1,264 @@
+{
+ "job": "IA_D_cap3_eps0.0100_PRE_main",
+ "seconds": 1070.1,
+ "spectrum": {
+  "regime": "feasible",
+  "1": {
+   "lo": 22,
+   "hi": 29,
+   "unknown": [
+    26,
+    25
+   ],
+   "best_margin": "22529/202112",
+   "lo_m": "11/100",
+   "hi_m": "29/200"
+  },
+  "2": {
+   "lo": 9,
+   "hi": 19,
+   "unknown": [
+    14,
+    17
+   ],
+   "best_margin": "40529/814450",
+   "lo_m": "9/200",
+   "hi_m": "19/200"
+  },
+  "3": {
+   "lo": -1,
+   "hi": 19,
+   "unknown": [
+    0
+   ],
+   "best_margin": null,
+   "lo_m": null,
+   "hi_m": "19/200"
+  },
+  "4": {
+   "lo": -1,
+   "hi": 0,
+   "unknown": [],
+   "best_margin": null,
+   "lo_m": null,
+   "hi_m": "0"
+  }
+ },
+ "records": [
+  {
+   "state": "IA",
+   "party": "D",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 0,
+   "m": "0",
+   "status": "feasible",
+   "seconds": 0.41,
+   "iters": 0,
+   "cells": 0,
+   "plan_hash": "39da1c0026dc4a94"
+  },
+  {
+   "state": "IA",
+   "party": "D",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "heuristic",
+   "status": "heuristic",
+   "seconds": 80.13,
+   "iters": 0,
+   "cells": 0,
+   "achieved_margin": "22529/202112",
+   "plan_hash": "2c4e03859a748d57"
+  },
+  {
+   "state": "IA",
+   "party": "D",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "61/200",
+   "status": "infeasible",
+   "seconds": 0.13,
+   "iters": 1,
+   "cells": 99
+  },
+  {
+   "state": "IA",
+   "party": "D",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "41/200",
+   "status": "infeasible",
+   "seconds": 0.44,
+   "iters": 1,
+   "cells": 99
+  },
+  {
+   "state": "IA",
+   "party": "D",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "31/200",
+   "status": "infeasible",
+   "seconds": 0.65,
+   "iters": 1,
+   "cells": 99
+  },
+  {
+   "state": "IA",
+   "party": "D",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "13/100",
+   "status": "unknown",
+   "seconds": 120.7,
+   "iters": 1,
+   "cells": 99
+  },
+  {
+   "state": "IA",
+   "party": "D",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "29/200",
+   "status": "infeasible",
+   "seconds": 14.29,
+   "iters": 1,
+   "cells": 99
+  },
+  {
+   "state": "IA",
+   "party": "D",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "1/8",
+   "status": "unknown",
+   "seconds": 121.01,
+   "iters": 1,
+   "cells": 99
+  },
+  {
+   "state": "IA",
+   "party": "D",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 2,
+   "m": "heuristic",
+   "status": "heuristic",
+   "seconds": 80.34,
+   "iters": 0,
+   "cells": 0,
+   "achieved_margin": "40529/814450",
+   "plan_hash": "f9f1ecd610b530d1"
+  },
+  {
+   "state": "IA",
+   "party": "D",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 2,
+   "m": "19/200",
+   "status": "infeasible",
+   "seconds": 3.02,
+   "iters": 1,
+   "cells": 99
+  },
+  {
+   "state": "IA",
+   "party": "D",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 2,
+   "m": "7/100",
+   "status": "unknown",
+   "seconds": 121.46,
+   "iters": 1,
+   "cells": 99
+  },
+  {
+   "state": "IA",
+   "party": "D",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 2,
+   "m": "17/200",
+   "status": "unknown",
+   "seconds": 120.9,
+   "iters": 1,
+   "cells": 99
+  },
+  {
+   "state": "IA",
+   "party": "D",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 3,
+   "m": "0",
+   "status": "unknown",
+   "seconds": 120.91,
+   "iters": 1,
+   "cells": 99
+  },
+  {
+   "state": "IA",
+   "party": "D",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 4,
+   "m": "0",
+   "status": "infeasible",
+   "seconds": 3.05,
+   "iters": 1,
+   "cells": 99
+  }
+ ]
+}

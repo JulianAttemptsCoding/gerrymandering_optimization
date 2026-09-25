@@ -1,0 +1,56 @@
+{
+ "state": "CT",
+ "party": "D",
+ "eps": "1/100",
+ "contests": [
+  "PRE"
+ ],
+ "k": 5,
+ "q": {
+  "1": {
+   "geo_free_ub": "327/1000",
+   "county_quotient_ub": "33/100",
+   "county_quotient_refined_ub": "67/200",
+   "cells_county": 8,
+   "cells_refined": 31,
+   "recom_lb": 0.21060122297582387,
+   "seconds": 42.9
+  },
+  "2": {
+   "geo_free_ub": "31/125",
+   "county_quotient_ub": "1/4",
+   "county_quotient_refined_ub": "1/4",
+   "cells_county": 8,
+   "cells_refined": 31,
+   "recom_lb": 0.18583997922301684,
+   "seconds": 45.3
+  },
+  "3": {
+   "geo_free_ub": "24/125",
+   "county_quotient_ub": "39/200",
+   "county_quotient_refined_ub": "39/200",
+   "cells_county": 8,
+   "cells_refined": 31,
+   "recom_lb": 0.14862739883624465,
+   "seconds": 48.0
+  },
+  "4": {
+   "geo_free_ub": "37/250",
+   "county_quotient_ub": "3/20",
+   "county_quotient_refined_ub": "3/20",
+   "cells_county": 8,
+   "cells_refined": 31,
+   "recom_lb": 0.11690225293421072,
+   "seconds": 49.2
+  },
+  "5": {
+   "geo_free_ub": "51/500",
+   "county_quotient_ub": "21/200",
+   "county_quotient_refined_ub": "21/200",
+   "cells_county": 8,
+   "cells_refined": 31,
+   "recom_lb": 0.10136942036413879,
+   "seconds": 50.3
+  }
+ }
+}

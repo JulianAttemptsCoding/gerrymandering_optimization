@@ -1,0 +1,496 @@
+{
+ "job": "MS_R_cap3_eps0.0100_PRE_main",
+ "seconds": 1746.3,
+ "spectrum": {
+  "regime": "feasible",
+  "1": {
+   "lo": 44,
+   "hi": 65,
+   "unknown": [
+    58,
+    54
+   ],
+   "best_margin": "67535/305722",
+   "lo_m": "11/50",
+   "hi_m": "13/40"
+  },
+  "2": {
+   "lo": 38,
+   "hi": 58,
+   "unknown": [
+    51,
+    48
+   ],
+   "best_margin": "116407/598386",
+   "lo_m": "19/100",
+   "hi_m": "29/100"
+  },
+  "3": {
+   "lo": 31,
+   "hi": 41,
+   "unknown": [
+    37,
+    36
+   ],
+   "best_margin": "106317/680746",
+   "lo_m": "31/200",
+   "hi_m": "41/200"
+  },
+  "4": {
+   "lo": 14,
+   "hi": 17,
+   "unknown": [
+    15,
+    16
+   ],
+   "best_margin": "23347/321776",
+   "lo_m": "7/100",
+   "hi_m": "17/200"
+  }
+ },
+ "records": [
+  {
+   "state": "MS",
+   "party": "R",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 0,
+   "m": "0",
+   "status": "feasible",
+   "seconds": 0.67,
+   "iters": 0,
+   "cells": 0,
+   "plan_hash": "b97941771fa0222c"
+  },
+  {
+   "state": "MS",
+   "party": "R",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "heuristic",
+   "status": "heuristic",
+   "seconds": 80.33,
+   "iters": 0,
+   "cells": 0,
+   "achieved_margin": "128589/602930",
+   "plan_hash": "9d297512f50b6ca5"
+  },
+  {
+   "state": "MS",
+   "party": "R",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "lns",
+   "status": "heuristic",
+   "seconds": 1.54,
+   "iters": 0,
+   "cells": 0,
+   "achieved_margin": "133061/616466",
+   "plan_hash": "3dda01afd6f24463"
+  },
+  {
+   "state": "MS",
+   "party": "R",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "lns",
+   "status": "heuristic",
+   "seconds": 38.94,
+   "iters": 0,
+   "cells": 0,
+   "achieved_margin": "66425/304194",
+   "plan_hash": "f777c8db3107d45f"
+  },
+  {
+   "state": "MS",
+   "party": "R",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "lns",
+   "status": "heuristic",
+   "seconds": 44.86,
+   "iters": 0,
+   "cells": 0,
+   "achieved_margin": "67535/305722",
+   "plan_hash": "27e44ccc2019e8f3"
+  },
+  {
+   "state": "MS",
+   "party": "R",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "9/25",
+   "status": "infeasible",
+   "seconds": 0.55,
+   "iters": 1,
+   "cells": 82
+  },
+  {
+   "state": "MS",
+   "party": "R",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "29/100",
+   "status": "unknown",
+   "seconds": 120.61,
+   "iters": 1,
+   "cells": 82
+  },
+  {
+   "state": "MS",
+   "party": "R",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "13/40",
+   "status": "infeasible",
+   "seconds": 0.72,
+   "iters": 1,
+   "cells": 82
+  },
+  {
+   "state": "MS",
+   "party": "R",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "27/100",
+   "status": "unknown",
+   "seconds": 120.6,
+   "iters": 1,
+   "cells": 82
+  },
+  {
+   "state": "MS",
+   "party": "R",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 2,
+   "m": "heuristic",
+   "status": "heuristic",
+   "seconds": 80.32,
+   "iters": 0,
+   "cells": 0,
+   "achieved_margin": "61577/334136",
+   "plan_hash": "8927dd3343c530a4"
+  },
+  {
+   "state": "MS",
+   "party": "R",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 2,
+   "m": "lns",
+   "status": "heuristic",
+   "seconds": 13.74,
+   "iters": 0,
+   "cells": 0,
+   "achieved_margin": "54977/294312",
+   "plan_hash": "a0d411f10dfda8ac"
+  },
+  {
+   "state": "MS",
+   "party": "R",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 2,
+   "m": "lns",
+   "status": "heuristic",
+   "seconds": 53.64,
+   "iters": 0,
+   "cells": 0,
+   "achieved_margin": "63563/335756",
+   "plan_hash": "f96ac3105b98fd54"
+  },
+  {
+   "state": "MS",
+   "party": "R",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 2,
+   "m": "lns",
+   "status": "heuristic",
+   "seconds": 57.53,
+   "iters": 0,
+   "cells": 0,
+   "achieved_margin": "28702/149469",
+   "plan_hash": "a8e179ee05fff54b"
+  },
+  {
+   "state": "MS",
+   "party": "R",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 2,
+   "m": "lns",
+   "status": "heuristic",
+   "seconds": 63.31,
+   "iters": 0,
+   "cells": 0,
+   "achieved_margin": "116407/598386",
+   "plan_hash": "7cf0dad225751850"
+  },
+  {
+   "state": "MS",
+   "party": "R",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 2,
+   "m": "51/200",
+   "status": "unknown",
+   "seconds": 121.11,
+   "iters": 1,
+   "cells": 82
+  },
+  {
+   "state": "MS",
+   "party": "R",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 2,
+   "m": "29/100",
+   "status": "infeasible",
+   "seconds": 2.13,
+   "iters": 1,
+   "cells": 82
+  },
+  {
+   "state": "MS",
+   "party": "R",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 2,
+   "m": "6/25",
+   "status": "unknown",
+   "seconds": 121.22,
+   "iters": 1,
+   "cells": 82
+  },
+  {
+   "state": "MS",
+   "party": "R",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 3,
+   "m": "heuristic",
+   "status": "heuristic",
+   "seconds": 80.35,
+   "iters": 0,
+   "cells": 0,
+   "achieved_margin": "106317/680746",
+   "plan_hash": "519e24ed85c43cad"
+  },
+  {
+   "state": "MS",
+   "party": "R",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 3,
+   "m": "11/50",
+   "status": "infeasible",
+   "seconds": 3.82,
+   "iters": 1,
+   "cells": 82
+  },
+  {
+   "state": "MS",
+   "party": "R",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 3,
+   "m": "37/200",
+   "status": "unknown",
+   "seconds": 121.17,
+   "iters": 1,
+   "cells": 82
+  },
+  {
+   "state": "MS",
+   "party": "R",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 3,
+   "m": "41/200",
+   "status": "infeasible",
+   "seconds": 86.67,
+   "iters": 1,
+   "cells": 82
+  },
+  {
+   "state": "MS",
+   "party": "R",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 3,
+   "m": "9/50",
+   "status": "unknown",
+   "seconds": 121.66,
+   "iters": 1,
+   "cells": 82
+  },
+  {
+   "state": "MS",
+   "party": "R",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 4,
+   "m": "heuristic",
+   "status": "heuristic",
+   "seconds": 80.46,
+   "iters": 0,
+   "cells": 0,
+   "achieved_margin": "23347/321776",
+   "plan_hash": "2debab43e3d97336"
+  },
+  {
+   "state": "MS",
+   "party": "R",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 4,
+   "m": "27/200",
+   "status": "infeasible",
+   "seconds": 2.38,
+   "iters": 1,
+   "cells": 82
+  },
+  {
+   "state": "MS",
+   "party": "R",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 4,
+   "m": "1/10",
+   "status": "infeasible",
+   "seconds": 2.06,
+   "iters": 1,
+   "cells": 82
+  },
+  {
+   "state": "MS",
+   "party": "R",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 4,
+   "m": "17/200",
+   "status": "infeasible",
+   "seconds": 2.17,
+   "iters": 1,
+   "cells": 82
+  },
+  {
+   "state": "MS",
+   "party": "R",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 4,
+   "m": "3/40",
+   "status": "unknown",
+   "seconds": 121.63,
+   "iters": 1,
+   "cells": 82
+  },
+  {
+   "state": "MS",
+   "party": "R",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 4,
+   "m": "2/25",
+   "status": "unknown",
+   "seconds": 121.12,
+   "iters": 1,
+   "cells": 82
+  }
+ ]
+}

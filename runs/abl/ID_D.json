@@ -1,0 +1,29 @@
+{
+ "state": "ID",
+ "party": "D",
+ "eps": "1/100",
+ "contests": [
+  "PRE"
+ ],
+ "k": 2,
+ "q": {
+  "1": {
+   "geo_free_ub": "0",
+   "county_quotient_ub": "0",
+   "county_quotient_refined_ub": "0",
+   "cells_county": 44,
+   "cells_refined": 163,
+   "recom_lb": -0.08153032513421252,
+   "seconds": 41.3
+  },
+  "2": {
+   "geo_free_ub": "0",
+   "county_quotient_ub": "0",
+   "county_quotient_refined_ub": "0",
+   "cells_county": 44,
+   "cells_refined": 163,
+   "recom_lb": -0.1588970725319353,
+   "seconds": 41.8
+  }
+ }
+}

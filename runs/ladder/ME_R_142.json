@@ -1,0 +1,326 @@
+{
+ "state": "ME",
+ "party": "R",
+ "frac": 0.25,
+ "atoms": 142,
+ "cap": 1,
+ "spectrum": {
+  "regime": "feasible",
+  "1": {
+   "lo": 9,
+   "hi": 10,
+   "unknown": [],
+   "best_margin": "34189/753758",
+   "lo_m": "9/200",
+   "hi_m": "1/20"
+  },
+  "2": {
+   "lo": -1,
+   "hi": 0,
+   "unknown": [],
+   "best_margin": null,
+   "lo_m": null,
+   "hi_m": "0"
+  }
+ },
+ "records": [
+  {
+   "state": "ME@142",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 0,
+   "m": "0",
+   "status": "feasible",
+   "seconds": 0.01,
+   "iters": 0,
+   "cells": 0,
+   "plan_hash": "ebd6ede6478740a9"
+  },
+  {
+   "state": "ME@142",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "heuristic",
+   "status": "heuristic",
+   "seconds": 10.03,
+   "iters": 0,
+   "cells": 0,
+   "achieved_margin": "7343/186334",
+   "plan_hash": "290af6f1a21d198b"
+  },
+  {
+   "state": "ME@142",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "lns",
+   "status": "heuristic",
+   "seconds": 0.26,
+   "iters": 0,
+   "cells": 0,
+   "achieved_margin": "31529/748570",
+   "plan_hash": "04bd8af42ce90ad3"
+  },
+  {
+   "state": "ME@142",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "lns",
+   "status": "heuristic",
+   "seconds": 0.38,
+   "iters": 0,
+   "cells": 0,
+   "achieved_margin": "34189/753758",
+   "plan_hash": "22715f8069528081"
+  },
+  {
+   "state": "ME@142",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "11/40",
+   "status": "infeasible",
+   "seconds": 0.04,
+   "iters": 1,
+   "cells": 16,
+   "part_nodes": [
+    24,
+    35,
+    94,
+    101,
+    112,
+    135,
+    142,
+    149,
+    158,
+    185,
+    186,
+    193,
+    204,
+    215,
+    228,
+    267
+   ]
+  },
+  {
+   "state": "ME@142",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "4/25",
+   "status": "infeasible",
+   "seconds": 0.03,
+   "iters": 1,
+   "cells": 16,
+   "part_nodes": [
+    24,
+    35,
+    94,
+    101,
+    112,
+    135,
+    142,
+    149,
+    158,
+    185,
+    186,
+    193,
+    204,
+    215,
+    228,
+    267
+   ]
+  },
+  {
+   "state": "ME@142",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "1/10",
+   "status": "infeasible",
+   "seconds": 0.09,
+   "iters": 1,
+   "cells": 16,
+   "part_nodes": [
+    24,
+    35,
+    94,
+    101,
+    112,
+    135,
+    142,
+    149,
+    158,
+    185,
+    186,
+    193,
+    204,
+    215,
+    228,
+    267
+   ]
+  },
+  {
+   "state": "ME@142",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "7/100",
+   "status": "infeasible",
+   "seconds": 0.09,
+   "iters": 1,
+   "cells": 16,
+   "part_nodes": [
+    24,
+    35,
+    94,
+    101,
+    112,
+    135,
+    142,
+    149,
+    158,
+    185,
+    186,
+    193,
+    204,
+    215,
+    228,
+    267
+   ]
+  },
+  {
+   "state": "ME@142",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "11/200",
+   "status": "infeasible",
+   "seconds": 0.09,
+   "iters": 1,
+   "cells": 16,
+   "part_nodes": [
+    24,
+    35,
+    94,
+    101,
+    112,
+    135,
+    142,
+    149,
+    158,
+    185,
+    186,
+    193,
+    204,
+    215,
+    228,
+    267
+   ]
+  },
+  {
+   "state": "ME@142",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "1/20",
+   "status": "infeasible",
+   "seconds": 0.11,
+   "iters": 1,
+   "cells": 16,
+   "part_nodes": [
+    24,
+    35,
+    94,
+    101,
+    112,
+    135,
+    142,
+    149,
+    158,
+    185,
+    186,
+    193,
+    204,
+    215,
+    228,
+    267
+   ]
+  },
+  {
+   "state": "ME@142",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 2,
+   "m": "0",
+   "status": "infeasible",
+   "seconds": 0.06,
+   "iters": 1,
+   "cells": 16,
+   "part_nodes": [
+    24,
+    35,
+    94,
+    101,
+    112,
+    135,
+    142,
+    149,
+    158,
+    185,
+    186,
+    193,
+    204,
+    215,
+    228,
+    267
+   ]
+  }
+ ]
+}

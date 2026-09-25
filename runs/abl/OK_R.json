@@ -1,0 +1,56 @@
+{
+ "state": "OK",
+ "party": "R",
+ "eps": "1/100",
+ "contests": [
+  "PRE"
+ ],
+ "k": 5,
+ "q": {
+  "1": {
+   "geo_free_ub": "353/1000",
+   "county_quotient_ub": "9/25",
+   "county_quotient_refined_ub": "71/200",
+   "cells_county": 77,
+   "cells_refined": 286,
+   "recom_lb": 0.3190113273156288,
+   "seconds": 68.9
+  },
+  "2": {
+   "geo_free_ub": "63/200",
+   "county_quotient_ub": "8/25",
+   "county_quotient_refined_ub": "63/200",
+   "cells_county": 77,
+   "cells_refined": 286,
+   "recom_lb": 0.28405993061388907,
+   "seconds": 230.2
+  },
+  "3": {
+   "geo_free_ub": "279/1000",
+   "county_quotient_ub": "7/25",
+   "county_quotient_refined_ub": "7/25",
+   "cells_county": 77,
+   "cells_refined": 286,
+   "recom_lb": 0.2548457294883746,
+   "seconds": 409.8
+  },
+  "4": {
+   "geo_free_ub": "237/1000",
+   "county_quotient_ub": "6/25",
+   "county_quotient_refined_ub": "6/25",
+   "cells_county": 77,
+   "cells_refined": 286,
+   "recom_lb": 0.20983504575373255,
+   "seconds": 484.9
+  },
+  "5": {
+   "geo_free_ub": "17/100",
+   "county_quotient_ub": "17/100",
+   "county_quotient_refined_ub": "17/100",
+   "cells_county": 77,
+   "cells_refined": 286,
+   "recom_lb": 0.1663542055283676,
+   "seconds": 408.3
+  }
+ }
+}

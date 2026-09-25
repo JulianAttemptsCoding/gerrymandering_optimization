@@ -1,0 +1,29 @@
+{
+ "state": "ME",
+ "party": "R",
+ "eps": "1/100",
+ "contests": [
+  "PRE"
+ ],
+ "k": 2,
+ "q": {
+  "1": {
+   "geo_free_ub": "79/1000",
+   "county_quotient_ub": "2/25",
+   "county_quotient_refined_ub": "2/25",
+   "cells_county": 16,
+   "cells_refined": 60,
+   "recom_lb": 0.04786718851029128,
+   "seconds": 42.2
+  },
+  "2": {
+   "geo_free_ub": "0",
+   "county_quotient_ub": "0",
+   "county_quotient_refined_ub": "0",
+   "cells_county": 16,
+   "cells_refined": 60,
+   "recom_lb": -0.04781558842878135,
+   "seconds": 40.7
+  }
+ }
+}

@@ -1,0 +1,98 @@
+{
+ "job": "NM_R_cap2_eps0.0100_PRE_main",
+ "seconds": 773.7,
+ "spectrum": {
+  "regime": "feasible",
+  "1": {
+   "lo": -1,
+   "hi": 101,
+   "unknown": [
+    0
+   ],
+   "best_margin": null,
+   "lo_m": null,
+   "hi_m": null
+  },
+  "2": {
+   "lo": -1,
+   "hi": 101,
+   "unknown": [
+    0
+   ],
+   "best_margin": null,
+   "lo_m": null,
+   "hi_m": null
+  },
+  "3": {
+   "lo": -1,
+   "hi": 0,
+   "unknown": [],
+   "best_margin": null,
+   "lo_m": null,
+   "hi_m": "0"
+  }
+ },
+ "records": [
+  {
+   "state": "NM",
+   "party": "R",
+   "cap": 2,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 0,
+   "m": "0",
+   "status": "feasible",
+   "seconds": 171.52,
+   "iters": 6,
+   "cells": 385,
+   "plan_hash": "31b7a302c567919e"
+  },
+  {
+   "state": "NM",
+   "party": "R",
+   "cap": 2,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "0",
+   "status": "unknown",
+   "seconds": 300.49,
+   "iters": 8,
+   "cells": 497
+  },
+  {
+   "state": "NM",
+   "party": "R",
+   "cap": 2,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 2,
+   "m": "0",
+   "status": "unknown",
+   "seconds": 300.74,
+   "iters": 4,
+   "cells": 292
+  },
+  {
+   "state": "NM",
+   "party": "R",
+   "cap": 2,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 3,
+   "m": "0",
+   "status": "infeasible",
+   "seconds": 0.92,
+   "iters": 1,
+   "cells": 34
+  }
+ ]
+}

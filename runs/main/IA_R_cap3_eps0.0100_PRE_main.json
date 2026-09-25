@@ -1,0 +1,406 @@
+{
+ "job": "IA_R_cap3_eps0.0100_PRE_main",
+ "seconds": 1449.0,
+ "spectrum": {
+  "regime": "feasible",
+  "1": {
+   "lo": 37,
+   "hi": 43,
+   "unknown": [
+    41,
+    40
+   ],
+   "best_margin": "151313/807502",
+   "lo_m": "37/200",
+   "hi_m": "43/200"
+  },
+  "2": {
+   "lo": 28,
+   "hi": 33,
+   "unknown": [
+    31,
+    30
+   ],
+   "best_margin": "19429/138630",
+   "lo_m": "7/50",
+   "hi_m": "33/200"
+  },
+  "3": {
+   "lo": 15,
+   "hi": 22,
+   "unknown": [
+    19,
+    18
+   ],
+   "best_margin": "12091/161030",
+   "lo_m": "3/40",
+   "hi_m": "11/100"
+  },
+  "4": {
+   "lo": 7,
+   "hi": 9,
+   "unknown": [
+    8
+   ],
+   "best_margin": "15703/423604",
+   "lo_m": "7/200",
+   "hi_m": "9/200"
+  }
+ },
+ "records": [
+  {
+   "state": "IA",
+   "party": "R",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 0,
+   "m": "0",
+   "status": "feasible",
+   "seconds": 0.37,
+   "iters": 0,
+   "cells": 0,
+   "plan_hash": "39da1c0026dc4a94"
+  },
+  {
+   "state": "IA",
+   "party": "R",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "heuristic",
+   "status": "heuristic",
+   "seconds": 80.16,
+   "iters": 0,
+   "cells": 0,
+   "achieved_margin": "151313/807502",
+   "plan_hash": "1b55ff4bb177bbe3"
+  },
+  {
+   "state": "IA",
+   "party": "R",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "69/200",
+   "status": "infeasible",
+   "seconds": 0.17,
+   "iters": 1,
+   "cells": 99
+  },
+  {
+   "state": "IA",
+   "party": "R",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "53/200",
+   "status": "infeasible",
+   "seconds": 0.58,
+   "iters": 1,
+   "cells": 99
+  },
+  {
+   "state": "IA",
+   "party": "R",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "9/40",
+   "status": "infeasible",
+   "seconds": 0.65,
+   "iters": 1,
+   "cells": 99
+  },
+  {
+   "state": "IA",
+   "party": "R",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "41/200",
+   "status": "unknown",
+   "seconds": 120.75,
+   "iters": 1,
+   "cells": 99
+  },
+  {
+   "state": "IA",
+   "party": "R",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "43/200",
+   "status": "infeasible",
+   "seconds": 0.73,
+   "iters": 1,
+   "cells": 99
+  },
+  {
+   "state": "IA",
+   "party": "R",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "1/5",
+   "status": "unknown",
+   "seconds": 121.27,
+   "iters": 1,
+   "cells": 99
+  },
+  {
+   "state": "IA",
+   "party": "R",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 2,
+   "m": "heuristic",
+   "status": "heuristic",
+   "seconds": 80.41,
+   "iters": 0,
+   "cells": 0,
+   "achieved_margin": "19429/138630",
+   "plan_hash": "e7ba749a0cf5daae"
+  },
+  {
+   "state": "IA",
+   "party": "R",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 2,
+   "m": "7/40",
+   "status": "infeasible",
+   "seconds": 3.28,
+   "iters": 1,
+   "cells": 99
+  },
+  {
+   "state": "IA",
+   "party": "R",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 2,
+   "m": "31/200",
+   "status": "unknown",
+   "seconds": 121.2,
+   "iters": 1,
+   "cells": 99
+  },
+  {
+   "state": "IA",
+   "party": "R",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 2,
+   "m": "33/200",
+   "status": "infeasible",
+   "seconds": 18.43,
+   "iters": 1,
+   "cells": 99
+  },
+  {
+   "state": "IA",
+   "party": "R",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 2,
+   "m": "3/20",
+   "status": "unknown",
+   "seconds": 121.05,
+   "iters": 1,
+   "cells": 99
+  },
+  {
+   "state": "IA",
+   "party": "R",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 3,
+   "m": "heuristic",
+   "status": "heuristic",
+   "seconds": 80.19,
+   "iters": 0,
+   "cells": 0,
+   "achieved_margin": "12091/161030",
+   "plan_hash": "4495138dd3878c3f"
+  },
+  {
+   "state": "IA",
+   "party": "R",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 3,
+   "m": "3/25",
+   "status": "infeasible",
+   "seconds": 3.45,
+   "iters": 1,
+   "cells": 99
+  },
+  {
+   "state": "IA",
+   "party": "R",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 3,
+   "m": "19/200",
+   "status": "unknown",
+   "seconds": 120.9,
+   "iters": 1,
+   "cells": 99
+  },
+  {
+   "state": "IA",
+   "party": "R",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 3,
+   "m": "11/100",
+   "status": "infeasible",
+   "seconds": 1.99,
+   "iters": 1,
+   "cells": 99
+  },
+  {
+   "state": "IA",
+   "party": "R",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 3,
+   "m": "9/100",
+   "status": "unknown",
+   "seconds": 120.83,
+   "iters": 1,
+   "cells": 99
+  },
+  {
+   "state": "IA",
+   "party": "R",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 4,
+   "m": "heuristic",
+   "status": "heuristic",
+   "seconds": 80.24,
+   "iters": 0,
+   "cells": 0,
+   "achieved_margin": "15703/423604",
+   "plan_hash": "ce7c352630c7bfcd"
+  },
+  {
+   "state": "IA",
+   "party": "R",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 4,
+   "m": "7/100",
+   "status": "infeasible",
+   "seconds": 2.69,
+   "iters": 1,
+   "cells": 99
+  },
+  {
+   "state": "IA",
+   "party": "R",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 4,
+   "m": "1/20",
+   "status": "infeasible",
+   "seconds": 2.57,
+   "iters": 1,
+   "cells": 99
+  },
+  {
+   "state": "IA",
+   "party": "R",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 4,
+   "m": "1/25",
+   "status": "unknown",
+   "seconds": 121.26,
+   "iters": 1,
+   "cells": 99
+  },
+  {
+   "state": "IA",
+   "party": "R",
+   "cap": 3,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 4,
+   "m": "9/200",
+   "status": "infeasible",
+   "seconds": 1.85,
+   "iters": 1,
+   "cells": 99
+  }
+ ]
+}

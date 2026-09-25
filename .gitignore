@@ -1,0 +1,20 @@
+# graft's local graph cache — regenerable, not committed (run `graft build`).
+/graft/
+
+# raw downloads (about 2.4 GB; re-download with `python -m gf.data`)
+/data/raw/
+# local tooling / third-party material / scratch
+/.claude/
+/.mcp.json
+/.ignore
+/papers/
+__pycache__/
+*.pyc
+/paper/main.txt
+/paper/main_new.txt
+/paper/pg*.png
+/paper/*.aux
+/paper/*.log
+/paper/*.out
+/paper/*.bbl
+/paper/*.blg

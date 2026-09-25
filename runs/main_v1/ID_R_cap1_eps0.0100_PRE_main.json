@@ -1,0 +1,250 @@
+{
+ "job": "ID_R_cap1_eps0.0100_PRE_main",
+ "seconds": 76.9,
+ "spectrum": {
+  "regime": "feasible",
+  "1": {
+   "lo": 51,
+   "hi": 52,
+   "unknown": [],
+   "best_margin": "37707/147850",
+   "lo_m": "51/200",
+   "hi_m": "13/50"
+  },
+  "2": {
+   "lo": 31,
+   "hi": 32,
+   "unknown": [],
+   "best_margin": "46721/297034",
+   "lo_m": "31/200",
+   "hi_m": "4/25"
+  }
+ },
+ "records": [
+  {
+   "state": "ID",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 0,
+   "m": "0",
+   "status": "feasible",
+   "seconds": 0.41,
+   "iters": 2,
+   "cells": 44,
+   "plan_hash": "a5bf65c71ae2655e"
+  },
+  {
+   "state": "ID",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "0",
+   "status": "feasible",
+   "seconds": 0.56,
+   "iters": 2,
+   "cells": 44,
+   "achieved_margin": "1687/8030",
+   "plan_hash": "90e2ea40b373fe1a"
+  },
+  {
+   "state": "ID",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "71/200",
+   "status": "infeasible",
+   "seconds": 0.14,
+   "iters": 1,
+   "cells": 44
+  },
+  {
+   "state": "ID",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "7/25",
+   "status": "infeasible",
+   "seconds": 0.34,
+   "iters": 1,
+   "cells": 44
+  },
+  {
+   "state": "ID",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "49/200",
+   "status": "feasible",
+   "seconds": 5.04,
+   "iters": 6,
+   "cells": 73,
+   "achieved_margin": "47531/191344",
+   "plan_hash": "0834459f8378b6ee"
+  },
+  {
+   "state": "ID",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "13/50",
+   "status": "infeasible",
+   "seconds": 0.57,
+   "iters": 1,
+   "cells": 44
+  },
+  {
+   "state": "ID",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "1/4",
+   "status": "feasible",
+   "seconds": 0.88,
+   "iters": 2,
+   "cells": 44,
+   "achieved_margin": "208391/832458",
+   "plan_hash": "b2cde16415cc5641"
+  },
+  {
+   "state": "ID",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "51/200",
+   "status": "feasible",
+   "seconds": 1.69,
+   "iters": 2,
+   "cells": 44,
+   "achieved_margin": "37707/147850",
+   "plan_hash": "dd8511a9901f7eb4"
+  },
+  {
+   "state": "ID",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 2,
+   "m": "0",
+   "status": "feasible",
+   "seconds": 10.56,
+   "iters": 4,
+   "cells": 59,
+   "achieved_margin": "43241/432624",
+   "plan_hash": "7e4a7c6cafd46729"
+  },
+  {
+   "state": "ID",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 2,
+   "m": "7/40",
+   "status": "infeasible",
+   "seconds": 0.23,
+   "iters": 1,
+   "cells": 44
+  },
+  {
+   "state": "ID",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 2,
+   "m": "27/200",
+   "status": "feasible",
+   "seconds": 49.02,
+   "iters": 8,
+   "cells": 173,
+   "achieved_margin": "125069/863378",
+   "plan_hash": "6a4cad679e12ef5c"
+  },
+  {
+   "state": "ID",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 2,
+   "m": "31/200",
+   "status": "feasible",
+   "seconds": 6.74,
+   "iters": 2,
+   "cells": 44,
+   "achieved_margin": "46721/297034",
+   "plan_hash": "ee30e7c00fc5ff79"
+  },
+  {
+   "state": "ID",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 2,
+   "m": "33/200",
+   "status": "infeasible",
+   "seconds": 0.18,
+   "iters": 1,
+   "cells": 44
+  },
+  {
+   "state": "ID",
+   "party": "R",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 2,
+   "m": "4/25",
+   "status": "infeasible",
+   "seconds": 0.21,
+   "iters": 1,
+   "cells": 44
+  }
+ ]
+}

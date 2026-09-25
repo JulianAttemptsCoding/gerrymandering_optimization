@@ -1,0 +1,267 @@
+{
+ "job": "ME_D_cap1_eps0.0100_PRE_main",
+ "seconds": 8.5,
+ "spectrum": {
+  "regime": "feasible",
+  "1": {
+   "lo": 25,
+   "hi": 26,
+   "unknown": [],
+   "best_margin": "106389/850526",
+   "lo_m": "1/8",
+   "hi_m": "13/100"
+  },
+  "2": {
+   "lo": 9,
+   "hi": 10,
+   "unknown": [],
+   "best_margin": "8837/196188",
+   "lo_m": "9/200",
+   "hi_m": "1/20"
+  }
+ },
+ "records": [
+  {
+   "state": "ME",
+   "party": "D",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 0,
+   "m": "0",
+   "status": "feasible",
+   "seconds": 0.25,
+   "iters": 2,
+   "cells": 16,
+   "plan_hash": "bee48a64e4d071ec"
+  },
+  {
+   "state": "ME",
+   "party": "D",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "0",
+   "status": "feasible",
+   "seconds": 0.7,
+   "iters": 3,
+   "cells": 22,
+   "achieved_margin": "10194/197161",
+   "plan_hash": "8fca5d680be536ad"
+  },
+  {
+   "state": "ME",
+   "party": "D",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "11/40",
+   "status": "infeasible",
+   "seconds": 0.04,
+   "iters": 1,
+   "cells": 16
+  },
+  {
+   "state": "ME",
+   "party": "D",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "4/25",
+   "status": "infeasible",
+   "seconds": 0.06,
+   "iters": 1,
+   "cells": 16
+  },
+  {
+   "state": "ME",
+   "party": "D",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "21/200",
+   "status": "feasible",
+   "seconds": 0.44,
+   "iters": 2,
+   "cells": 16,
+   "achieved_margin": "86705/812494",
+   "plan_hash": "82e20dedc73e7912"
+  },
+  {
+   "state": "ME",
+   "party": "D",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "13/100",
+   "status": "infeasible",
+   "seconds": 0.16,
+   "iters": 1,
+   "cells": 16
+  },
+  {
+   "state": "ME",
+   "party": "D",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "23/200",
+   "status": "feasible",
+   "seconds": 0.3,
+   "iters": 2,
+   "cells": 16,
+   "achieved_margin": "98815/845938",
+   "plan_hash": "deb79e984c12da2c"
+  },
+  {
+   "state": "ME",
+   "party": "D",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "3/25",
+   "status": "feasible",
+   "seconds": 0.31,
+   "iters": 2,
+   "cells": 16,
+   "achieved_margin": "101515/844374",
+   "plan_hash": "a649c42b39f7963f"
+  },
+  {
+   "state": "ME",
+   "party": "D",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "1/8",
+   "status": "feasible",
+   "seconds": 1.11,
+   "iters": 5,
+   "cells": 36,
+   "achieved_margin": "106389/850526",
+   "plan_hash": "9956826dda74e2c3"
+  },
+  {
+   "state": "ME",
+   "party": "D",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 2,
+   "m": "0",
+   "status": "feasible",
+   "seconds": 0.36,
+   "iters": 2,
+   "cells": 16,
+   "achieved_margin": "233/193768",
+   "plan_hash": "f61bed2a8258dd45"
+  },
+  {
+   "state": "ME",
+   "party": "D",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 2,
+   "m": "13/200",
+   "status": "infeasible",
+   "seconds": 0.09,
+   "iters": 1,
+   "cells": 16
+  },
+  {
+   "state": "ME",
+   "party": "D",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 2,
+   "m": "3/100",
+   "status": "feasible",
+   "seconds": 2.23,
+   "iters": 6,
+   "cells": 35,
+   "achieved_margin": "24009/792202",
+   "plan_hash": "0b076ffc18278ed2"
+  },
+  {
+   "state": "ME",
+   "party": "D",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 2,
+   "m": "9/200",
+   "status": "feasible",
+   "seconds": 2.14,
+   "iters": 3,
+   "cells": 22,
+   "achieved_margin": "8837/196188",
+   "plan_hash": "3f79808f23fbc46e"
+  },
+  {
+   "state": "ME",
+   "party": "D",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 2,
+   "m": "11/200",
+   "status": "infeasible",
+   "seconds": 0.09,
+   "iters": 1,
+   "cells": 16
+  },
+  {
+   "state": "ME",
+   "party": "D",
+   "cap": 1,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 2,
+   "m": "1/20",
+   "status": "infeasible",
+   "seconds": 0.09,
+   "iters": 1,
+   "cells": 16
+  }
+ ]
+}

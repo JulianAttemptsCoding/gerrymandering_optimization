@@ -1,0 +1,38 @@
+192 infeasible records available
+AUDIT IA R q 4 m 1/20 cells 99 cpsat infeasible | highs infeasible 6s
+AUDIT NV R q 1 m 7/50 cells 17 cpsat infeasible | highs infeasible 5s
+AUDIT CT D q 5 m 11/100 cells 8 cpsat infeasible | highs infeasible 0s
+AUDIT ME D q 2 m 11/200 cells 16 cpsat infeasible | highs infeasible 0s
+AUDIT IA R q 2 m 33/200 cells 99 cpsat infeasible | highs unknown 311s
+AUDIT NM D q 3 m 13/200 cells 34 cpsat infeasible | highs infeasible 1s
+AUDIT NH D q 2 m 11/200 cells 10 cpsat infeasible | highs infeasible 0s
+AUDIT NM D q 1 m 53/200 cells 34 cpsat infeasible | highs infeasible 1s
+AUDIT RI D q 2 m 13/100 cells 5 cpsat infeasible | highs infeasible 0s
+AUDIT NE D q 1 m 27/200 cells 93 cpsat infeasible | highs infeasible 2s
+AUDIT KS R q 2 m 23/100 cells 105 cpsat infeasible | highs infeasible 6s
+AUDIT IA D q 4 m 0 cells 99 cpsat infeasible | highs infeasible 5s
+AUDIT NM D q 3 m 1/10 cells 34 cpsat infeasible | highs infeasible 1s
+AUDIT AR R q 4 m 39/200 cells 76 cpsat infeasible | highs infeasible 4s
+AUDIT NE D q 3 m 0 cells 93 cpsat infeasible | highs infeasible 3s
+AUDIT NH D q 1 m 7/25 cells 10 cpsat infeasible | highs infeasible 0s
+re-run not infeasible OK R 1 67/200 unknown
+AUDIT AR D q 1 m 11/40 cells 76 cpsat infeasible | highs infeasible 3s
+AUDIT NH D q 1 m 3/40 cells 10 cpsat infeasible | highs infeasible 2s
+AUDIT ME R q 1 m 31/200 cells 16 cpsat infeasible | highs infeasible 0s
+AUDIT ME D q 1 m 11/50 cells 16 cpsat infeasible | highs infeasible 0s
+AUDIT OK D q 1 m 3/20 cells 77 cpsat infeasible | highs infeasible 140s
+AUDIT IA R q 1 m 53/200 cells 99 cpsat infeasible | highs infeasible 4s
+AUDIT MS R q 3 m 11/50 cells 82 cpsat infeasible | highs infeasible 7s
+AUDIT UT R q 1 m 33/100 cells 29 cpsat infeasible | highs infeasible 1s
+AUDIT AR R q 1 m 8/25 cells 76 cpsat infeasible | highs unknown 311s
+AUDIT AR R q 3 m 1/4 cells 76 cpsat infeasible | highs infeasible 5s
+AUDIT NV D q 2 m 3/20 cells 17 cpsat infeasible | highs infeasible 1s
+AUDIT AR D q 3 m 0 cells 76 cpsat infeasible | highs infeasible 4s
+AUDIT UT R q 4 m 7/50 cells 29 cpsat infeasible | highs infeasible 1s
+AUDIT KS R q 3 m 4/25 cells 105 cpsat infeasible | highs infeasible 7s
+AUDIT NE R q 3 m 21/200 cells 93 cpsat infeasible | highs infeasible 3s
+AUDIT RI D q 2 m 23/200 cells 5 cpsat infeasible | highs infeasible 0s
+AUDIT NV D q 1 m 51/200 cells 17 cpsat infeasible | highs infeasible 0s
+AUDIT KS R q 4 m 17/200 cells 105 cpsat infeasible | highs infeasible 6s
+AUDIT NH D q 1 m 23/200 cells 10 cpsat infeasible | highs infeasible 0s
+SUMMARY agree 33 disagree 0 unknown 3

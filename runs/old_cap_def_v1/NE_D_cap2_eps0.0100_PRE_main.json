@@ -1,0 +1,98 @@
+{
+ "job": "NE_D_cap2_eps0.0100_PRE_main",
+ "seconds": 615.7,
+ "spectrum": {
+  "regime": "feasible",
+  "1": {
+   "lo": -1,
+   "hi": 101,
+   "unknown": [
+    0
+   ],
+   "best_margin": null,
+   "lo_m": null,
+   "hi_m": null
+  },
+  "2": {
+   "lo": -1,
+   "hi": 101,
+   "unknown": [
+    0
+   ],
+   "best_margin": null,
+   "lo_m": null,
+   "hi_m": null
+  },
+  "3": {
+   "lo": -1,
+   "hi": 0,
+   "unknown": [],
+   "best_margin": null,
+   "lo_m": null,
+   "hi_m": "0"
+  }
+ },
+ "records": [
+  {
+   "state": "NE",
+   "party": "D",
+   "cap": 2,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 0,
+   "m": "0",
+   "status": "feasible",
+   "seconds": 11.27,
+   "iters": 2,
+   "cells": 93,
+   "plan_hash": "a58e5b4a701272fd"
+  },
+  {
+   "state": "NE",
+   "party": "D",
+   "cap": 2,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 1,
+   "m": "0",
+   "status": "unknown",
+   "seconds": 300.66,
+   "iters": 4,
+   "cells": 247
+  },
+  {
+   "state": "NE",
+   "party": "D",
+   "cap": 2,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 2,
+   "m": "0",
+   "status": "unknown",
+   "seconds": 300.43,
+   "iters": 2,
+   "cells": 107
+  },
+  {
+   "state": "NE",
+   "party": "D",
+   "cap": 2,
+   "eps": "1/100",
+   "contests": [
+    "PRE"
+   ],
+   "q": 3,
+   "m": "0",
+   "status": "infeasible",
+   "seconds": 3.3,
+   "iters": 1,
+   "cells": 93
+  }
+ ]
+}
